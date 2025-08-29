@@ -5,13 +5,19 @@ on:
     - cron: "17 * * * *"   # každú hodinu v :17
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,16 +27,21 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install deps
-        run: npm ci || npm i
+      # Inštalujeme len to, čo fetch.js potrebuje (bez package.json):
+      - name: Install minimal deps
+        run: |
+          npm i --no-save node-fetch@3 cheerio
 
-      - name: Build feed
-        run: npm run build
+      # Spustí tvoj fetch.js, ktorý vytvorí docs/feed.json
+      - name: Build feed (node fetch.js)
+        run: node fetch.js
 
+      # Nahraj artefakt pre GitHub Pages z priečinka docs/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./docs
 
+      # Nasadenie na GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
