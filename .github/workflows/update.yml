@@ -5,7 +5,6 @@ on:
     - cron: "17 * * * *"   # každú hodinu v :17
   workflow_dispatch: {}
 
-# tieto permissions sú potrebné pre Pages
 permissions:
   contents: read
   pages: write
@@ -23,7 +22,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "npm"
+          # cache: "npm"  # ❌ odstránené, lebo nemáš package-lock.json
 
       - name: Show env
         run: |
@@ -35,19 +34,16 @@ jobs:
 
       - name: Install deps
         run: |
-          npm ci --no-audit --no-fund || npm install --no-audit --no-fund
+          npm install --no-audit --no-fund
 
       - name: Build feed (never fail job)
         run: |
           set -x
           mkdir -p public
-          # spusti fetch.js – ak by zlyhal, nech job nepada
           node fetch.js || true
-          # ak sa feed.json nevytvoril, sprav prázdny
           if [ ! -f public/feed.json ]; then
             echo '{ "meta": { "generatedAt": "'"$(date -Iseconds)"'", "nextJackpotEUR": null }, "draws": [] }' > public/feed.json
           fi
-          # jednoduchá index stránka (nech je čo zobraziť)
           echo '<!doctype html><meta charset="utf-8"><title>Eurojackpot Feed</title><pre>' > public/index.html
           (command -v jq >/dev/null && jq . public/feed.json) || cat public/feed.json >> public/index.html
           echo '</pre>' >> public/index.html
