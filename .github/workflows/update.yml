@@ -2,52 +2,36 @@ name: Update Eurojackpot feed
 
 on:
   schedule:
-    - cron: "17 * * * *"   # každú hodinu v :17
+    - cron: "17,47 * * * *"   # 2× za hodinu
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          # cache: "npm"  # ❌ odstránené, lebo nemáš package-lock.json
-
-      - name: Show env
-        run: |
-          node -v
-          npm -v
-          ls -la
-          echo "----- package.json -----"
-          cat package.json || true
 
       - name: Install deps
-        run: |
-          npm install --no-audit --no-fund
+        run: npm ci || npm i
 
-      - name: Build feed (never fail job)
-        run: |
-          set -x
-          mkdir -p public
-          node fetch.js || true
-          if [ ! -f public/feed.json ]; then
-            echo '{ "meta": { "generatedAt": "'"$(date -Iseconds)"'", "nextJackpotEUR": null }, "draws": [] }' > public/feed.json
-          fi
-          echo '<!doctype html><meta charset="utf-8"><title>Eurojackpot Feed</title><pre>' > public/index.html
-          (command -v jq >/dev/null && jq . public/feed.json) || cat public/feed.json >> public/index.html
-          echo '</pre>' >> public/index.html
-          ls -la public
+      - name: Build feed.json
+        env:
+          # Tu vieš prepísať zdroj bez zmeny kódu:
+          SOURCE_URL: ${{ secrets.EJ_SOURCE_URL }}  # môžeš si uložiť URL do repo secrets
+        run: node fetch.js
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -57,10 +41,6 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
