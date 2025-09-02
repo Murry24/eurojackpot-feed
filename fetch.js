@@ -1,90 +1,152 @@
 // fetch.js
-// Node 20+ (global fetch). Produkuje public/feed.json v tvare, ktorý appka očakáva.
+// Node 20+, "type": "module" v package.json
+import fs from "node:fs/promises";
+import path from "node:path";
+import process from "node:process";
+import fetch from "node-fetch";
+import cheerio from "cheerio";
 
-import fs from 'node:fs/promises';
-import path from 'node:path';
+// === KONFIG ===
+// 1) Nastav a otestuj stabilný zdroj.
+// Dočasne nechávam TODO – len sem vlož URL, ktorá vracia posledný ťah a jackpot.
+// IDEÁLNE: JSON feed. Ak máš HTML stránku, vieme ju parse-nuť v parseHtmlResults().
+const SOURCE_URL = process.env.SOURCE_URL ?? "https://example.com/YOUR-LIVE-SOURCE"; // TODO
+// Kam generujeme feed pre GitHub Pages:
+const OUT_DIR = "public";
+const OUT_FILE = path.join(OUT_DIR, "feed.json");
 
-const OUT_DIR = 'public';
-const OUT_FILE = path.join(OUT_DIR, 'feed.json');
+// Pomocná cesta na predchádzajúci feed (fallback)
+const PREV_FILE = OUT_FILE;
 
-// Primárny zdroj (Lottoland – dlhodobo stabilný formát)
-const LL_URL = 'https://media.lottoland.com/api/drawings/euroJackpot';
-
-// Pomocná: bezpečný sleep (ak by sme chceli retry)
-const sleep = (ms) => new Promise(r => setTimeout(r, ms));
-
-async function fetchLottoland() {
-  const r = await fetch(LL_URL, { headers: { 'Accept': 'application/json' } });
-  if (!r.ok) throw new Error(`HTTP ${r.status} ${r.statusText}`);
-  return r.json();
+// === POMOCNÉ FUNKCIE ===
+function isoNow() {
+  return new Date().toISOString();
 }
 
-function mapLLtoFeed(json) {
-  // Očakávaná štruktúra: { last: {...}, next: {...}, previous: [...] }
-  const draws = [];
-  const pushOne = (d) => {
-    if (!d) return;
-    if (!Array.isArray(d.numbers) || !Array.isArray(d.euroNumbers)) return;
-    draws.push({
-      date: d.date,                 // "YYYY-MM-DD"
-      main: [...d.numbers].sort((a,b)=>a-b),
-      euro: [...d.euroNumbers].sort((a,b)=>a-b),
-    });
-  };
+// Ak zdroj vracia JSON, prispôsob tento mapper svojmu formátu:
+function mapJsonToFeed(json) {
+  // OČAKÁVANÝ VÝSTUP:
+  // {
+  //   meta: { generatedAt: ISO8601, nextJackpotEUR: number|null },
+  //   draws: [{ date: "YYYY-MM-DD", main: [5 čísel], euro: [2 čísla] }, ...]
+  // }
 
-  // posledný ťah
-  pushOne(json.last);
+  // ---- PRÍKLAD MAPPERU (uprav podľa skutočného JSON) ----
+  const last = json.lastDraw ?? json.draw ?? json.result ?? null;
+  const jp   = json.nextJackpot ?? json.jackpot ?? null;
 
-  // historické ťahy
-  if (Array.isArray(json.previous)) {
-    for (const d of json.previous) pushOne(d);
-  }
+  if (!last) throw new Error("Zdroj JSON neobsahuje posledný ťah (lastDraw).");
 
-  // meta / jackpot
-  let nextJackpotEUR = null;
-  try {
-    // niekedy je v json.next.jackpot ako číslo v EUR (alebo ako string)
-    if (json.next && json.next.jackpot != null) {
-      const n = Number(json.next.jackpot);
-      if (!Number.isNaN(n)) nextJackpotEUR = n;
-    }
-  } catch { /* ignore */ }
-
-  // dátumy vzostupne
-  draws.sort((a,b)=> (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+  // Prispôsob poliam:
+  const dateStr = last.date ?? last.drawDate; // napr. "2025-08-29"
+  const main = last.main ?? last.numbers ?? [];
+  const euro = last.euro ?? last.stars ?? last.euronumbers ?? [];
 
   return {
     meta: {
-      generatedAt: new Date().toISOString(),
-      nextJackpotEUR,
+      generatedAt: isoNow(),
+      nextJackpotEUR: jp == null ? null : Number(jp),
     },
-    draws,
+    draws: [
+      {
+        date: dateStr,           // "YYYY-MM-DD"
+        main: main.map(Number).sort((a,b)=>a-b),
+        euro: euro.map(Number).sort((a,b)=>a-b),
+      },
+    ],
   };
 }
 
-async function main() {
-  try {
-    const raw = await fetchLottoland();
+// Ak máš len HTML stránku, uprav tu CSS selektory / regex:
+function mapHtmlToFeed(html) {
+  const $ = cheerio.load(html);
 
-    const feed = mapLLtoFeed(raw);
+  // ---- TU SI UPRAV SELEKTORY PODĽA CIEĽA ----
+  // Príklad – hľadáme 5 hlavných a 2 euro čísla:
+  const main = [];
+  const euro = [];
 
-    await fs.mkdir(OUT_DIR, { recursive: true });
-    await fs.writeFile(OUT_FILE, JSON.stringify(feed, null, 2), 'utf8');
+  // PRÍKLAD: $(".main .ball").each((_,el)=> main.push(Number($(el).text().trim())));
+  // PRÍKLAD: $(".euro .ball").each((_,el)=> euro.push(Number($(el).text().trim())));
 
-    console.log(`OK: wrote ${OUT_FILE} with ${feed.draws.length} draws`);
-    process.exit(0);
-  } catch (e) {
-    console.error('Build failed:', e);
-    // Ak chceš, nechaj aj „prázdny“ feed s meta, aby Pages vždy niečo publikovali:
-    const fallback = {
-      meta: { generatedAt: new Date().toISOString(), nextJackpotEUR: null },
-      draws: []
-    };
-    await fs.mkdir(OUT_DIR, { recursive: true });
-    await fs.writeFile(OUT_FILE, JSON.stringify(fallback, null, 2), 'utf8');
-    process.exit(1);
+  // PRÍKLAD dátumu a jackpotu:
+  // const dateStr = $("time.result-date").attr("datetime")?.slice(0,10) || $("time").first().text().trim();
+
+  // === DOČASNÉ: ak nemáš hotové selektory, hoď sem fixný mini-fallback na otestovanie workflowu ===
+  if (main.length === 0 || euro.length === 0) {
+    throw new Error("HTML parser nenašiel žrebovanie – uprav selektory v mapHtmlToFeed().");
+  }
+
+  const dateStr = new Date().toISOString().slice(0,10);
+
+  // Jackpot – nech je aspoň null, kým ho neparsuješ:
+  const nextJackpotEUR = null;
+
+  return {
+    meta: { generatedAt: isoNow(), nextJackpotEUR },
+    draws: [{ date: dateStr, main: main.sort((a,b)=>a-b), euro: euro.sort((a,b)=>a-b) }],
+  };
+}
+
+async function downloadLive() {
+  const r = await fetch(SOURCE_URL, { headers: { "user-agent": "eurojackpot-feed/1.0" } });
+  if (!r.ok) throw new Error(`HTTP ${r.status} ${r.statusText}`);
+  const ct = r.headers.get("content-type") || "";
+
+  if (ct.includes("application/json")) {
+    const j = await r.json();
+    return mapJsonToFeed(j);
+  } else {
+    const html = await r.text();
+    return mapHtmlToFeed(html);
   }
 }
 
-main();
+async function readPrevFeed() {
+  try {
+    const txt = await fs.readFile(PREV_FILE, "utf8");
+    return JSON.parse(txt);
+  } catch {
+    return null;
+  }
+}
 
+function validateFeed(feed) {
+  if (!feed?.meta || !Array.isArray(feed.draws)) throw new Error("Neplatný feed objekt.");
+  const d = feed.draws[0];
+  if (!d?.date || !Array.isArray(d.main) || !Array.isArray(d.euro)) throw new Error("Neplatný záznam ťahu.");
+  if (d.main.length !== 5 || d.euro.length !== 2) throw new Error("Zlý počet čísel (očakávané 5 + 2).");
+}
+
+async function main() {
+  const prev = await readPrevFeed();
+
+  let feed;
+  try {
+    feed = await downloadLive();
+    validateFeed(feed);
+    // Ak máme staršie ťahy uložené, prependneme ich (voliteľné)
+    if (prev?.draws?.length) {
+      const newDate = feed.draws[0].date;
+      const rest = prev.draws.filter(x => x.date !== newDate);
+      feed.draws = [...feed.draws, ...rest].slice(0, 50); // udržuj napr. 50 ťahov
+      if (feed.meta.nextJackpotEUR == null && prev.meta?.nextJackpotEUR != null) {
+        feed.meta.nextJackpotEUR = prev.meta.nextJackpotEUR;
+      }
+    }
+  } catch (e) {
+    if (!prev) throw e; // prvý build musí prejsť
+    // fallback – necháme posledný platný feed, len aktualizujeme generatedAt
+    feed = { ...prev, meta: { ...prev.meta, generatedAt: isoNow() } };
+    console.log("WARN: live zdroj zlyhal, použijem fallback posledný feed:", e.message);
+  }
+
+  await fs.mkdir(OUT_DIR, { recursive: true });
+  await fs.writeFile(OUT_FILE, JSON.stringify(feed, null, 2), "utf8");
+  console.log("OK: feed.json napísaný do", OUT_FILE);
+}
+
+main().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});
