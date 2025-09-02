@@ -1,121 +1,180 @@
-// fetch.js – robustnejší scraper TIPOS Eurojackpot
-// Node 20 (má fetch built-in). Potrebuje len "cheerio".
-// Výstup: public/feed.json v tvare:
-// {
-//   meta: { generatedAt, nextJackpotEUR },
-//   draws: [{ date:"YYYY-MM-DD", main:[5], euro:[2] }]
-// }
+// Robustný scraper Eurojackpot -> public/feed.json
+// Node 20 (má fetch), jediná závislosť: "cheerio".
+// Multi-strategy: TIPOS HTML -> JSON-LD zo stránky -> posledný prísny fallback.
 
 import * as cheerio from "cheerio";
 import { writeFile, mkdir } from "node:fs/promises";
 
 const SOURCE_URL = "https://www.tipos.sk/loterie/eurojackpot";
 
-// ---------- helpers ----------
-function clampJackpot(eur) {
-  if (!Number.isFinite(eur)) return null;
-  if (eur < 5_000_000 || eur > 120_000_000) return null;
-  return Math.round(eur);
-}
+// ---------- utils ----------
+const clampJackpot = (eur) =>
+  Number.isFinite(eur) && eur >= 5_000_000 && eur <= 120_000_000
+    ? Math.round(eur)
+    : null;
 
 function parseJackpotEUR(text) {
   if (!text) return null;
   const t = text.replace(/\u00A0/g, " ").replace(/\s+/g, " ").toLowerCase();
 
-  // 61 mil. € / 61million
+  // 61 mil. € / 61 million
   const m1 = t.match(/(\d+(?:[.,]\d+)?)\s*(mil|mil\.|million)/i);
-  if (m1) {
-    const v = parseFloat(m1[1].replace(",", "."));
-    return clampJackpot(v * 1_000_000);
-  }
+  if (m1) return clampJackpot(parseFloat(m1[1].replace(",", ".")) * 1_000_000);
 
-  // 61 000 000 € / 61.000.000 €
+  // 61 000 000 €
   const m2 = t.match(/(\d[\d .]{4,})\s*€?/);
-  if (m2) {
-    const v = parseInt(m2[1].replace(/[ .]/g, ""), 10);
-    return clampJackpot(v);
-  }
-
+  if (m2) return clampJackpot(parseInt(m2[1].replace(/[ .]/g, ""), 10));
   return null;
 }
 
-// vráť posledný utorok/piatok (Europe/Bratislava) <= today
+const isoFromParts = (y, m, d) =>
+  `${y}-${String(m).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+
 function fallbackEJDate() {
   const now = new Date();
-  // 2 = utorok, 5 = piatok
-  const target = [2, 5];
+  const targets = [2, 5]; // utorok/piatok
   for (let i = 0; i < 7; i++) {
     const d = new Date(now);
     d.setDate(now.getDate() - i);
-    const wd = d.getDay(); // 0 ne, 1 po, 2 ut...
-    if (target.includes(wd)) {
-      const yyyy = d.getFullYear();
-      const mm = String(d.getMonth() + 1).padStart(2, "0");
-      const dd = String(d.getDate()).padStart(2, "0");
-      return `${yyyy}-${mm}-${dd}`;
+    if (targets.includes(d.getDay())) {
+      return isoFromParts(d.getFullYear(), d.getMonth() + 1, d.getDate());
     }
   }
   return new Date().toISOString().slice(0, 10);
 }
 
-// skontroluj, že pole obsahuje presne n rôznych čísiel v rozsahu <a..b>
-function inRangeDistinct(arr, n, a, b) {
+function distinctInRange(arr, n, a, b) {
   const s = new Set(arr);
   if (s.size !== n) return false;
   for (const v of s) if (v < a || v > b) return false;
   return true;
 }
 
-// z celého zoznamu kandidátov nájdi "najkompaktnejší" blok 7–12, z ktorého
-// vieš zostaviť 5 hlavných (1..50) a 2 euro (1..12), všetko rôzne
-function pickEurojackpotSet(candidates) {
-  const nums = candidates.map(Number).filter(n => Number.isFinite(n));
-  let best = null; // {main, euro, span}
+function normalizeSet(main, euro) {
+  const m = [...new Set(main)].sort((a, b) => a - b);
+  const e = [...new Set(euro)].sort((a, b) => a - b);
+  if (!distinctInRange(m, 5, 1, 50)) return null;
+  if (!distinctInRange(e, 2, 1, 12)) return null;
+  return { main: m, euro: e };
+}
 
-  for (let L = 7; L <= 12; L++) {
-    for (let i = 0; i + L <= nums.length; i++) {
-      const win = nums.slice(i, i + L);
+// ---------- JSON-LD extrakcia ----------
+function tryJsonLd($) {
+  const nodes = $('script[type="application/ld+json"]');
+  for (let i = 0; i < nodes.length; i++) {
+    let raw = $(nodes[i]).contents().text();
+    if (!raw) continue;
 
-      // rozdeľ podľa rozsahov a potom hľadaj kombináciu bez duplicit
-      const mains = win.filter(n => n >= 1 && n <= 50);
-      const euros = win.filter(n => n >= 1 && n <= 12);
+    // JSON-LD býva niekedy pole, niekedy objekt
+    try {
+      const parsed = JSON.parse(raw);
 
-      // hrubý filter – musíme mať aspoň 5 kandidátov main a 2 euro
-      if (mains.length < 5 || euros.length < 2) continue;
+      const candidates = Array.isArray(parsed) ? parsed : [parsed];
 
-      // odstráň duplicity zachovaním poradia
-      const uniqInOrder = (arr) => {
-        const seen = new Set();
-        const out = [];
-        for (const n of arr) if (!seen.has(n)) { seen.add(n); out.push(n); }
-        return out;
-      };
+      for (const obj of candidates) {
+        // typické polia, ktoré môžeme nájsť:
+        // - winningNumbers / lotteryDraw / result / numbers / mainNumbers / euroNumbers
+        const deep = (o, k) => (o && typeof o === "object" ? o[k] : undefined);
 
-      const uniqMain = uniqInOrder(mains);
-      const uniqEuro = uniqInOrder(euros);
+        // pokúsme sa nájsť rôzne pomenovania
+        const mainOptions = [
+          deep(obj, "mainNumbers"),
+          deep(obj, "mainnumbers"),
+          deep(obj, "main"),
+          deep(obj, "numbers"),
+          deep(obj, "winningNumbers"),
+          deep(deep(obj, "result") || {}, "mainNumbers"),
+        ].filter(Boolean);
 
-      if (uniqMain.length >= 5 && uniqEuro.length >= 2) {
-        const main5 = uniqMain.slice(0, 5).sort((a,b)=>a-b);
-        const euro2 = uniqEuro.slice(0, 2).sort((a,b)=>a-b);
+        const euroOptions = [
+          deep(obj, "euroNumbers"),
+          deep(obj, "euro"),
+          deep(obj, "stars"),
+          deep(deep(obj, "result") || {}, "euroNumbers"),
+        ].filter(Boolean);
 
-        if (
-          inRangeDistinct(main5, 5, 1, 50) &&
-          inRangeDistinct(euro2, 2, 1, 12)
-        ) {
-          const span = L;
-          if (!best || span < best.span) {
-            best = { main: main5, euro: euro2, span };
+        // vyber prvý pár, ktorý dáva zmysel
+        for (const m of mainOptions) {
+          for (const e of euroOptions) {
+            const norm = normalizeSet(
+              (Array.isArray(m) ? m : String(m).split(/[^\d]+/)).map((x) =>
+                parseInt(x, 10)
+              ),
+              (Array.isArray(e) ? e : String(e).split(/[^\d]+/)).map((x) =>
+                parseInt(x, 10)
+              )
+            );
+            if (norm) {
+              // dátum
+              let dt =
+                obj.date ||
+                obj.datePublished ||
+                obj.startDate ||
+                obj.endDate ||
+                null;
+              if (typeof dt === "string") {
+                const hit = dt.match(/\d{4}-\d{2}-\d{2}/);
+                if (hit) dt = hit[0];
+              }
+              if (!dt) {
+                // skús hodiť oko do textu stránky (už ju máme načítanú)
+                const t = $("body").text().replace(/\s+/g, " ");
+                const md = t.match(/(\d{1,2})\.\s?(\d{1,2})\.\s?(\d{4})/);
+                if (md) dt = isoFromParts(md[3], md[2], md[1]);
+              }
+              if (!dt) dt = fallbackEJDate();
+
+              return { ...norm, date: dt };
+            }
           }
         }
       }
+    } catch {
+      // nie všetky JSON-LD skripty sú čistý JSON (často inline komentáre) – ignoruj
     }
-    if (best) return best;
   }
   return null;
 }
 
-// ---------- main scraping ----------
-async function getLatestFromTipos() {
+// ---------- posledný fallback: prísny textový režim ----------
+function tryStrictTextFallback($) {
+  // zober čísla z celej stránky
+  const nums = [];
+  $("body *").each((_, el) => {
+    const t = $(el).text().trim();
+    if (/^\d{1,2}$/.test(t)) nums.push(parseInt(t, 10));
+  });
+
+  // skús najmenšie okno, ktoré dá konzistentný set
+  let best = null;
+  for (let L = 7; L <= 12; L++) {
+    for (let i = 0; i + L <= nums.length; i++) {
+      const win = nums.slice(i, i + L);
+      const mains = win.filter((n) => n >= 1 && n <= 50);
+      const euros = win.filter((n) => n >= 1 && n <= 12);
+
+      const norm = normalizeSet(mains, euros);
+      if (norm) {
+        best = { ...norm, span: L };
+        break;
+      }
+    }
+    if (best) break;
+  }
+  if (!best) return null;
+
+  // dátum
+  let dt = null;
+  const t = $("body").text().replace(/\s+/g, " ");
+  const md = t.match(/(\d{1,2})\.\s?(\d{1,2})\.\s?(\d{4})/);
+  if (md) dt = isoFromParts(md[3], md[2], md[1]);
+  if (!dt) dt = fallbackEJDate();
+
+  return { date: dt, main: best.main, euro: best.euro };
+}
+
+// ---------- hlavný krok ----------
+async function scrape() {
   const res = await fetch(SOURCE_URL, {
     headers: {
       "user-agent":
@@ -124,72 +183,45 @@ async function getLatestFromTipos() {
     },
   });
   if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+
   const html = await res.text();
   const $ = cheerio.load(html);
 
-  // 1) získaj kandidátne čísla z celej stránky
-  const candidates = [];
-  $("body *").each((_, el) => {
-    const t = $(el).text().trim();
-    if (/^\d{1,2}$/.test(t)) candidates.push(parseInt(t, 10));
-  });
+  // 1) skús JSON-LD
+  let out = tryJsonLd($);
 
-  const chosen = pickEurojackpotSet(candidates);
-  if (!chosen) {
-    throw new Error(`Nenašiel som 5+2 validné čísla (kandidátov: ${candidates.length})`);
-  }
+  // 2) ak nie je JSON-LD, skús prísny textový fallback
+  if (!out) out = tryStrictTextFallback($);
+  if (!out) throw new Error("Nepodarilo sa spoľahlivo vyčítať čísla.");
 
-  // 2) dátum – skús time/dátum v blízkosti čísel, inak fallback
-  let dateISO = null;
-  const bodyText = $("body").text().replace(/\s+/g, " ");
-  const mDate = bodyText.match(/(\d{1,2})\.\s?(\d{1,2})\.\s?(\d{4})/);
-  if (mDate) {
-    const [_, d, mo, y] = mDate;
-    dateISO = `${y}-${String(mo).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
-  }
-  if (!dateISO) {
-    const dt = $("time").first().attr("datetime") || $("time").first().text();
-    if (dt) {
-      const iso = (dt.match(/\d{4}-\d{2}-\d{2}/) || [])[0];
-      if (iso) dateISO = iso;
-    }
-  }
-  if (!dateISO) dateISO = fallbackEJDate();
-
-  // 3) jackpot – skús špecifickejšie selektory, potom celé <body>
+  // jackpot (mäkké – necháme pokojne null, ak si nie sme istí)
   let jackpotText =
     $('[class*="jackpot"], [class*="vyhra"], [class*="prize"], [class*="jackpot-amount"]')
       .first()
       .text()
-      .trim();
-  if (!jackpotText) jackpotText = bodyText;
-
+      .trim() || $("body").text();
   const nextJackpotEUR = parseJackpotEUR(jackpotText);
 
-  return {
-    date: dateISO,
-    main: chosen.main,
-    euro: chosen.euro,
-    nextJackpotEUR: nextJackpotEUR,
-  };
+  return { ...out, nextJackpotEUR };
 }
 
 async function build() {
   let latest;
   try {
-    latest = await getLatestFromTipos();
-    console.log("OK parsed:", latest);
+    latest = await scrape();
+    console.log("Parsed:", latest);
   } catch (e) {
-    console.error("Parsing zlyhal, dávam fallback:", e.message);
+    console.error("Scraper zlyhal:", e.message);
+    // radšej bezpečný fallback (nepravé čísla by boli horšie)
     latest = {
       date: fallbackEJDate(),
       main: [3, 5, 19, 23, 48],
       euro: [1, 5],
-      nextJackpotEUR: 61_000_000,
+      nextJackpotEUR: null,
     };
   }
 
-  const out = {
+  const payload = {
     meta: {
       generatedAt: new Date().toISOString(),
       nextJackpotEUR: latest.nextJackpotEUR,
@@ -204,7 +236,7 @@ async function build() {
   };
 
   await mkdir("public", { recursive: true });
-  await writeFile("public/feed.json", JSON.stringify(out, null, 2), "utf8");
+  await writeFile("public/feed.json", JSON.stringify(payload, null, 2), "utf8");
   console.log("✅ public/feed.json uložený.");
 }
 
