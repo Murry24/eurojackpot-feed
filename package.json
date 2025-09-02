@@ -1,12 +1,12 @@
 {
   "name": "eurojackpot-feed",
-  "private": true,
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "node fetch.js"
   },
   "dependencies": {
-    "cheerio": "^1.0.0",
-    "node-fetch": "^3.3.2"
+    "cheerio": "^1.0.0"
   }
 }
+
