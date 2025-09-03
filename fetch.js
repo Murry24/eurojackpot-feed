@@ -1,5 +1,5 @@
-// fetch.js – TIPOS Eurojackpot -> public/feed.json (presné parsovanie JACKPOTU)
-// Node 20+ (fetch je vstavaný). Závislosť: cheerio ^1.0.0
+// fetch.js – TIPOS Eurojackpot -> public/feed.json (presný jackpot bez "miliárd")
+// Node 20+ (fetch je globálne). Závislosť: cheerio ^1.0.0
 
 import * as fs from "node:fs/promises";
 import * as path from "node:path";
@@ -8,7 +8,6 @@ import * as cheerio from "cheerio";
 const OUT_DIR = path.join(process.cwd(), "public");
 const OUT_FILE = path.join(OUT_DIR, "feed.json");
 
-// TIPOS môže občas vrátiť 404; skúšame 2 URL
 const TIPOS_URLS = [
   "https://www.tipos.sk/loterie/eurojackpot/vysledky-a-vyhry",
   "https://www.tipos.sk/loterie/eurojackpot",
@@ -24,41 +23,48 @@ const REQ_HEADERS = {
   Connection: "keep-alive",
 };
 
-// --- utils ---
 const sortNums = (a) => [...a].sort((x, y) => x - y);
 
-/** Z "29. 08. 2025" -> "2025-08-29" */
+/** Presný parse sumy v EUR
+ *  - "61 000 000,00 €" -> 61000000
+ *  - "61 mil. €" -> 61000000
+ *  - "7 400 000,00 €" -> 7400000
+ *  - funguje aj s NBSP (pevné medzery)
+ */
+function parseEuroAmount(text) {
+  if (!text) return null;
+  let t = String(text).replace(/\u00A0/g, " ").trim().toLowerCase();
+
+  // 1) "61 mil.", "61million" -> 61 * 1e6
+  const mil = t.match(/(\d+(?:[.,]\d+)?)\s*(mil|mil\.|million)/i);
+  if (mil) {
+    const num = parseFloat(mil[1].replace(",", "."));
+    if (Number.isFinite(num)) return Math.round(num * 1_000_000);
+  }
+
+  // 2) "61 000 000,00 €" / "61.000.000,00 €" / "61 000 000.00 €"
+  //    - vysekneme prvú číselnú postupnosť vrátane separátorov
+  const m = t.match(/(\d[\d\s.,]*)/);
+  if (m) {
+    let s = m[1].trim();
+    // odstráň tisícové oddeľovače (medzery a bodky), ponechaj desatinnú čiarku/ bodku
+    // príklady: "61 000 000,00" -> "61000000,00" -> "61000000.00"
+    s = s.replace(/[\s.]/g, "");
+    s = s.replace(",", "."); // slovenská čiarka -> bodka
+    const val = parseFloat(s);
+    if (Number.isFinite(val)) return Math.round(val);
+  }
+
+  return null;
+}
+
 function parseSkDate(d) {
-  const m = String(d ?? "").trim().match(/^(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})$/);
+  // "29. 08. 2025" -> "2025-08-29"
+  const m = String(d).trim().match(/^(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})$/);
   if (!m) return null;
   const [_, dd, mm, yyyy] = m;
   const pad = (s) => s.toString().padStart(2, "0");
   return `${yyyy}-${pad(mm)}-${pad(dd)}`;
-}
-
-/**
- * Z textu typu "61 000 000,00 €" vytiahni PRVÝ peňažný token.
- * - berieme len prvý match (nie všetky čísla z celej stránky!)
- * - 1 000 000,00 -> 1000000 (centy ignorujeme)
- */
-function parseJackpotEURStrict(text) {
-  if (!text) return null;
-  const cleaned = String(text).replace(/\u00A0/g, " "); // NBSP -> space
-  // prvý token v tvare 1 234 567,89 alebo 1.234.567,89 alebo 1234567,89 (€, voliteľné)
-  const m = cleaned.match(/(\d{1,3}(?:[ .]\d{3})*(?:,\d+)?)/);
-  if (!m) return null;
-
-  let token = m[1];                // napr. "61 000 000,00"
-  token = token.replace(/[ .]/g, ""); // "61000000,00"
-  // oddelovač ","
-  const parts = token.split(",");
-  const whole = parts[0];          // "61000000"
-  const val = parseInt(whole, 10);
-  if (!Number.isFinite(val)) return null;
-
-  // bezpečnostný interval 1–120 mil.
-  if (val < 1_000_000 || val > 120_000_000) return null;
-  return val;
 }
 
 async function fetchHtmlWithFallback() {
@@ -69,13 +75,13 @@ async function fetchHtmlWithFallback() {
       if (!res.ok) throw new Error(`HTTP ${res.status} at ${url}`);
       const html = await res.text();
       if (!html || html.length < 1000) throw new Error(`Too short HTML at ${url}`);
-      return { html, url };
+      return html;
     } catch (e) {
       lastErr = e;
-      console.warn("[TIPOS] fallback:", e.message);
+      console.warn("[TIPOS] fallback, failed:", e.message);
     }
   }
-  throw lastErr || new Error("All TIPOS URLs failed");
+  throw lastErr || new Error("No TIPOS URL worked");
 }
 
 function parseTipos(html) {
@@ -89,83 +95,77 @@ function parseTipos(html) {
   const isoDate = parseSkDate(dateStr);
   if (!isoDate) throw new Error(`Neviem prečítať dátum z "${dateStr}"`);
 
-  // 2) Výherné čísla (presne podľa tvojho snippet-u)
+  // 2) Hlavné + euro čísla
   const main = [];
   const euro = [];
   $("#results li").each((_, el) => {
     const $li = $(el);
     const isAdditional = $li.attr("data-additional") === "true";
-    const t = ($li.attr("data-value") ?? $li.text()).trim();
-    const n = parseInt(t, 10);
+    const valAttr = $li.attr("data-value");
+    const raw = (valAttr ?? $li.text()).trim();
+    const n = parseInt(raw, 10);
     if (!Number.isFinite(n)) return;
     (isAdditional ? euro : main).push(n);
   });
 
-  if (main.length !== 5 || euro.length !== 2) {
+  if (main.length < 5 || euro.length < 2) {
     throw new Error(`Neočakávaný počet čísel: main=${main} euro=${euro}`);
   }
 
-  // 3) JOKER (voliteľné)
+  // 3) JOKER (nepovinné)
   const joker = $("#results-joker li label")
     .map((_, el) => $(el).text().trim())
     .get()
     .join("");
 
-  // 4) JACKPOT – BER IBA z konkrétneho prvku!
-  const jackpotText = $('label[for="EurojackpotPart_Jackpot"]').first().text().trim();
-  const nextJackpotEUR = parseJackpotEURStrict(jackpotText); // presné a bezpečné
+  // 4) Jackpot – vezmeme priamo zo štítku pre Eurojackpot
+  const jackpotText = $('label[for="EurojackpotPart_Jackpot"]').text();
+  const nextJackpotEUR = parseEuroAmount(jackpotText);
 
   return {
-    date: isoDate,
-    main: sortNums(main),
-    euro: sortNums(euro),
-    joker: joker || undefined,
-    nextJackpotEUR: nextJackpotEUR ?? null,
+    meta: {
+      generatedAt: new Date().toISOString(),
+      nextJackpotEUR: nextJackpotEUR ?? null,
+      source: "tipos",
+    },
+    draws: [
+      {
+        date: isoDate,
+        main: sortNums(main).slice(0, 5),
+        euro: sortNums(euro).slice(0, 2),
+        ...(joker ? { joker } : {}),
+      },
+    ],
   };
 }
 
-async function build() {
+async function writeJsonSafe(obj) {
+  await fs.mkdir(OUT_DIR, { recursive: true });
+  await fs.writeFile(OUT_FILE, JSON.stringify(obj, null, 2), "utf8");
+  console.log("Wrote", OUT_FILE);
+}
+
+async function main() {
   try {
-    const { html } = await fetchHtmlWithFallback();
-    const latest = parseTipos(html);
-
-    const payload = {
-      meta: {
-        generatedAt: new Date().toISOString(),
-        nextJackpotEUR: latest.nextJackpotEUR,
-        source: "tipos",
-      },
-      draws: [
-        {
-          date: latest.date,
-          main: latest.main,
-          euro: latest.euro,
-          ...(latest.joker ? { joker: latest.joker } : {}),
-        },
-      ],
-    };
-
-    await fs.mkdir(OUT_DIR, { recursive: true });
-    await fs.writeFile(OUT_FILE, JSON.stringify(payload, null, 2), "utf8");
-    console.log("Wrote", OUT_FILE);
+    const html = await fetchHtmlWithFallback();
+    const data = parseTipos(html);
+    await writeJsonSafe(data);
   } catch (e) {
-    console.error("Build failed:", e.message);
+    console.error("Build failed (TIPOS):", e.message);
 
-    // Fallback: nechaj posledný validný feed (ak existuje), aby appka nezostala prázdna
+    // Fallback: ponecháme posledný feed, aby deployment nepadal
     try {
       const prev = await fs.readFile(OUT_FILE, "utf8");
+      console.warn("Keeping previous public/feed.json (fallback).");
       await fs.writeFile(OUT_FILE, prev, "utf8");
-      console.warn("Keeping previous feed.json (fallback).");
     } catch {
       const empty = {
-        meta: { generatedAt: new Date().toISOString(), nextJackpotEUR: null, source: "fallback" },
+        meta: { generatedAt: new Date().toISOString(), nextJackpotEUR: null, source: "fallback-empty" },
         draws: [],
       };
-      await fs.mkdir(OUT_DIR, { recursive: true });
-      await fs.writeFile(OUT_FILE, JSON.stringify(empty, null, 2), "utf8");
-      console.warn("Wrote empty feed.json (no previous data).");
+      await writeJsonSafe(empty);
     }
   }
 }
 
-build();
+main();
