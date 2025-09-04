@@ -38,6 +38,8 @@ jobs:
         env:
           SOURCE_URL: ${{ secrets.EJ_SOURCE_URL }}  # voliteľné pre prepísanie zdroja
         run: node fetch.js
+      - name: Merge history + feed
+        run: npm run merge
 
       # 2) Inkrementálne aktualizuj public/history.json podľa public/feed.json
       - name: Update history.json
