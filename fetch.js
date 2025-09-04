@@ -4,7 +4,6 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
-import fetch from "node-fetch";
 import cheerio from "cheerio";
 
 const OUT_DIR = path.resolve("public");
