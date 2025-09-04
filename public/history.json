@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "since": "2022-03-25",
+    "updatedAt": null,
+    "drawCount": 0
+  },
+  "main": {
+    "1": { "count": 0, "lastSeen": null }, "2": { "count": 0, "lastSeen": null },
+    "3": { "count": 0, "lastSeen": null }, "4": { "count": 0, "lastSeen": null },
+    "5": { "count": 0, "lastSeen": null }, "6": { "count": 0, "lastSeen": null },
+    "7": { "count": 0, "lastSeen": null }, "8": { "count": 0, "lastSeen": null },
+    "9": { "count": 0, "lastSeen": null }, "10": { "count": 0, "lastSeen": null },
+    "11": { "count": 0, "lastSeen": null }, "12": { "count": 0, "lastSeen": null },
+    "13": { "count": 0, "lastSeen": null }, "14": { "count": 0, "lastSeen": null },
+    "15": { "count": 0, "lastSeen": null }, "16": { "count": 0, "lastSeen": null },
+    "17": { "count": 0, "lastSeen": null }, "18": { "count": 0, "lastSeen": null },
+    "19": { "count": 0, "lastSeen": null }, "20": { "count": 0, "lastSeen": null },
+    "21": { "count": 0, "lastSeen": null }, "22": { "count": 0, "lastSeen": null },
+    "23": { "count": 0, "lastSeen": null }, "24": { "count": 0, "lastSeen": null },
+    "25": { "count": 0, "lastSeen": null }, "26": { "count": 0, "lastSeen": null },
+    "27": { "count": 0, "lastSeen": null }, "28": { "count": 0, "lastSeen": null },
+    "29": { "count": 0, "lastSeen": null }, "30": { "count": 0, "lastSeen": null },
+    "31": { "count": 0, "lastSeen": null }, "32": { "count": 0, "lastSeen": null },
+    "33": { "count": 0, "lastSeen": null }, "34": { "count": 0, "lastSeen": null },
+    "35": { "count": 0, "lastSeen": null }, "36": { "count": 0, "lastSeen": null },
+    "37": { "count": 0, "lastSeen": null }, "38": { "count": 0, "lastSeen": null },
+    "39": { "count": 0, "lastSeen": null }, "40": { "count": 0, "lastSeen": null },
+    "41": { "count": 0, "lastSeen": null }, "42": { "count": 0, "lastSeen": null },
+    "43": { "count": 0, "lastSeen": null }, "44": { "count": 0, "lastSeen": null },
+    "45": { "count": 0, "lastSeen": null }, "46": { "count": 0, "lastSeen": null },
+    "47": { "count": 0, "lastSeen": null }, "48": { "count": 0, "lastSeen": null },
+    "49": { "count": 0, "lastSeen": null }, "50": { "count": 0, "lastSeen": null }
+  },
+  "euro": {
+    "1": { "count": 0, "lastSeen": null }, "2": { "count": 0, "lastSeen": null },
+    "3": { "count": 0, "lastSeen": null }, "4": { "count": 0, "lastSeen": null },
+    "5": { "count": 0, "lastSeen": null }, "6": { "count": 0, "lastSeen": null },
+    "7": { "count": 0, "lastSeen": null }, "8": { "count": 0, "lastSeen": null },
+    "9": { "count": 0, "lastSeen": null }, "10": { "count": 0, "lastSeen": null },
+    "11": { "count": 0, "lastSeen": null }, "12": { "count": 0, "lastSeen": null }
+  },
+  "processedDrawDates": []
+}
