@@ -1,18 +1,14 @@
 {
   "name": "eurojackpot-feed",
-  "type": "module",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "build": "node fetch.js"
+    "build": "node fetch.js",
+    "build:history": "node fetch_history.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0"
-  }
-}
-{
-  "scripts": {
-    "build:history": "node tools/build_history.js",
-    "build": "node fetch.js"
   }
 }
 
