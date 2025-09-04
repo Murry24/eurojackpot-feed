@@ -1,176 +1,170 @@
-// fetch.js  — Node 18+/20+ (ESM). Nepotrebuje "node-fetch"; používa vstavaný global fetch.
+// fetch.js – Node 20+, bez externých závislostí
+// Sťahuje posledný výsledok a jackpot z TIPOS, spojí s data/history.json,
+// zoradí a zapíše do public/feed.json
 
-import { writeFile, readFile, access, mkdir } from "fs/promises";
-import { constants as FS } from "fs";
-import { fileURLToPath } from "url";
-import { dirname, resolve } from "path";
-import { load as cheerioLoad } from "cheerio";
+import { mkdir, readFile, writeFile } from "fs/promises";
+import { resolve } from "path";
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const OUT_DIR = resolve(__dirname, "public");
-const OUT = resolve(OUT_DIR, "feed.json");
-const HISTORY = resolve(__dirname, "data/history.json");
-
-// TIPOS – posledné žrebovanie (verejná stránka s HTML)
+// ------- Nastavenia zdrojov ------- //
 const TIPOS_URL = "https://www.tipos.sk/loterie/eurojackpot/vysledky-a-vyhry";
 
-/* ----------------------------- Pomocné funkcie ---------------------------- */
-
-function parseSkDateToISO(text) {
-  // očakávané formáty: "29. 08. 2025" alebo "29.08.2025"
-  if (!text) return null;
-  const m = text.match(/(\d{1,2})\.\s?(\d{1,2})\.\s?(\d{4})/);
+// ------- Pomocné funkcie ------- //
+function toISODateFromSk(s) {
+  // "29. 08. 2025" -> "2025-08-29"
+  const m = s.match(/(\d{2})\.\s*(\d{2})\.\s*(\d{4})/);
   if (!m) return null;
-  const [_, d, mo, y] = m;
-  const dd = String(parseInt(d, 10)).padStart(2, "0");
-  const mm = String(parseInt(mo, 10)).padStart(2, "0");
-  return `${y}-${mm}-${dd}`;
+  const [_, dd, mm, yyyy] = m;
+  return `${yyyy}-${mm}-${dd}`;
 }
 
-function moneyTextToIntEUR(text) {
-  // "61 000 000,00 €" -> 61000000 (integer EUR)
-  if (!text) return null;
-  const cleaned = text
-    .replace(/\u00A0/g, " ")    // pevné medzery
-    .replace(/\s/g, "")         // všetky medzery
-    .replace(/[€]/g, "")        // znak eur
-    .replace(/\./g, "")         // prípadné bodky
-    .replace(/,/g, ".");        // slovenská desatinná čiarka -> bodka
-
-  const val = Number(cleaned);
-  if (Number.isFinite(val)) return Math.round(val); // bezpečne na celé eurá
-  return null;
-}
-
-async function fileExists(p) {
-  try {
-    await access(p, FS.F_OK);
-    return true;
-  } catch {
-    return false;
+function parseMoneyEUR(str) {
+  // "61 000 000,00 €" -> 61000000
+  if (!str) return null;
+  const hasComma = str.includes(",");
+  const digits = str.replace(/[^\d]/g, ""); // len číslice
+  if (!digits) return null;
+  if (hasComma) {
+    // posledné 2 sú desatinné miesta
+    if (digits.length <= 2) return 0;
+    return Math.round(Number(digits.slice(0, -2)));
   }
+  return Number(digits);
 }
 
-/* ----------------------------- Scraper TIPOS ------------------------------ */
+function uniqueByDate(draws) {
+  const map = new Map();
+  for (const d of draws) map.set(d.date, d);
+  return [...map.values()];
+}
 
-async function getLatestFromTipos() {
-  const r = await fetch(TIPOS_URL, { redirect: "follow" });
-  if (!r.ok) {
-    throw new Error(`HTTP ${r.status} at TIPOS`);
+function sortByDateAsc(draws) {
+  return draws.sort((a, b) => a.date.localeCompare(b.date));
+}
+
+// ------- Parsovanie TIPOS HTML ------- //
+function parseTipos(html) {
+  // Dátum
+  const dateInput = html.match(
+    /<div id="results-date"[\s\S]*?<input[^>]*name="date"[^>]*value="([^"]+)"/
+  );
+  const isoDate = dateInput ? toISODateFromSk(dateInput[1]) : null;
+
+  // UL výsledkov – vyberieme blok a z neho čísla
+  const ulMatch = html.match(/<ul id="results"[^>]*>([\s\S]*?)<\/ul>/);
+  if (!ulMatch) throw new Error("UL #results not found");
+  const ul = ulMatch[1];
+
+  const values = [...ul.matchAll(/data-value="(\d+)"/g)].map((m) => Number(m[1]));
+  if (values.length < 7) {
+    throw new Error(`Not enough numbers in UL: got ${values.length}`);
   }
-  const html = await r.text();
-  const $ = cheerioLoad(html);
+  const main = values.slice(0, 5).sort((a, b) => a - b);
+  const euro = values.slice(-2).sort((a, b) => a - b);
 
-  // dátum
-  const dateRaw =
-    $("#results-date input[name='date']").attr("value") ||
-    $(".box-top #results-date input[name='date']").attr("value") ||
-    $("input#results-date").attr("value") ||
-    "";
-  const dateISO = parseSkDateToISO(dateRaw);
-
-  // čísla (main + euro)
-  const main = [];
-  const euro = [];
-  $("#results li").each((_, el) => {
-    const $li = $(el);
-    const isAdditional = $li.attr("data-additional") === "true";
-    const v = Number($li.attr("data-value"));
-    if (!Number.isFinite(v)) return;
-    if (isAdditional) euro.push(v);
-    else main.push(v);
-  });
-  main.sort((a, b) => a - b);
-  euro.sort((a, b) => a - b);
-
-  // Joker (šesť číslic)
-  const jokerDigits = [];
-  $("#results-joker li label").each((_, el) => {
-    const t = $(el).text().trim();
-    if (/^\d$/.test(t)) jokerDigits.push(t);
-  });
-  const joker = jokerDigits.join("") || null;
+  // Joker (voliteľný)
+  let joker = null;
+  const jokerBlock = html.match(/<ul id="results-joker"[^>]*>([\s\S]*?)<\/ul>/);
+  if (jokerBlock) {
+    const jnums = [...jokerBlock[1].matchAll(/<label[^>]*>(\d)<\/label>/g)].map(
+      (m) => m[1]
+    );
+    if (jnums.length >= 6) {
+      joker = jnums.join("").slice(0, 6);
+    }
+  }
 
   // Jackpot
-  const jackpotText =
-    $(".winner-jackpot label").first().text().trim() ||
-    $(".winner-jackpot strong label").first().text().trim();
-  const nextJackpotEUR = moneyTextToIntEUR(jackpotText);
+  const jackMatch = html.match(
+    /<label[^>]*for="EurojackpotPart_Jackpot"[^>]*>([^<]+)<\/label>/
+  );
+  const nextJackpotEUR = parseMoneyEUR(jackMatch ? jackMatch[1] : null);
+
+  if (!isoDate) throw new Error("Draw date not found");
 
   return {
-    dateISO,
+    date: isoDate,
     main,
     euro,
     joker,
-    nextJackpotEUR,
+    nextJackpotEUR: Number.isFinite(nextJackpotEUR) ? nextJackpotEUR : null,
   };
 }
 
-/* ----------------------------- Hlavná logika ----------------------------- */
+// ------- Hlavná logika ------- //
+async function getLatest() {
+  const resp = await fetch(TIPOS_URL, {
+    headers: {
+      "user-agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118 Safari/537.36",
+      "accept-language": "sk,en;q=0.8",
+    },
+  });
+
+  if (!resp.ok) {
+    throw new Error(`HTTP ${resp.status} at TIPOS`);
+  }
+
+  const html = await resp.text();
+  return parseTipos(html);
+}
+
+async function readHistory() {
+  try {
+    const raw = await readFile(resolve("data/history.json"), "utf8");
+    const j = JSON.parse(raw);
+    if (j && Array.isArray(j.draws)) return j.draws;
+  } catch (_) {
+    // ignoruj – história nie je povinná
+  }
+  return [];
+}
 
 async function main() {
-  let latest = null;
+  const outPath = resolve("public/feed.json");
+  await mkdir(resolve("public"), { recursive: true });
 
+  let latest;
   try {
-    latest = await getLatestFromTipos();
+    latest = await getLatest();
   } catch (e) {
-    console.error("[fetch] failed:", e.message);
+    console.error("[fetch] TIPOS failed:", e.message);
+    // Ak by si chcel mať fallback, môžeš ho sem doplniť.
+    // Zatiaľ necháme skončiť s chybou, nech je to viditeľné v Actions.
+    throw e;
   }
 
-  // priprav výstupnú štruktúru
-  const feed = {
-    meta: {
-      generatedAt: new Date().toISOString(),
-      nextJackpotEUR: latest?.nextJackpotEUR ?? null,
-      source: "tipos",
-    },
-    draws: [],
-  };
+  const history = await readHistory();
 
-  // 1) Ak existuje lokálna história, načítaj ju a pridaj do výstupu
-  if (await fileExists(HISTORY)) {
-    try {
-      const raw = await readFile(HISTORY, "utf8");
-      const hist = JSON.parse(raw);
-      if (Array.isArray(hist.draws)) {
-        feed.draws.push(
-          ...hist.draws.map((d) => ({
-            date: d.date,           // očakáva ISO "YYYY-MM-DD"
-            main: d.main ?? [],
-            euro: d.euro ?? [],
-            joker: d.joker ?? null,
-          }))
-        );
-      }
-    } catch (e) {
-      console.warn("[fetch] history merge skipped:", e.message);
-    }
-  }
-
-  // 2) Pridaj najnovší ťah z TIPOS (ak sa podaril) – vyhne sa duplicite podľa dátumu
-  if (latest?.dateISO && latest.main?.length === 5 && latest.euro?.length === 2) {
-    const exists = feed.draws.some((d) => d.date === latest.dateISO);
-    if (!exists) {
-      feed.draws.push({
-        date: latest.dateISO,
+  const draws = uniqueByDate(
+    sortByDateAsc([
+      ...history.map((d) => ({
+        date: d.date,
+        main: d.main.slice().sort((a, b) => a - b),
+        euro: d.euro.slice().sort((a, b) => a - b),
+        joker: d.joker ?? null,
+      })),
+      {
+        date: latest.date,
         main: latest.main,
         euro: latest.euro,
-        joker: latest.joker,
-      });
-    }
-  }
+        joker: latest.joker ?? null,
+      },
+    ])
+  );
 
-  // garantuj zoradenie podľa dátumu (vzostupne)
-  feed.draws.sort((a, b) => a.date.localeCompare(b.date));
+  const payload = {
+    meta: {
+      generatedAt: new Date().toISOString(),
+      nextJackpotEUR: latest.nextJackpotEUR ?? null,
+    },
+    draws,
+  };
 
-  // vytvor public/ a zapíš JSON
-  await mkdir(OUT_DIR, { recursive: true });
-  await writeFile(OUT, JSON.stringify(feed, null, 2) + "\n", "utf8");
-
-  console.log("Wrote", OUT);
+  await writeFile(outPath, JSON.stringify(payload, null, 2), "utf8");
+  console.log("Wrote", outPath);
 }
 
 main().catch((e) => {
   console.error("Build failed:", e);
-  process.exitCode = 1;
+  process.exit(1);
 });
