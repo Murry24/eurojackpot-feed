@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "build": "node fetch.js",
-    "build:history": "node tools/build_history.js"
+    "build:history": "node tools/build_history.js",
+    "merge": "node tools/merge_feeds.js",
+    "build:all": "npm run build && npm run merge",
   },
   "dependencies": {
     "cheerio": "^1.0.0"
