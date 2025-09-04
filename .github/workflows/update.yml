@@ -25,17 +25,23 @@ jobs:
           node-version: "20"
 
       - name: Install deps
-        run: npm i
+        run: npm ci || npm i
 
-      # (voliteľné) ak máš fetch_history.js
+      # (voliteľné) jednorazové/periodické dosypanie histórie zo seed skriptu
+      # ak nemáš "build:history" script v package.json, tento blok môžeš vymazať
       - name: Build history (2022..today)
         continue-on-error: true
         run: npm run build:history
 
+      # 1) Vygeneruj posledný žreb -> public/feed.json
       - name: Build feed.json
         env:
           SOURCE_URL: ${{ secrets.EJ_SOURCE_URL }}  # voliteľné pre prepísanie zdroja
-        run: npm run build
+        run: node fetch.js
+
+      # 2) Inkrementálne aktualizuj public/history.json podľa public/feed.json
+      - name: Update history.json
+        run: node update_history.js
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
