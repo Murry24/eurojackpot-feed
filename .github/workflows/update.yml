@@ -25,18 +25,17 @@ jobs:
           node-version: "20"
 
       - name: Install deps
-        run: npm ci || npm i
+        run: npm i
 
-      # ➊ Najprv vyrobíme históriu od 2022 do dnes -> data/history.json
+      # (voliteľné) ak máš fetch_history.js
       - name: Build history (2022..today)
-        run: node tools/build_history.js
+        continue-on-error: true
+        run: npm run build:history
 
-      # ➋ Potom z TIPOSu stiahneme posledný ťah a spojíme s históriou -> public/feed.json
       - name: Build feed.json
         env:
-          # (nepovinné) ak by si mal pre fetch.js nejakú konfig. URL v budúcnosti
-          SOURCE_URL: ${{ secrets.EJ_SOURCE_URL }}
-        run: node fetch.js
+          SOURCE_URL: ${{ secrets.EJ_SOURCE_URL }}  # voliteľné pre prepísanie zdroja
+        run: npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
