@@ -25,25 +25,21 @@ jobs:
           node-version: "20"
 
       - name: Install deps
-        run: npm ci || npm i
+        run: npm i --no-fund --no-audit
 
-      # (voliteľné) jednorazové/periodické dosypanie histórie zo seed skriptu
-      # ak nemáš "build:history" script v package.json, tento blok môžeš vymazať
+      # 1) skopíruj históriu do public/history.json (ak existuje v data/)
       - name: Build history (2022..today)
-        continue-on-error: true
         run: npm run build:history
 
-      # 1) Vygeneruj posledný žreb -> public/feed.json
-      - name: Build feed.json
+      # 2) vyrob čerstvý public/feed.json z TIPOS
+      - name: Build feed.json (latest)
         env:
-          SOURCE_URL: ${{ secrets.EJ_SOURCE_URL }}  # voliteľné pre prepísanie zdroja
-        run: node fetch.js
-      - name: Merge history + feed
-        run: npm run merge
+          SOURCE_URL: ${{ secrets.EJ_SOURCE_URL }}  # voliteľné prepísanie zdroja
+        run: npm run build
 
-      # 2) Inkrementálne aktualizuj public/history.json podľa public/feed.json
-      - name: Update history.json
-        run: node update_history.js
+      # 3) zlúč history + latest do public/feed.json
+      - name: Merge history + latest
+        run: npm run merge:history
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
