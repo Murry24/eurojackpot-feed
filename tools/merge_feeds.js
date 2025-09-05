@@ -1,51 +1,39 @@
-// tools/merge_feeds.js
-// Spojí public/history.json + public/feed.json do jedného public/feed.json (prepíše ho)
-
+// tools/merge_history.js
 import * as fs from "node:fs/promises";
 import * as path from "node:path";
 
-const OUT_DIR = path.join(process.cwd(), "public");
-const FEED_FILE = path.join(OUT_DIR, "feed.json");
-const HIST_FILE = path.join(OUT_DIR, "history.json");
+const PUB = path.join(process.cwd(), "public");
+const FEED = path.join(PUB, "feed.json");
+const HIST = path.join(PUB, "history.json");
 
-function normalizeDraw(d) {
-  // očistíme minimálne pole, aby sa dalo deduplikovať a sortovať
-  return {
-    date: d.date,            // "YYYY-MM-DD"
-    main: Array.isArray(d.main) ? d.main.slice(0, 5) : [],
-    euro: Array.isArray(d.euro) ? d.euro.slice(0, 2) : [],
-    ...(d.joker ? { joker: d.joker } : {}),
-  };
+function keyOf(d) {
+  const main = (d.main || []).join("-");
+  const euro = (d.euro || []).join("-");
+  return `${d.date}|${main}|${euro}`;
 }
 
 async function main() {
-  // načítaj oba súbory
-  const feed = JSON.parse(await fs.readFile(FEED_FILE, "utf8"));
-  const hist = JSON.parse(await fs.readFile(HIST_FILE, "utf8"));
+  const feed = JSON.parse(await fs.readFile(FEED, "utf8"));
+  let history = { draws: [] };
+  try {
+    history = JSON.parse(await fs.readFile(HIST, "utf8"));
+  } catch {}
 
-  const histDraws = Array.isArray(hist.draws) ? hist.draws.map(normalizeDraw) : [];
-  const feedDraws = Array.isArray(feed.draws) ? feed.draws.map(normalizeDraw) : [];
+  const all = [...(history.draws || []), ...(feed.draws || [])];
+  const seen = new Set();
+  const merged = all.filter((d) => {
+    const k = keyOf(d);
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  }).sort((a, b) => a.date.localeCompare(b.date));
 
-  // spoj a deduplikuj podľa dátumu (posledný výskyt vyhrá)
-  const byDate = new Map();
-  for (const d of [...histDraws, ...feedDraws]) byDate.set(d.date, d);
-
-  // zoradenie od najnovšieho po najstaršie
-  const mergedDraws = [...byDate.values()].sort((a, b) => (a.date < b.date ? 1 : -1));
-
-  const merged = {
-    meta: {
-      generatedAt: new Date().toISOString(),
-      source: "tipos+history",
-    },
-    draws: mergedDraws,
-  };
-
-  await fs.writeFile(FEED_FILE, JSON.stringify(merged, null, 2), "utf8");
-  console.log(`Merged history (${histDraws.length}) + latest (${feedDraws.length}) -> ${mergedDraws.length} draws`);
+  const out = { meta: feed.meta || {}, draws: merged };
+  await fs.writeFile(FEED, JSON.stringify(out, null, 2), "utf8");
+  console.log(`[merge] wrote public/feed.json with ${merged.length} draws`);
 }
 
 main().catch((e) => {
-  console.error("merge_feeds failed:", e);
+  console.error(e);
   process.exit(1);
 });
