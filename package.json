@@ -1,14 +1,12 @@
 {
   "name": "eurojackpot-feed",
-  "private": true,
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "node fetch.js",
-    "build:history": "node tools/update_history.js",
-    "merge:history": "node tools/merge_history.js"
+    "build:history": "node tools/merge_history.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0"
   }
 }
-
