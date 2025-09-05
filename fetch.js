@@ -41,7 +41,7 @@ function parseEuroAmount(text) {
     if (Number.isFinite(num)) return Math.round(num * 1_000_000);
   }
 
-  // 2) „61 000 000,00“ / „61.000.000,00“
+  // 2) „61 000 000,00“ / „61.000.000,00“ / „61 000 000.00“
   const m = t.match(/(\d[\d\s.,]*)/);
   if (m) {
     let s = m[1].trim();
@@ -98,8 +98,7 @@ function parseTipos(html) {
   $("#results li").each((_, el) => {
     const $li = $(el);
     const isAdditional = $li.attr("data-additional") === "true";
-    const valAttr = $li.attr("data-value");
-    const raw = (valAttr ?? $li.text()).trim();
+    const raw = ($li.attr("data-value") ?? $li.text()).trim();
     const n = parseInt(raw, 10);
     if (!Number.isFinite(n)) return;
     (isAdditional ? euro : main).push(n);
@@ -142,7 +141,7 @@ async function fetchJsonFallback() {
     process.env.SOURCE_URL ||
     "https://murry24.github.io/eurojackpot-feed/feed.json";
   try {
-    const r = await fetch(alt, { headers: REQ_HEADERS });
+    const r = await fetch(alt);
     if (!r.ok) throw new Error(`HTTP ${r.status} at ${alt}`);
     const j = await r.json();
     if (!j?.draws?.length) throw new Error("No draws in fallback JSON");
