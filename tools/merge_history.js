@@ -16,43 +16,65 @@ async function readJsonSafe(file, fallback = null) {
   }
 }
 
-function normalizeDraw(d) {
-  // očakávaný tvar:
-  // { date: "YYYY-MM-DD", main: [..5], euro: [..2], joker?: "......" }
-  if (!d || !d.date || !Array.isArray(d.main) || !Array.isArray(d.euro)) return null;
-  return {
-    date: String(d.date),
-    main: d.main.map(n => Number(n)).sort((a,b)=>a-b).slice(0,5),
-    euro: d.euro.map(n => Number(n)).sort((a,b)=>a-b).slice(0,2),
-    ...(d.joker ? { joker: String(d.joker) } : {})
-  };
+function toNumArray(arr, take, sort = true) {
+  if (!Array.isArray(arr)) return [];
+  const out = arr.map((n) => Number(n)).filter((n) => Number.isFinite(n));
+  if (sort) out.sort((a, b) => a - b);
+  return typeof take === "number" ? out.slice(0, take) : out;
 }
 
-function mergeUniqueByDate(list) {
-  const map = new Map();
-  for (const x of list) {
-    const nx = normalizeDraw(x);
-    if (!nx) continue;
-    map.set(nx.date, nx); // posledný zápis vyhrá
+function normalizeDraw(d) {
+  if (!d || !d.date) return null;
+  const date = String(d.date);
+
+  const main = toNumArray(d.main, 5, true);
+  const euro = toNumArray(d.euro, 2, true);
+
+  if (main.length === 0 || euro.length === 0) {
+    // záznam je podozrivý, ale necháme ho pre istotu – len zalogujeme
+    console.warn("[merge] weak draw normalized:", { date, main, euro });
   }
-  // zoradíme podľa dátumu zostupne
+
+  const out = { date, main, euro };
+  if (d.joker != null && String(d.joker).length > 0) {
+    out.joker = String(d.joker);
+  }
+  return out;
+}
+
+function mergeUniqueByDate(arraysOfDraws) {
+  const map = new Map();
+  for (const list of arraysOfDraws) {
+    if (!Array.isArray(list)) continue;
+    for (const raw of list) {
+      const nx = normalizeDraw(raw);
+      if (!nx) continue;
+      map.set(nx.date, nx); // posledný zápis vyhrá
+    }
+  }
+  // zoradiť zostupne podľa dátumu (string ISO YYYY-MM-DD)
   return [...map.values()].sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
 }
 
 async function main() {
-  // 1) Načítaj základ histórie – preferuj public/history.json, inak data/history.json, inak prázdno
-  let base = (await readJsonSafe(PUB_HISTORY_FILE)) || (await readJsonSafe(DATA_HISTORY_FILE)) || { draws: [] };
+  // 1) História (public/history.json alebo data/history.json)
+  const base =
+    (await readJsonSafe(PUB_HISTORY_FILE, null)) ??
+    (await readJsonSafe(DATA_HISTORY_FILE, { draws: [] }));
 
-  if (!Array.isArray(base.draws)) base.draws = [];
+  const baseDraws = Array.isArray(base?.draws) ? base.draws : [];
+  console.log(`[merge] base history draws: ${baseDraws.length}`);
 
-  // 2) Načítaj posledné žrebovanie z public/feed.json
+  // 2) Posledný ťah (public/feed.json)
   const feed = await readJsonSafe(FEED_FILE, { draws: [] });
-  const latest = Array.isArray(feed.draws) ? feed.draws : [];
+  const latestDraws = Array.isArray(feed?.draws) ? feed.draws : [];
+  console.log(`[merge] latest feed draws: ${latestDraws.length}`);
 
-  // 3) Merge & dedupe
-  const merged = mergeUniqueByDate([...base.draws, ...latest]);
+  // 3) Merge + dedupe
+  const merged = mergeUniqueByDate([baseDraws, latestDraws]);
+  console.log(`[merge] merged unique draws: ${merged.length}`);
 
-  // 4) Zapíš public/history.json
+  // 4) Zapíš
   const out = {
     meta: {
       generatedAt: new Date().toISOString(),
@@ -63,10 +85,10 @@ async function main() {
 
   await fs.mkdir(PUB_DIR, { recursive: true });
   await fs.writeFile(PUB_HISTORY_FILE, JSON.stringify(out, null, 2), "utf8");
-  console.log(`history.json updated: ${merged.length} draws`);
+  console.log(`[merge] history.json written: ${PUB_HISTORY_FILE}`);
 }
 
-main().catch(e => {
+main().catch((e) => {
   console.error("merge_history failed:", e);
   process.exit(1);
 });
