@@ -25,22 +25,19 @@ jobs:
           node-version: "20"
 
       - name: Install deps
-        run: npm i --no-fund --no-audit
+        run: npm i
 
-      # 1) skopíruj históriu do public/history.json (ak existuje v data/)
-      - name: Build history (2022..today)
-        run: npm run build:history
-
-      # 2) vyrob čerstvý public/feed.json z TIPOS
+      # 1) Vyrobí public/feed.json (posledné žrebovanie + jackpot)
       - name: Build feed.json (latest)
         env:
-          SOURCE_URL: ${{ secrets.EJ_SOURCE_URL }}  # voliteľné prepísanie zdroja
+          SOURCE_URL: ${{ secrets.EJ_SOURCE_URL }} # voliteľné
         run: npm run build
 
-      # 3) zlúč history + latest do public/feed.json
+      # 2) Zmerguje public/feed.json do public/history.json (dedupe + sort)
       - name: Merge history + latest
-        run: npm run merge:history
+        run: npm run build:history
 
+      # 3) Zabalí celý ./public ako Pages artefakt
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
