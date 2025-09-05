@@ -2,7 +2,7 @@ name: Update Eurojackpot feed
 
 on:
   schedule:
-    - cron: "17,47 * * * *"   # 2× za hodinu
+    - cron: "17,47 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -16,8 +16,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -27,17 +25,21 @@ jobs:
       - name: Install deps
         run: npm i
 
-      # 1) Vyrobí public/feed.json (posledné žrebovanie + jackpot)
       - name: Build feed.json (latest)
-        env:
-          SOURCE_URL: ${{ secrets.EJ_SOURCE_URL }} # voliteľné
         run: npm run build
 
-      # 2) Zmerguje public/feed.json do public/history.json (dedupe + sort)
-      - name: Merge history + latest
-        run: npm run build:history
+      - name: Debug files before merge
+        run: |
+          echo "== ls public =="
+          ls -la public || true
+          echo "== feed.json =="
+          cat public/feed.json || true
+          echo "== history.json (before) =="
+          cat public/history.json || true
 
-      # 3) Zabalí celý ./public ako Pages artefakt
+      - name: Merge history + latest
+        run: npm run merge:history
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
