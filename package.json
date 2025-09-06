@@ -3,9 +3,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "node fetch.js",
+    "build:latest": "node fetch.js",
+    "build:history": "node tools/build_history.js",
     "merge:history": "node tools/merge_history.js",
-    "build:all": "node fetch.js && node tools/merge_history.js"
+    "build": "npm run build:latest && npm run build:history && npm run merge:history"
   },
   "dependencies": {
     "cheerio": "^1.0.0"
