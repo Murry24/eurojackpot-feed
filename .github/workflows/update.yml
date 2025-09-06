@@ -2,7 +2,7 @@ name: Update Eurojackpot feed
 
 on:
   schedule:
-    - cron: "17,47 * * * *"
+    - cron: "17,47 * * * *"   # 2× za hodinu
   workflow_dispatch: {}
 
 permissions:
@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -25,18 +27,15 @@ jobs:
       - name: Install deps
         run: npm i
 
+      # 1) najnovší ťah (feed.json)
       - name: Build feed.json (latest)
-        run: npm run build
+        run: npm run build:latest
 
-      - name: Debug files before merge
-        run: |
-          echo "== ls public =="
-          ls -la public || true
-          echo "== feed.json =="
-          cat public/feed.json || true
-          echo "== history.json (before) =="
-          cat public/history.json || true
+      # 2) postav históriu z CSV (data/*.csv)
+      - name: Build history from CSV
+        run: npm run build:history
 
+      # 3) spoj históriu + najnovší ťah -> public/history.json
       - name: Merge history + latest
         run: npm run merge:history
 
