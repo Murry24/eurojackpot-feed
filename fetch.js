@@ -1,19 +1,17 @@
-// fetch.js – TIPOS Eurojackpot -> public/feed.json
-// Node 20+, závislost: cheerio ^1.0.0
-
-import * as fs from "node:fs/promises";
+﻿import * as fs from "node:fs/promises";
 import * as path from "node:path";
 import * as cheerio from "cheerio";
 
 const OUT_DIR = path.join(process.cwd(), "public");
 const OUT_FILE = path.join(OUT_DIR, "feed.json");
 
-// primární zdroje TIPOS
+// primárne URL (výsledky) + alternatívna stránka; pridáme no-cache parameter
 const TIPOS_URLS = [
-  "https://www.tipos.sk/loterie/eurojackpot/vysledky-a-vyhry",
-  "https://www.tipos.sk/loterie/eurojackpot",
+  `https://www.tipos.sk/loterie/eurojackpot/vysledky-a-vyhry?nocache=${Date.now()}`,
+  `https://www.tipos.sk/loterie/eurojackpot?nocache=${Date.now()}`,
 ];
 
+// HTTP hlavičky – snažíme sa minimalizovať cache a vyzerať „ako prehliadač“
 const REQ_HEADERS = {
   "User-Agent":
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
@@ -22,26 +20,30 @@ const REQ_HEADERS = {
   "Accept-Language": "sk-SK,sk;q=0.9,en;q=0.8",
   Referer: "https://www.google.com/",
   Connection: "keep-alive",
+  "Cache-Control": "no-cache",
+  Pragma: "no-cache",
 };
 
 const sortNums = (a) => [...a].sort((x, y) => x - y);
 
-// "61 000 000,00 €" | "61 mil. €" -> číslo EUR
+/** Presné parsovanie sumy v EUR (z „61 000 000,00 €“, „61 mil. €“, …) */
 function parseEuroAmount(text) {
   if (!text) return null;
   let t = String(text).replace(/\u00A0/g, " ").trim().toLowerCase();
 
+  // 1) „61 mil.“ alebo „61 million“
   const mil = t.match(/(\d+(?:[.,]\d+)?)\s*(mil|mil\.|million)/i);
   if (mil) {
     const num = parseFloat(mil[1].replace(",", "."));
     if (Number.isFinite(num)) return Math.round(num * 1_000_000);
   }
 
+  // 2) „61 000 000,00“ / „61.000.000,00“ / „61 000 000.00“
   const m = t.match(/(\d[\d\s.,]*)/);
   if (m) {
     let s = m[1].trim();
-    s = s.replace(/[\s.]/g, "");
-    s = s.replace(",", ".");
+    s = s.replace(/[\s.]/g, ""); // tisícovky preč
+    s = s.replace(",", ".");     // čiarku na bodku
     const val = parseFloat(s);
     if (Number.isFinite(val)) return Math.round(val);
   }
@@ -49,6 +51,7 @@ function parseEuroAmount(text) {
 }
 
 function parseSkDate(d) {
+  // „29. 08. 2025“ -> „2025-08-29“
   const m = String(d).trim().match(/^(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})$/);
   if (!m) return null;
   const [_, dd, mm, yyyy] = m;
@@ -56,27 +59,12 @@ function parseSkDate(d) {
   return `${yyyy}-${pad(mm)}-${pad(dd)}`;
 }
 
+/** Stiahni HTML z TIPOS s fallbackom na viac URL */
 async function fetchHtmlWithFallback() {
-  // 1) volitelné přesměrování přes proměnnou prostředí (pro testy)
-  const envUrl = process.env.SOURCE_URL;
-  if (envUrl) {
-    const res = await fetch(envUrl, { headers: REQ_HEADERS });
-    if (!res.ok) throw new Error(`HTTP ${res.status} at ${envUrl}`);
-    const txt = await res.text();
-    // pokud je to rovnou JSON (např. naše feed.json), vrať ho jako „HTML“
-    try {
-      JSON.parse(txt);
-      return `<!--JSON-->\n${txt}`;
-    } catch {
-      return txt;
-    }
-  }
-
-  // 2) TIPOS
   let lastErr;
   for (const url of TIPOS_URLS) {
     try {
-      const res = await fetch(`${url}?nocache=${Date.now()}`, { headers: REQ_HEADERS, redirect: "follow" });
+      const res = await fetch(url, { headers: REQ_HEADERS, redirect: "follow" });
       if (!res.ok) throw new Error(`HTTP ${res.status} at ${url}`);
       const html = await res.text();
       if (!html || html.length < 1000) throw new Error(`Too short HTML at ${url}`);
@@ -89,16 +77,11 @@ async function fetchHtmlWithFallback() {
   throw lastErr || new Error("No TIPOS URL worked");
 }
 
-function parseTipos(htmlOrJson) {
-  // Pokud je to JSON (naše feed.json), jen ho vrať
-  if (htmlOrJson.startsWith("<!--JSON-->")) {
-    const json = JSON.parse(htmlOrJson.replace("<!--JSON-->\n", ""));
-    return json;
-  }
+/** Parsovanie TIPOS HTML do nášho JSON formátu */
+function parseTipos(html) {
+  const $ = cheerio.load(html);
 
-  const $ = cheerio.load(htmlOrJson);
-
-  // datum
+  // 1) dátum
   const dateStr =
     $('#results-date .date input[name="date"]').attr("value") ||
     $('#results-date .date input[name="tiposDate"]').attr("value")?.split(",")[0] ||
@@ -106,7 +89,7 @@ function parseTipos(htmlOrJson) {
   const isoDate = parseSkDate(dateStr);
   if (!isoDate) throw new Error(`Neviem prečítať dátum z "${dateStr}"`);
 
-  // čísla
+  // 2) hlavné + euro čísla
   const main = [];
   const euro = [];
   $("#results li").each((_, el) => {
@@ -118,24 +101,25 @@ function parseTipos(htmlOrJson) {
     if (!Number.isFinite(n)) return;
     (isAdditional ? euro : main).push(n);
   });
+
   if (main.length < 5 || euro.length < 2) {
     throw new Error(`Neočakávaný počet čísel: main=${main} euro=${euro}`);
   }
 
-  // joker (nepovinné)
+  // 3) Joker (nepovinné)
   const joker = $("#results-joker li label")
     .map((_, el) => $(el).text().trim())
     .get()
     .join("");
 
-  // jackpot
+  // 4) jackpot (zo štítku)
   const jackpotText = $('label[for="EurojackpotPart_Jackpot"]').text();
   const nextJackpotEUR = parseEuroAmount(jackpotText);
 
   return {
     meta: {
       generatedAt: new Date().toISOString(),
-      nextJackpotEUR: nextJackpotEUR ?? null,
+      nextJackpotEUR: Number.isFinite(nextJackpotEUR) ? nextJackpotEUR : null,
       source: "tipos",
     },
     draws: [
@@ -147,6 +131,26 @@ function parseTipos(htmlOrJson) {
       },
     ],
   };
+}
+
+/** Voliteľný JSON fallback (tvoj Pages feed), keď TIPOS padne */
+async function fetchJsonFallback() {
+  const alt =
+    process.env.SOURCE_URL ||
+    "https://murry24.github.io/eurojackpot-feed/feed.json";
+  try {
+    const r = await fetch(alt, { headers: REQ_HEADERS });
+    if (!r.ok) throw new Error(`HTTP ${r.status} at ${alt}`);
+    const j = await r.json();
+    if (!j?.draws?.length) throw new Error("No draws in fallback JSON");
+    console.warn("[fallback JSON] using:", alt);
+    // Označ, že ide o fallback zdroj
+    j.meta = { ...(j.meta || {}), source: "fallback-json" };
+    return j;
+  } catch (e) {
+    console.warn("[fallback JSON] failed:", e.message);
+    return null;
+  }
 }
 
 async function writeJsonSafe(obj) {
@@ -162,13 +166,26 @@ async function main() {
     await writeJsonSafe(data);
   } catch (e) {
     console.error("Build failed (TIPOS):", e.message);
+
+    // posledný pokus: použi fallback JSON (napr. tvoj Pages feed)
+    const fb = await fetchJsonFallback();
+    if (fb) {
+      await writeJsonSafe(fb);
+      return;
+    }
+
+    // úplný fallback – zachovaj posledný súbor alebo vytvor prázdny
     try {
       const prev = await fs.readFile(OUT_FILE, "utf8");
       console.warn("Keeping previous public/feed.json (fallback).");
       await fs.writeFile(OUT_FILE, prev, "utf8");
     } catch {
       const empty = {
-        meta: { generatedAt: new Date().toISOString(), nextJackpotEUR: null, source: "fallback-empty" },
+        meta: {
+          generatedAt: new Date().toISOString(),
+          nextJackpotEUR: null,
+          source: "fallback-empty",
+        },
         draws: [],
       };
       await writeJsonSafe(empty);
