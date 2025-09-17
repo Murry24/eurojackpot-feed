@@ -1,4 +1,4 @@
- name: Update Eurojackpot feed
+name: Update Eurojackpot feed
 
 on:
   schedule:
