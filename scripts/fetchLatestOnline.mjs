@@ -7,16 +7,17 @@ import { load } from "cheerio";
 const OUT = path.resolve("public/feed.json");
 function ensureDir(p) { fs.mkdirSync(path.dirname(p), { recursive: true }); }
 
+// zdroje
 const EUROJACKPOT_URL = "https://www.eurojackpot.org/en/results";
 const TIPOS_URLS = [
   "https://www.tipos.sk/zrebovanie/eurojackpot",
   "https://www.tipos.sk/loterie/eurojackpot/vysledky-a-vyhry",
 ];
 
-// ---------- utilities ----------
+// ---------- utils ----------
 function toISO(dStr) {
   if (!dStr) return null;
-  // "16.09.2025" alebo "16. 09. 2025"
+  // "16. 09. 2025" / "16.09.2025" / "16-09-2025"
   let m = dStr.match(/(\d{2})\s*[\.\-\/]\s*(\d{2})\s*[\.\-\/]\s*(\d{4})/);
   if (m) return `${m[3]}-${m[2]}-${m[1]}`;
   // "2025-09-16"
@@ -31,7 +32,7 @@ function parseIntSafe(s) {
 }
 function isTueOrFri(iso) {
   const d = new Date(iso + "T12:00:00Z");
-  const wd = d.getUTCDay(); // 0..6, 2=Tue, 5=Fri
+  const wd = d.getUTCDay(); // 0..6; 2=Tue, 5=Fri
   return wd === 2 || wd === 5;
 }
 function valid(main, euro) {
@@ -41,6 +42,17 @@ function valid(main, euro) {
   if (!main.every(n => n>=1 && n<=50)) return false;
   if (!euro.every(n => n>=1 && n<=12)) return false;
   return true;
+}
+function nextDrawDateFrom(isoDate) {
+  // ďalší UT alebo PIA po tomto dátume
+  let d = new Date(isoDate + "T12:00:00Z");
+  d.setUTCDate(d.getUTCDate() + 1);
+  while (true) {
+    const wd = d.getUTCDay();
+    if (wd === 2 || wd === 5) break;
+    d.setUTCDate(d.getUTCDate() + 1);
+  }
+  return d.toISOString().slice(0, 10);
 }
 function keyOf(d) {
   return d ? `${d.date}|${d.main.join(',')}|${d.euro.join(',')}` : '';
@@ -55,26 +67,25 @@ async function fetchHtml(url) {
 function parseEurojackpot(html) {
   const $ = load(html);
 
-  // dátum – .last-results p span (napr. "16.09.2025"), prípadne z <select id="date"><option value="16-09-2025">
+  // dátum – .last-results p span alebo <select id="date"><option value="16-09-2025">
   let dateRaw = $(".last-results p span").first().text().trim();
   if (!dateRaw) {
     const opt = $("#date option[selected], #date option").toArray()
       .map(o => $(o).attr("value") || $(o).text())
       .find(v => v && v.match(/\d{2}[\-\.]\d{2}[\-\.]\d{4}/));
-    if (opt) {
-      // "16-09-2025" -> ISO
-      dateRaw = opt.replace(/-/g, ".");
-    }
+    if (opt) dateRaw = opt.replace(/-/g, ".");
   }
   const date = toISO(dateRaw);
 
-  // čísla – ul.results li.lottery-ball (5 prvých) a li.lottery-ball.extra (2 posledné)
+  // čísla – ul.results li.lottery-ball (5) a li.lottery-ball.extra (2)
   const balls = $("ul.results li.lottery-ball").toArray().map(li => parseIntSafe($(li).text()));
-  const main = balls.slice(0, 5).filter(n => Number.isFinite(n)).sort((a, b) => a - b);
-  const euro = $("ul.results li.lottery-ball.extra").toArray().map(li => parseIntSafe($(li).text()))
-                  .filter(n => Number.isFinite(n)).slice(0, 2).sort((a,b)=>a-b);
+  const main = balls.slice(0, 5).filter(Number.isFinite).sort((a,b)=>a-b);
+  const euro = $("ul.results li.lottery-ball.extra").toArray()
+                .map(li => parseIntSafe($(li).text()))
+                .filter(Number.isFinite).slice(0,2).sort((a,b)=>a-b);
 
   if (!date || !valid(main, euro) || !isTueOrFri(date)) return null;
+
   return {
     date,
     main,
@@ -83,37 +94,32 @@ function parseEurojackpot(html) {
   };
 }
 
-// ---------- parser: TIPOS ----------
+// ---------- parser: TIPOS (vrátane jackpotu + joker) ----------
 function parseTipos(html) {
   const $ = load(html);
 
-  // dátum: #results-date .date input[name='date'] value="16. 09. 2025"
   let dateRaw = $('#results-date .date input[name="date"]').val()
              || $('#results-date .date input[name="tiposDate"]').val()
              || $(".results-box .date input").first().val()
              || $("input[name='date']").first().val();
   const date = toISO(String(dateRaw || "").trim());
 
-  // hlavné: ul#results li bez data-additional
   const main = $("ul#results li:not([data-additional='true'])")
     .map((_, li) => parseIntSafe($(li).attr("data-value") || $(li).text()))
     .get()
-    .filter(n => Number.isFinite(n))
+    .filter(Number.isFinite)
     .slice(0, 5)
     .sort((a, b) => a - b);
 
-  // euro: ul#results li s data-additional="true"
   const euro = $("ul#results li[data-additional='true']")
     .map((_, li) => parseIntSafe($(li).attr("data-value") || $(li).text()))
     .get()
-    .filter(n => Number.isFinite(n))
+    .filter(Number.isFinite)
     .slice(0, 2)
     .sort((a, b) => a - b);
 
-  // Joker
   const joker = $("#results-joker li label").map((_, el) => $(el).text().trim()).get().join("");
 
-  // Jackpot
   const jackpotEur = (() => {
     const txt = $("label[for='EurojackpotPart_Jackpot']").text() || "";
     const digits = txt.replace(/[^\d]/g, "");
@@ -133,18 +139,13 @@ function parseTipos(html) {
   };
 }
 
-// ---------- main orchestrator ----------
+// ---------- orchestrácia ----------
 async function main() {
   let ej = null;
   try {
     const html = await fetchHtml(EUROJACKPOT_URL);
-    const r = parseEurojackpot(html);
-    if (r) {
-      ej = r;
-      console.log("EUROJACKPOT OK:", ej);
-    } else {
-      console.log("EUROJACKPOT: no match");
-    }
+    ej = parseEurojackpot(html);
+    console.log(ej ? "EUROJACKPOT OK" : "EUROJACKPOT no match", ej || "");
   } catch (e) {
     console.log("EUROJACKPOT fetch failed:", e.message);
   }
@@ -154,26 +155,25 @@ async function main() {
     try {
       const html = await fetchHtml(url);
       const r = parseTipos(html);
-      if (r) {
-        tipos = r;
-        console.log(`TIPOS OK (${url}):`, tipos);
-        break;
-      } else {
-        console.log(`TIPOS no match (${url})`);
-      }
+      if (r) { tipos = r; console.log("TIPOS OK:", url); break; }
+      else { console.log("TIPOS no match:", url); }
     } catch (e) {
-      console.log(`TIPOS fetch failed (${url}):`, e.message);
+      console.log("TIPOS fetch failed:", url, e.message);
     }
   }
 
-  // výber (consensus -> inak preferuj EUROJACKPOT -> potom TIPOS)
+  // výber + doplnenie jackpotu
   let pick = null;
   if (ej && tipos) {
     if (keyOf(ej) === keyOf(tipos)) {
-      pick = ej; // zhodné
+      pick = { ...ej };
+      // doplň jackpot/joker z TIPOS ak chýba
+      if (tipos.nextJackpotEUR != null) pick.nextJackpotEUR = tipos.nextJackpotEUR;
+      if (tipos.joker) pick.joker = tipos.joker;
+      pick.source = "eurojackpot.org+tipos.sk";
     } else {
-      console.log("CONFLICT between sources:", { ej, tipos });
-      // ak konflikt, radšej nezapíšeme nič – nech prebehne CSV fallback
+      console.log("CONFLICT between sources, skip writing feed.json:", { ej, tipos });
+      return; // necháme CSV fallback (nech radšej nezapíšeme nič zlé)
     }
   } else {
     pick = ej || tipos || null;
@@ -184,12 +184,15 @@ async function main() {
     return;
   }
 
+  const meta = {
+    since: "2022-01-07",
+    updatedAt: new Date().toISOString(),
+    nextJackpotEUR: pick.nextJackpotEUR ?? null,
+    nextDrawDate: nextDrawDateFrom(pick.date) // bonus – appka môže ignorovať
+  };
+
   const out = {
-    meta: {
-      since: "2022-01-07",
-      updatedAt: new Date().toISOString(),
-      nextJackpotEUR: pick.nextJackpotEUR ?? null
-    },
+    meta,
     draws: [
       {
         date: pick.date,
@@ -203,7 +206,7 @@ async function main() {
 
   ensureDir(OUT);
   fs.writeFileSync(OUT, JSON.stringify(out, null, 2), "utf8");
-  console.log("feed.json written:", out.draws[0], "source:", out.source);
+  console.log("feed.json written:", out.draws[0], "meta:", meta, "source:", out.source);
 }
 
 main().catch(e => {
