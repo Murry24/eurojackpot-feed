@@ -23,15 +23,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: "npm"
 
       - name: Install deps
         run: npm i
 
-      # 1) najnovší ťah (feed.json)
+      # 1) najnovší ťah (public/feed.json)
       - name: Build feed.json (latest)
         run: npm run build:latest
 
-      # 2) postav históriu z CSV (data/*.csv)
+      # 2) postav históriu z CSV (data/history_*.csv)
       - name: Build history from CSV
         run: npm run build:history
 
@@ -39,9 +40,21 @@ jobs:
       - name: Merge history + latest
         run: npm run merge:history
 
+      # Diagnostika výstupov (užitočné v logu)
+      - name: List outputs
+        run: ls -la public || true
+
+      - name: Print first 40 lines of history.json
+        run: |
+          if [ -f public/history.json ]; then
+            sed -n '1,40p' public/history.json
+          else
+            echo "public/history.json not found"
+          fi
+
       - name: Sanity check (print counts)
         run: |
-          node -e "const fs=require('fs'); const j=JSON.parse(fs.readFileSync('./public/history.json','utf8')); console.log('drawCount=', j?.meta?.drawCount, 'draws=', Array.isArray(j?.draws)? j.draws.length : 0);"
+          node -e "const fs=require('fs'); const p='public/history.json'; if(fs.existsSync(p)){ const j=JSON.parse(fs.readFileSync(p,'utf8')); console.log('drawCount=', j?.meta?.drawCount, 'draws=', Array.isArray(j?.draws)? j.draws.length : 0); } else { console.log('history.json missing'); process.exitCode=1; }"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
