@@ -3,9 +3,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build:latest": "node fetch.js",
-    "build:history": "node tools/build_history.js",
-    "merge:history": "node tools/merge_history.js",
+    "build:latest": "node scripts/buildLatest.mjs",
+    "build:history": "node scripts/buildHistoryFromCsv.mjs",
+    "merge:history": "node scripts/mergeHistory.mjs",
     "build": "npm run build:latest && npm run build:history && npm run merge:history"
   },
   "dependencies": {
