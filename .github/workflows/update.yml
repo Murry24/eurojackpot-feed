@@ -28,8 +28,9 @@ jobs:
         run: npm i
 
       # 0) Stiahni najnovší ťah z webu -> public/feed.json  (existujúci fetch.js v repo)
-      - name: Fetch latest online (feed.json)
-        run: node fetch.js
+      - name: Fetch latest online draw
+        run: npm run fetch:online
+
 
       # 1) Najnovší ťah z CSV (fallback) – nechajme, ale nie je nutné
       - name: Build feed.json (latest from CSV, fallback)
