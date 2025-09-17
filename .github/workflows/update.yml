@@ -37,6 +37,10 @@ jobs:
 
       # 3) spoj históriu + najnovší ťah -> public/history.json
       - name: Merge history + latest
+            - name: Sanity check (print counts)
+        run: |
+          node -e "const fs=require('fs');const j=JSON.parse(fs.readFileSync('./public/history.json','utf8'));console.log('drawCount=',j?.meta?.drawCount,' draws=',j?.draws?.length)"
+
         run: npm run merge:history
 
       - name: Upload Pages artifact
