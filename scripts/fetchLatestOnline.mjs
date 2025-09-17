@@ -9,9 +9,9 @@ function ensureDir(p) { fs.mkdirSync(path.dirname(p), { recursive: true }); }
 
 const EUROJACKPOT_URL = "https://www.eurojackpot.org/en/results";
 
-// ✅ PRIDANÁ HLAVNÁ STRÁNKA LOTÉRIE NA TIPOS
+// TIPOS zdroje
 const TIPOS_URLS = [
-  "https://www.tipos.sk/loterie/eurojackpot",                 // <-- tu je <p class="intro-winning eurojackpot"><strong>…</strong>
+  "https://www.tipos.sk/loterie/eurojackpot",
   "https://www.tipos.sk/zrebovanie/eurojackpot",
   "https://www.tipos.sk/loterie/eurojackpot/vysledky-a-vyhry",
 ];
@@ -30,12 +30,10 @@ function parseIntSafe(s) {
   const n = parseInt(String(s).replace(/[^\d]/g, ""), 10);
   return Number.isFinite(n) ? n : NaN;
 }
-// "120 000 000 €" alebo "120 000 000 €" -> 120000000
 function parseEurAmount(txt) {
   if (!txt) return null;
-  // nahradíme NBSP/tenkú medzeru atď. za klasickú medzeru
   const cleaned = String(txt).replace(/\u00A0|\u202F/g, " ");
-  const m = cleaned.match(/([\d.\s]+)/); // celá časť
+  const m = cleaned.match(/([\d.\s]+)/);
   if (!m) return null;
   const major = m[1].replace(/[^\d]/g, "");
   if (!major) return null;
@@ -92,18 +90,17 @@ function parseEurojackpot(html) {
   return { date, main, euro };
 }
 
-// ---------- TIPOS: jackpot + „ďalšie žrebovanie“ ----------
+// ---------- TIPOS: jackpot + joker + "ďalšie žrebovanie" ----------
 async function fetchTiposJackpotAndNext() {
   for (const url of TIPOS_URLS) {
     try {
       const html = await fetchHtml(url);
       const $ = load(html);
 
-      // jackpot – vyskúšame viac selektorov (v poradí pravdepodobnosti)
+      // jackpot
       const candidates = [
-        $("p.intro-winning.eurojackpot strong").first().text(), // ⬅️ tvoj HTML
+        $("p.intro-winning.eurojackpot strong").first().text(),
         $("label[for='EurojackpotPart_Jackpot']").first().text(),
-        $("li.winner-jackpot strong label").first().text(),
         $(".winner-jackpot strong").first().text(),
       ];
       let jackpotEUR = null;
@@ -112,38 +109,40 @@ async function fetchTiposJackpotAndNext() {
         if (v) { jackpotEUR = v; break; }
       }
 
-      // „Žrebujeme …“ – deň (nepovinné)
+      // joker
+      let joker = null;
+      const jokerNums = $("#results-joker li").toArray().map(li => $(li).text().trim()).filter(Boolean);
+      if (jokerNums.length === 6) {
+        joker = jokerNums.join("");
+      }
+
+      // ďalšie žrebovanie (deň v texte)
       const dayTxt = $("#drawing-later .day").first().text().trim().toLowerCase();
       let nextByLabel = null;
       if (dayTxt) {
-        const map = {
-          "pondelok": 1, "utorok": 2, "streda": 3, "štvrtok": 4, "stvrtok": 4,
-          "piatok": 5, "sobota": 6, "nedeľa": 0, "nedela": 0,
-          "monday": 1, "tuesday": 2, "wednesday": 3, "thursday": 4,
-          "friday": 5, "saturday": 6, "sunday": 0
-        };
+        const map = { "utorok": 2, "piatok": 5, "tuesday": 2, "friday": 5 };
         const target = map[dayTxt];
         if (typeof target === "number") {
           const now = new Date();
           const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
           let add = (target - d.getUTCDay() + 7) % 7;
-          if (add === 0) add = 7; // najbližší nasledujúci
+          if (add === 0) add = 7;
           d.setUTCDate(d.getUTCDate() + add);
           nextByLabel = d.toISOString().slice(0, 10);
         }
       }
 
-      return { jackpotEUR, nextByLabel, source: url };
+      return { jackpotEUR, joker, nextByLabel, source: url };
     } catch (e) {
-      console.log("TIPOS jackpot fetch failed:", url, e.message);
+      console.log("TIPOS fetch failed:", url, e.message);
     }
   }
-  return { jackpotEUR: null, nextByLabel: null, source: null };
+  return { jackpotEUR: null, joker: null, nextByLabel: null, source: null };
 }
 
 // ---------- main ----------
 async function main() {
-  // 1) čísla z oficiálneho webu
+  // 1) čísla z eurojackpot.org
   let latest = null;
   try {
     const html = await fetchHtml(EUROJACKPOT_URL);
@@ -154,10 +153,10 @@ async function main() {
   }
   if (!latest) { console.log("No numbers -> CSV fallback."); return; }
 
-  // 2) jackpot/next z TIPOS
-  const { jackpotEUR, nextByLabel } = await fetchTiposJackpotAndNext();
+  // 2) jackpot + joker + next z TIPOS
+  const { jackpotEUR, joker, nextByLabel } = await fetchTiposJackpotAndNext();
   if (jackpotEUR != null) console.log("TIPOS jackpot EUR:", jackpotEUR);
-  else console.log("TIPOS jackpot not found – leaving null");
+  if (joker != null) console.log("TIPOS joker:", joker);
 
   const meta = {
     since: "2022-01-07",
@@ -173,9 +172,10 @@ async function main() {
         date: latest.date,
         main: latest.main,
         euro: latest.euro,
+        joker: joker ?? null,
       }
     ],
-    source: "eurojackpot.org + tipos.sk(jackpot)"
+    source: "eurojackpot.org + tipos.sk(jackpot+joker)"
   };
 
   ensureDir(OUT);
