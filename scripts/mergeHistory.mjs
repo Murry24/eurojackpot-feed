@@ -2,8 +2,9 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const DATA_DIR = path.resolve("data");
-const OUT_PATH = path.resolve("public/history.json");
+const DATA_DIR  = path.resolve("data");
+const FEED_PATH = path.resolve("public/feed.json");
+const OUT_PATH  = path.resolve("public/history.json");
 
 function ensureDir(p){ fs.mkdirSync(path.dirname(p), { recursive: true }); }
 function listHistoryCsvs() {
@@ -13,6 +14,9 @@ function listHistoryCsvs() {
     .map(f => path.join(DATA_DIR, f))
     .sort();
 }
+function readJsonSafe(p){ try { return JSON.parse(fs.readFileSync(p,"utf8")); } catch { return null; } }
+function iso(d){ return new Date(d).toISOString().slice(0,10); }
+
 function colIdx(cols, names) { for (const n of names){ const i = cols.indexOf(n); if (i>=0) return i; } return -1; }
 
 function parseRowFlexible(header, sep, parts) {
@@ -60,10 +64,10 @@ function parseRowFlexible(header, sep, parts) {
   let joker = "";
   if (jI >= 0 && parts[jI] != null) joker = String(parts[jI]).trim();
 
-  return { date: d.toISOString().slice(0,10), main, euro, ...(joker ? { joker } : {}) };
+  return { date: iso(d), main, euro, ...(joker ? { joker } : {}) };
 }
 
-function loadAllDraws() {
+function loadDrawsFromCsvs() {
   const files = listHistoryCsvs();
   let all = [];
   for (const f of files) {
@@ -77,28 +81,45 @@ function loadAllDraws() {
       if (row) all.push(row);
     }
   }
+  // zoradiť najnovšie navrch
   all.sort((a,b)=> (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
   return all;
 }
 
 function main() {
-  const draws = loadAllDraws();
+  // 1) načítaj históriu z CSV
+  const drawsFromCsv = loadDrawsFromCsvs();     // môže byť prázdne, ak CSV ešte nie je doplnené
+  const latestCsvDate = drawsFromCsv.length ? drawsFromCsv[0].date : null;
 
-  const updatedAt = new Date().toISOString();
-  if (!draws.length) {
-    const out0 = {
-      meta: { since: "2022-03-25", updatedAt, drawCount: 0 },
-      draws: [],
-      main: {}, euro: {}, processedDrawDates: []
-    };
-    ensureDir(OUT_PATH);
-    fs.writeFileSync(OUT_PATH, JSON.stringify(out0, null, 2), "utf8");
-    console.log("history.json hotové: 0 záznamov (nenašli sa platné riadky)");
-    return;
+  // 2) načítaj najnovší ťah z feed.json (fetchuje ho fetch.js)
+  const feed = readJsonSafe(FEED_PATH);
+  const latestFromFeed = Array.isArray(feed?.draws) && feed.draws.length ? feed.draws[0] : null;
+
+  // 3) výsledné pole "draws": CSV + (príp. doplnený najnovší ťah z feedu)
+  let draws = [...drawsFromCsv];
+
+  if (latestFromFeed?.date) {
+    const feedDate = iso(latestFromFeed.date);
+    const same = drawsFromCsv.find(d => d.date === feedDate
+      && JSON.stringify(d.main) === JSON.stringify(latestFromFeed.main)
+      && JSON.stringify(d.euro) === JSON.stringify(latestFromFeed.euro));
+    const isNewer = !latestCsvDate || feedDate > latestCsvDate;
+    if (!same && isNewer) {
+      // vlož ako najnovší záznam
+      draws.unshift({
+        date: feedDate,
+        main: latestFromFeed.main?.slice(0,5) ?? [],
+        euro: latestFromFeed.euro?.slice(0,2) ?? [],
+        ...(latestFromFeed.joker ? { joker: latestFromFeed.joker } : {}),
+      });
+      console.log(`mergeHistory: doplnený nový ťah z feed.json: ${feedDate}`);
+    }
   }
 
-  const since = draws.at(-1).date;
+  // 4) meta + agregáty
+  const updatedAt = new Date().toISOString();
   const drawCount = draws.length;
+  const since = drawCount ? draws.at(-1).date : "2022-03-25";
 
   const mainStats = {}; for (let n=1;n<=50;n++) mainStats[n] = { count:0, lastSeen:null };
   const euroStats = {}; for (let n=1;n<=12;n++) euroStats[n] = { count:0, lastSeen:null };
