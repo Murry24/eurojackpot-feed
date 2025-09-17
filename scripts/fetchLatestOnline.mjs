@@ -27,10 +27,11 @@ function parseIntSafe(s) {
   const n = parseInt(String(s).replace(/[^\d]/g, ""), 10);
   return Number.isFinite(n) ? n : NaN;
 }
-// „120 000 000,00 €“ -> 120000000
+// „120 000 000 €“ -> 120000000
 function parseEurAmount(txt) {
   if (!txt) return null;
-  const m = String(txt).match(/([\d\s\.]+)(?:,\d{1,2})?\s*€?/);
+  // vezmi len "celé" číslo pred čiarkou
+  const m = String(txt).match(/([\d\s\.]+)/);
   if (!m) return null;
   const major = m[1].replace(/[^\d]/g, "");
   if (!major) return null;
@@ -91,7 +92,48 @@ function parseEurojackpot(html) {
   return { date, main, euro, source: "eurojackpot.org" };
 }
 
-// ---------- parser: TIPOS (čísel + jackpot + joker) ----------
+// ---------- pomoc: TIPOS jackpot + „ďalšie žrebovanie“ ----------
+function extractTiposJackpotAndNext($) {
+  // 1) jackpot – viac možností umiestnenia
+  const candidates = [
+    $("label[for='EurojackpotPart_Jackpot']").text(),
+    $("p.intro-winning.eurojackpot strong").text(),                // ⬅️ to, čo si poslal
+    $("li.winner-jackpot strong label").text(),                    // iný blok na stránke
+    $("*").filter((_, el) => /jackpot/i.test($(el).text())).first().text()
+  ];
+  let jackpotEUR = null;
+  for (const t of candidates) {
+    const v = parseEurAmount(t);
+    if (v) { jackpotEUR = v; break; }
+  }
+
+  // 2) ďalší deň/čas žrebovania
+  let nextByLabel = null;
+  const dayTxt = $("#drawing-later .day").first().text().trim().toLowerCase(); // „Piatok“
+  const timeTxt = $("#drawing-later .time").first().text().trim();             // „20:00“
+  if (dayTxt) {
+    const map = {
+      "pondelok": 1, "utorok": 2, "streda": 3, "štvrtok": 4, "stvrtok": 4,
+      "piatok": 5, "sobota": 6, "nedeľa": 0, "nedela": 0,
+      "monday": 1, "tuesday": 2, "wednesday": 3, "thursday": 4,
+      "friday": 5, "saturday": 6, "sunday": 0
+    };
+    const target = map[dayTxt];
+    if (typeof target === "number") {
+      const now = new Date();
+      // prepočítaj na najbližší cieľový deň
+      const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+      let add = (target - d.getUTCDay() + 7) % 7;
+      if (add === 0) add = 7; // „najbližší ďalší“
+      d.setUTCDate(d.getUTCDate() + add);
+      nextByLabel = d.toISOString().slice(0, 10);
+    }
+  }
+
+  return { jackpotEUR, nextByLabel };
+}
+
+// ---------- parser: TIPOS (čísel + jackpot + joker + nextDrawDate label) ----------
 function parseTipos(html) {
   const $ = load(html);
 
@@ -117,18 +159,16 @@ function parseTipos(html) {
 
   const joker = $("#results-joker li label").map((_, el) => $(el).text().trim()).get().join("");
 
-  // jackpot label „Eurojackpot Jackpot“
-  const jackpotText = $("label[for='EurojackpotPart_Jackpot']").text() || "";
-  const jackpotEur = parseEurAmount(jackpotText);
+  const { jackpotEUR, nextByLabel } = extractTiposJackpotAndNext($);
 
-  // môžeme vrátiť aj keď čísla chýbajú – kvôli jackpotu
   const hasNumbers = date && valid(main, euro) && isTueOrFri(date);
   return {
     date: hasNumbers ? date : null,
     main: hasNumbers ? main : null,
     euro: hasNumbers ? euro : null,
     joker: joker || undefined,
-    nextJackpotEUR: jackpotEur || undefined,
+    nextJackpotEUR: jackpotEUR ?? undefined,
+    nextDrawLabelDate: nextByLabel ?? undefined,
     source: "tipos.sk"
   };
 }
@@ -151,20 +191,20 @@ async function main() {
     try {
       const html = await fetchHtml(url);
       const r = parseTipos(html);
-      if (r) { tipos = r; console.log("TIPOS parsed:", url, !!r.date ? "with numbers" : "jackpot-only"); break; }
+      if (r) { tipos = r; console.log("TIPOS parsed:", url, r.date ? "with numbers" : "jackpot-only"); break; }
     } catch (e) {
       console.log("TIPOS fetch failed:", url, e.message);
     }
   }
 
-  // Výber výsledku
+  // Výber výsledku (+ doplnenie jackpotu/jokera a nextDrawDate)
   let pick = null;
   if (ej && tipos?.date && tipos?.main && tipos?.euro) {
     if (keyOf(ej) === keyOf(tipos)) {
       pick = { ...ej };
-      // doplň jackpot/joker z TIPOS
       if (tipos.nextJackpotEUR != null) pick.nextJackpotEUR = tipos.nextJackpotEUR;
       if (tipos.joker) pick.joker = tipos.joker;
+      pick.nextDrawLabelDate = tipos.nextDrawLabelDate;
       pick.source = "eurojackpot.org+tipos.sk";
     } else {
       console.log("CONFLICT between sources -> skip write (CSV fallback).");
@@ -172,9 +212,9 @@ async function main() {
     }
   } else {
     pick = ej || (tipos?.date ? { ...tipos } : null);
-    // aj keď čísla idú z EJ, skús prilepiť jackpot z TIPOS
     if (pick && ej && tipos?.nextJackpotEUR != null) pick.nextJackpotEUR = tipos.nextJackpotEUR;
     if (pick && ej && tipos?.joker) pick.joker = tipos.joker;
+    if (pick && tipos?.nextDrawLabelDate) pick.nextDrawLabelDate = tipos.nextDrawLabelDate;
   }
 
   if (!pick) {
@@ -186,7 +226,8 @@ async function main() {
     since: "2022-01-07",
     updatedAt: new Date().toISOString(),
     nextJackpotEUR: pick.nextJackpotEUR ?? null,
-    nextDrawDate: nextDrawDateFrom(pick.date)
+    // preferuj dátum z TIPOS labelu („Piatok o 20:00“), inak dopočítaj z posledného ťahu
+    nextDrawDate: pick.nextDrawLabelDate || nextDrawDateFrom(pick.date)
   };
 
   const out = {
@@ -209,5 +250,5 @@ async function main() {
 
 main().catch(e => {
   console.error("fetchLatestOnline ERROR:", e);
-  process.exitCode = 0; // nezhadzuj workflow – CSV fallback to zvládne
+  process.exitCode = 0;
 });
