@@ -6,7 +6,7 @@
     "build:latest": "node scripts/buildLatest.mjs",
     "build:history": "node scripts/buildHistoryFromCsv.mjs",
     "merge:history": "node scripts/mergeHistory.mjs",
-    "fetch:online": "node scripts/fetchLatestOnline.mjs"
+    "fetch:online": "node scripts/fetchLatestOnline.mjs",
     "build": "npm run build:latest && npm run build:history && npm run merge:history"
   },
   "dependencies": {
