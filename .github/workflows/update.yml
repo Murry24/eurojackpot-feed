@@ -23,38 +23,33 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          # cache: "npm"  # ❌ odstránené, nemáš package-lock.json
 
       - name: Install deps
         run: npm i
 
-      # 1) najnovší ťah (public/feed.json)
-      - name: Build feed.json (latest)
+      # 0) Stiahni najnovší ťah z webu -> public/feed.json  (existujúci fetch.js v repo)
+      - name: Fetch latest online (feed.json)
+        run: node fetch.js
+
+      # 1) Najnovší ťah z CSV (fallback) – nechajme, ale nie je nutné
+      - name: Build feed.json (latest from CSV, fallback)
         run: npm run build:latest
 
-      # 2) postav históriu z CSV (data/history_*.csv)
+      # 2) Prebehni cez CSV (history_*.csv) – môže byť no-op
       - name: Build history from CSV
         run: npm run build:history
 
-      # 3) spoj históriu + najnovší ťah -> public/history.json
+      # 3) Spoj históriu + najnovší ťah z feedu -> public/history.json
       - name: Merge history + latest
         run: npm run merge:history
 
-      # Diagnostika výstupov
+      # Diagnostika
       - name: List outputs
         run: ls -la public || true
 
-      - name: Print first 40 lines of history.json
-        run: |
-          if [ -f public/history.json ]; then
-            sed -n '1,40p' public/history.json
-          else
-            echo "public/history.json not found"
-          fi
-
       - name: Sanity check (print counts)
         run: |
-          node -e "const fs=require('fs'); const p='public/history.json'; if(fs.existsSync(p)){ const j=JSON.parse(fs.readFileSync(p,'utf8')); console.log('drawCount=', j?.meta?.drawCount, 'draws=', Array.isArray(j?.draws)? j.draws.length : 0); } else { console.log('history.json missing'); process.exitCode=1; }"
+          node -e "const fs=require('fs');const h='public/history.json';const f='public/feed.json';if(fs.existsSync(h)){const j=JSON.parse(fs.readFileSync(h,'utf8'));console.log('drawCount=',j?.meta?.drawCount,'draws=',Array.isArray(j?.draws)?j.draws.length:0);} else {console.log('history.json missing');process.exitCode=1;} if(fs.existsSync(f)){const k=JSON.parse(fs.readFileSync(f,'utf8'));console.log('feed latest date=',k?.draws?.[0]?.date);} else {console.log('feed.json missing');}"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
