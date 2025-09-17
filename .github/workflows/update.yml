@@ -1,4 +1,4 @@
-name: Update Eurojackpot feed
+ name: Update Eurojackpot feed
 
 on:
   schedule:
@@ -27,30 +27,31 @@ jobs:
       - name: Install deps
         run: npm i
 
-      # 0) Stiahni najnovší ťah z webu -> public/feed.json  (fetch:online)
+      # 0) Online fetch -> public/feed.json (ak sa podarí)
       - name: Fetch latest online draw
         run: npm run fetch:online
 
-      # DEBUG: ukáž, čo sa stiahlo (nepadá, ak feed chýba)
+      # Debug: čo priniesol fetch (nepadá, keď súbor nie je)
       - name: Show fetched feed (debug)
         run: |
           if [ -f public/feed.json ]; then
-            echo "feed.json exists"
+            echo "feed.json exists (from fetch:online)"
             head -n 60 public/feed.json || true
-            node -e "const fs=require('fs');const p='public/feed.json';if(fs.existsSync(p)){const j=JSON.parse(fs.readFileSync(p,'utf8'));console.log('FETCHED LATEST DATE =', j?.draws?.[0]?.date);} else {console.log('feed.json missing');}"
+            node -e "const fs=require('fs');const p='public/feed.json';const j=JSON.parse(fs.readFileSync(p,'utf8'));console.log('FETCHED LATEST DATE =', j?.draws?.[0]?.date)"
           else
-            echo "feed.json MISSING after fetch:online (pokračujem CSV fallbackom)"
+            echo "feed.json MISSING after fetch:online (will try CSV fallback)"
           fi
 
-      # 1) Najnovší ťah z CSV (fallback)
+      # 1) CSV fallback – SPUSTIŤ IBA AK feed.json NEEXISTUJE
       - name: Build feed.json (latest from CSV, fallback)
+        if: ${{ hashFiles('public/feed.json') == '' }}
         run: npm run build:latest
 
-      # 2) Prebehni cez CSV (history_*.csv)
+      # 2) Postav históriu z CSV
       - name: Build history from CSV
         run: npm run build:history
 
-      # 3) Spoj históriu + najnovší ťah z feedu -> public/history.json
+      # 3) Spoj históriu + najnovší ťah (z fetchu alebo z CSV fallbacku)
       - name: Merge history + latest
         run: npm run merge:history
 
@@ -60,7 +61,7 @@ jobs:
 
       - name: Sanity check (print counts)
         run: |
-          node -e "const fs=require('fs');const h='public/history.json';const f='public/feed.json';if(fs.existsSync(h)){const j=JSON.parse(fs.readFileSync(h,'utf8'));console.log('drawCount=',j?.meta?.drawCount,'draws=',Array.isArray(j?.draws)?j.draws.length:0);} else {console.log('history.json missing');process.exitCode=1;} if(fs.existsSync(f)){const k=JSON.parse(fs.readFileSync(f,'utf8'));console.log('feed latest date=',k?.draws?.[0]?.date);} else {console.log('feed.json missing');}"
+          node -e "const fs=require('fs');const h='public/history.json';const f='public/feed.json';if(fs.existsSync(h)){const j=JSON.parse(fs.readFileSync(h,'utf8'));console.log('history drawCount=',j?.meta?.drawCount,' firstDate=',j?.draws?.[0]?.date);} else {console.log('history.json missing');process.exitCode=1;} if(fs.existsSync(f)){const k=JSON.parse(fs.readFileSync(f,'utf8'));console.log('feed latest date=',k?.draws?.[0]?.date);} else {console.log('feed.json missing');}"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
