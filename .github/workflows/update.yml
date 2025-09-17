@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "npm"
+          # cache: "npm"  # ❌ odstránené, nemáš package-lock.json
 
       - name: Install deps
         run: npm i
@@ -40,7 +40,7 @@ jobs:
       - name: Merge history + latest
         run: npm run merge:history
 
-      # Diagnostika výstupov (užitočné v logu)
+      # Diagnostika výstupov
       - name: List outputs
         run: ls -la public || true
 
