@@ -27,16 +27,27 @@ jobs:
       - name: Install deps
         run: npm i
 
-      # 0) Stiahni najnovší ťah z webu -> public/feed.json  (existujúci fetch.js v repo)
+      # 0) Stiahni najnovší ťah z webu -> public/feed.json  (existujúci fetch.js / fetch:online)
       - name: Fetch latest online draw
         run: npm run fetch:online
 
+      # DEBUG: ukáž, čo sa stiahlo
+      - name: Show fetched feed (debug)
+        run: |
+          if [ -f public/feed.json ]; then
+            echo "feed.json exists"
+            head -n 60 public/feed.json
+            node -e "const j=require('./public/feed.json'); console.log('FETCHED LATEST DATE =', j?.draws?.[0]?.date)"
+          else
+            echo "feed.json MISSING after fetch:online"
+            exit 1
+          fi
 
-      # 1) Najnovší ťah z CSV (fallback) – nechajme, ale nie je nutné
+      # 1) Najnovší ťah z CSV (fallback)
       - name: Build feed.json (latest from CSV, fallback)
         run: npm run build:latest
 
-      # 2) Prebehni cez CSV (history_*.csv) – môže byť no-op
+      # 2) Prebehni cez CSV (history_*.csv)
       - name: Build history from CSV
         run: npm run build:history
 
