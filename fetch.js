@@ -51,7 +51,7 @@ function parseEuroAmount(text) {
 }
 
 function parseSkDate(d) {
-  // „29. 08. 2025“ -> „2025-08-29“
+  // „29. 08. 2026“ -> „2026-08-29“
   const m = String(d).trim().match(/^(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})$/);
   if (!m) return null;
   const [_, dd, mm, yyyy] = m;
