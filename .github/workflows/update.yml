@@ -42,6 +42,24 @@ jobs:
             echo "feed.json MISSING after fetch:online (will try CSV fallback)"
           fi
 
+      # 0b) Nový ťah z online zdroja zapíš aj do data/history_<ROK>.csv
+      #     (súbor pre nový rok sa vytvorí automaticky)
+      - name: Append fetched draw to CSV
+        run: npm run append:csv
+
+      - name: Commit CSV if changed
+        run: |
+          if [ -n "$(git status --porcelain data)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data
+            git commit -m "Auto: pridaný ťah $(node -p "require('./public/feed.json').draws[0].date")"
+            git pull --rebase --autostash || true
+            git push || echo "Push zlyhal – skúsi sa pri ďalšom behu."
+          else
+            echo "CSV bez zmeny."
+          fi
+
       # 1) CSV fallback – SPUSTIŤ IBA AK feed.json NEEXISTUJE
       - name: Build feed.json (latest from CSV, fallback)
         if: ${{ hashFiles('public/feed.json') == '' }}
