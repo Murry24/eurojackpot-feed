@@ -124,8 +124,9 @@ function main() {
   const mainStats = {}; for (let n=1;n<=50;n++) mainStats[n] = { count:0, lastSeen:null };
   const euroStats = {}; for (let n=1;n<=12;n++) euroStats[n] = { count:0, lastSeen:null };
   for (const d of draws){
-    for (const m of d.main){ mainStats[m].count++; mainStats[m].lastSeen = d.date; }
-    for (const e of d.euro){ euroStats[e].count++; euroStats[e].lastSeen = d.date; }
+    // draws sú zoradené od najnovšieho -> lastSeen nastav len pri prvom výskyte
+    for (const m of d.main){ mainStats[m].count++; mainStats[m].lastSeen ??= d.date; }
+    for (const e of d.euro){ euroStats[e].count++; euroStats[e].lastSeen ??= d.date; }
   }
 
   const out = {
