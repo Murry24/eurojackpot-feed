@@ -15,7 +15,6 @@ const OUT = path.resolve("public/feed.json");
 
 const TIPOS_URLS = [
   "https://www.tipos.sk/loterie/eurojackpot",
-  "https://www.tipos.sk/loterie/eurojackpot/vysledky-a-vyhry",
 ];
 
 const HEADERS = {
@@ -46,6 +45,46 @@ export function parseEurAmount(txt) {
   if (!m) return null;
   const n = parseInt(m[1].replace(/[^\d]/g, ""), 10);
   return Number.isFinite(n) && n > 0 ? n : null;
+}
+
+/** „4 903,20 €“ -> 4903.2 ; „10 000 000,00 €“ -> 10000000 (presne aj s centami). */
+export function parseEurDecimal(txt) {
+  if (!txt) return null;
+  const t = String(txt).replace(/[\u00a0\u202f\s]/g, "").replace("€", "");
+  const m = t.match(/^(\d+)(?:,(\d{1,2}))?$/);
+  if (!m) return null;
+  const v = parseInt(m[1], 10) + (m[2] ? parseInt(m[2].padEnd(2, "0"), 10) / 100 : 0);
+  return Number.isFinite(v) ? v : null;
+}
+
+/**
+ * Výherné poradia z tabuľky v #tab-eurojackpot:
+ * [{ tier: 1, hits: "5+2", amountEUR: 10000000, winners: [{count:1, country:"Švédsko"}], winnersSK: 0 }, ...]
+ * Pri nižších poradiach TIPOS uvádza len výhercov zo Slovenska.
+ */
+export function parsePrizes($) {
+  const prizes = [];
+  $("#tab-eurojackpot table tbody tr").each((_, tr) => {
+    const td = $(tr).find("td");
+    if (td.length < 3) return;
+    const tier = parseInt($(td[0]).text(), 10);
+    const hits = $(td[1]).text().replace(/\s+/g, "");
+    if (!Number.isFinite(tier) || !/^\d\+\d$/.test(hits)) return;
+    const amountEUR = parseEurDecimal($(td[2]).text());
+    const winners = [];
+    $(td[3]).find("span").each((__, sp) => {
+      const s = $(sp).text().replace(/\s+/g, " ").trim();
+      const m = s.match(/^(\d+)\s*x\s*(.+)$/i);
+      if (m) winners.push({ count: parseInt(m[1], 10), country: m[2].trim() });
+    });
+    const winnersSK = winners
+      .filter((w) => /slovensk/i.test(w.country))
+      .reduce((a, w) => a + w.count, 0);
+    prizes.push({ tier, hits, amountEUR, winners, winnersSK });
+  });
+  prizes.sort((a, b) => a.tier - b.tier);
+  // kontrola: musí to byť 12 poradí, inak radšej nič (aby appka neukazovala nezmysly)
+  return prizes.length === 12 ? prizes : [];
 }
 
 function isTueOrFri(iso) {
@@ -104,8 +143,16 @@ export function parseTipos(html) {
     if (v) { jackpotEUR = v; break; }
   }
 
+  let prizes = [];
+  try {
+    prizes = parsePrizes($);
+  } catch {
+    prizes = [];
+  }
+
   return {
     date,
+    prizes,
     main: main.sort((a, b) => a - b),
     euro: euro.sort((a, b) => a - b),
     joker,
@@ -152,6 +199,7 @@ async function main() {
         main: latest.main,
         euro: latest.euro,
         ...(latest.joker ? { joker: latest.joker } : {}),
+        ...(latest.prizes?.length ? { prizes: latest.prizes } : {}),
       },
     ],
     source: "tipos.sk",

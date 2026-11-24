@@ -8,7 +8,8 @@
     "merge:history": "node scripts/mergeHistory.mjs",
     "fetch:online": "node scripts/fetchLatestOnline.mjs",
     "build": "npm run build:latest && npm run build:history && npm run merge:history",
-    "append:csv": "node scripts/appendToCsv.mjs"
+    "append:csv": "node scripts/appendToCsv.mjs",
+    "test": "node --test test/prizes.test.mjs"
   },
   "dependencies": {
     "cheerio": "^1.0.0"
