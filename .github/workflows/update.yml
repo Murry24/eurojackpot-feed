@@ -2,7 +2,11 @@ name: Update Eurojackpot feed
 
 on:
   schedule:
-    - cron: "17,47 * * * *"   # 2× za hodinu
+    # Žrebovanie je v utorok a piatok cca o 20:00 (náš čas). GitHub počíta v UTC
+    # (zima = náš čas −1 h, leto = −2 h) a pri plnom :00 sa často oneskoruje, preto :37.
+    - cron: "37 20 * * 2,5"   # ut+pi 21:37 (v lete 22:37) – hlavný beh po žrebovaní
+    - cron: "37 22 * * 2,5"   # ut+pi 23:37 (v lete 0:37) – kontrolný beh, doplnenie výhier
+    - cron: "37 6 * * 3,6"    # st+so 7:37 (v lete 8:37) – ranná poistka (konečné výhry, výpadky)
   workflow_dispatch: {}
 
 permissions:
