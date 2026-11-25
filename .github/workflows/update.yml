@@ -47,6 +47,10 @@ jobs:
       - name: Append fetched draw to CSV
         run: npm run append:csv
 
+      # Kontrola dát: chybné riadky / chýbajúce ťahy sa ukážu ako varovanie v GitHub Actions
+      - name: Check data
+        run: npm run check:data
+
       - name: Commit CSV if changed
         run: |
           if [ -n "$(git status --porcelain data)" ]; then

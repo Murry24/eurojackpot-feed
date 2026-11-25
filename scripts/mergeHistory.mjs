@@ -140,5 +140,37 @@ function main() {
   ensureDir(OUT_PATH);
   fs.writeFileSync(OUT_PATH, JSON.stringify(out, null, 2), "utf8");
   console.log(`history.json hotové: ${drawCount} záznamov (since ${since})`);
+
+  writeJackpotsAndPrizes();
 }
+
+/**
+ * public/jackpots.json – výška jackpotu pre každý ťah (z data/jackpots.csv)
+ * public/prizes.json   – výherné poradia jednotlivých ťahov (z data/prizes_<ROK>.json)
+ * Oboje sa zbiera postupne od nasadenia, staršie ťahy tieto údaje nemajú.
+ */
+function writeJackpotsAndPrizes() {
+  const jackpots = [];
+  const jf = path.join(DATA_DIR, "jackpots.csv");
+  if (fs.existsSync(jf)) {
+    for (const line of fs.readFileSync(jf, "utf8").split(/\r?\n/)) {
+      const m = line.match(/^(\d{4}-\d{2}-\d{2});(\d+)$/);
+      if (m) jackpots.push({ date: m[1], jackpotEUR: Number(m[2]) });
+    }
+  }
+  jackpots.sort((a, b) => a.date.localeCompare(b.date));
+  fs.writeFileSync(path.resolve("public/jackpots.json"),
+    JSON.stringify({ meta: { count: jackpots.length }, jackpots }), "utf8");
+
+  const prizes = {};
+  if (fs.existsSync(DATA_DIR)) {
+    for (const f of fs.readdirSync(DATA_DIR).filter((x) => /^prizes_\d{4}\.json$/.test(x)).sort()) {
+      Object.assign(prizes, readJsonSafe(path.join(DATA_DIR, f)) ?? {});
+    }
+  }
+  fs.writeFileSync(path.resolve("public/prizes.json"),
+    JSON.stringify({ meta: { count: Object.keys(prizes).length }, prizes }), "utf8");
+  console.log(`jackpots.json: ${jackpots.length}, prizes.json: ${Object.keys(prizes).length} ťahov`);
+}
+
 main();
