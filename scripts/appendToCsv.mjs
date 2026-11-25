@@ -25,26 +25,34 @@ export function nextDrawDate(iso) {
   return null;
 }
 
-/**
- * Jackpot pre najbližší ťah -> data/jackpots.csv (date;jackpotEUR).
- * Ak už riadok pre ten dátum je, prepíše sumu (TIPOS ju môže spresniť).
- */
-function upsertJackpot(feed, drawDate) {
-  const eur = Number(feed?.meta?.nextJackpotEUR);
-  const next = nextDrawDate(drawDate);
-  if (!next || !Number.isFinite(eur) || eur <= 0) return;
-  const file = path.join(DATA_DIR, "jackpots.csv");
+export const ONLINE_SOURCES = ["tipos.sk", "tipos.sk+lotto.de", "lotto.de"];
+
+/** jackpots.csv: dátum ťahu -> jackpot v tom ťahu. */
+export function setJackpotRow(file, date, eur) {
   let rows = [];
   if (fs.existsSync(file)) {
     rows = fs.readFileSync(file, "utf8").split(/\r?\n/).filter((l) => /^\d{4}-\d{2}-\d{2};/.test(l));
   }
   const map = new Map(rows.map((l) => [l.slice(0, 10), l]));
-  const row = `${next};${Math.round(eur)}`;
-  if (map.get(next) === row) return;
-  map.set(next, row);
+  const row = `${date};${Math.round(eur)}`;
+  if (map.get(date) === row) return false;
+  map.set(date, row);
   const out = ["date;jackpotEUR", ...[...map.keys()].sort().map((k) => map.get(k))];
   fs.writeFileSync(file, out.join("\n") + "\n", "utf8");
-  console.log(`appendToCsv: jackpot ${row} -> jackpots.csv`);
+  return true;
+}
+
+/**
+ * Jackpot pre najbližší ťah -> data/jackpots.csv (date;jackpotEUR).
+ * Ak už riadok pre ten dátum je, prepíše sumu (lotto.de/TIPOS ju môže spresniť).
+ */
+function upsertJackpot(feed, drawDate) {
+  const eur = Number(feed?.meta?.nextJackpotEUR);
+  const next = nextDrawDate(drawDate);
+  if (!next || !Number.isFinite(eur) || eur <= 0) return;
+  if (setJackpotRow(path.join(DATA_DIR, "jackpots.csv"), next, eur)) {
+    console.log(`appendToCsv: jackpot ${next};${Math.round(eur)} -> jackpots.csv`);
+  }
 }
 
 /** Výherné poradia ťahu -> data/prizes_<ROK>.json ({ "YYYY-MM-DD": [...] }). */
@@ -54,6 +62,9 @@ function upsertPrizes(d) {
   let all = {};
   try { all = JSON.parse(fs.readFileSync(file, "utf8")); } catch { all = {}; }
   if (JSON.stringify(all[d.date]) === JSON.stringify(d.prizes)) return;
+  // podrobnejšie poradia z TIPOS (krajiny výhercov) neprepisuj súhrnom z lotto.de
+  const onlyEU = (ps) => ps.every((p) => (p.winners ?? []).every((w) => w.country === "EU"));
+  if (all[d.date] && !onlyEU(all[d.date]) && onlyEU(d.prizes)) return;
   all[d.date] = d.prizes;
   const sorted = Object.fromEntries(Object.keys(all).sort().map((k) => [k, all[k]]));
   fs.writeFileSync(file, JSON.stringify(sorted, null, 1) + "\n", "utf8");
@@ -62,7 +73,7 @@ function upsertPrizes(d) {
 
 function main() {
   const feed = readFeed();
-  if (feed?.source !== "tipos.sk") {
+  if (!ONLINE_SOURCES.includes(feed?.source)) {
     console.log("appendToCsv: feed nie je z online zdroja, nič nepripisujem.");
     return;
   }
