@@ -169,26 +169,96 @@ async function fetchHtml(url) {
   return html;
 }
 
+// ---------- lotto.de (oficiálny zdroj, kontrola + záloha) ----------
+export const LOTTODE_URL = "https://www.lotto.de/api/stats/entities.eurojackpot/last";
+
+/** Dátum ťahu v čase Bratislavy/Berlína (drawDate je polnoc CET v ms). */
+function isoInEurope(ms) {
+  return new Date(ms + 3 * 3600 * 1000).toISOString().slice(0, 10);
+}
+
+/** JSON z lotto.de -> { date, main, euro, prizes, jackpotEUR } (alebo vyhodí chybu). */
+export function parseLottoDe(j) {
+  if (!j || !Array.isArray(j.drawNumbersCollection)) throw new Error("lotto.de: chýbajú čísla");
+  const date = isoInEurope(j.drawDate);
+  if (!isTueOrFri(date)) throw new Error(`lotto.de: dátum ${date} nie je utorok/piatok`);
+  const main = j.drawNumbersCollection.filter((x) => x.drawNumberType === 0).map((x) => x.drawNumber).sort((a, b) => a - b);
+  const euro = j.drawNumbersCollection.filter((x) => x.drawNumberType === 1).map((x) => x.drawNumber).sort((a, b) => a - b);
+  if (main.length !== 5 || euro.length !== 2) throw new Error(`lotto.de: main=[${main}] euro=[${euro}]`);
+  if (main.some((n) => n < 1 || n > 50) || euro.some((n) => n < 1 || n > 12)) throw new Error("lotto.de: čísla mimo rozsahu");
+  let prizes = (j.oddsCollection ?? [])
+    .map((o) => ({
+      tier: o.winningClass,
+      hits: String(o.winningClassDescription?.winningClassShortName ?? "").replace(/\s+/g, ""),
+      amountEUR: typeof o.odds === "number" ? o.odds : null,
+      winners: [{ count: o.numberOfWinners ?? 0, country: "EU" }],
+      winnersSK: 0,
+    }))
+    .filter((p) => p.tier >= 1 && p.tier <= 12 && /^\d\+\d$/.test(p.hits))
+    .sort((a, b) => a.tier - b.tier);
+  if (prizes.length !== 12) prizes = [];
+  // jackpotNew = ďalší jackpot v miliónoch (10–120 mil.)
+  const jn = Number(j.jackpotNew);
+  const jackpotEUR = jn >= 10 && jn <= 120 ? jn * 1_000_000 : null;
+  return { date, main, euro, joker: null, prizes, jackpotEUR };
+}
+
+/**
+ * Rozhodne, čo zapísať: TIPOS je hlavný (má Joker a SK výhercov), lotto.de kontroluje.
+ * Vracia { latest, source, warning }.
+ */
+export function pickLatest(tipos, lotto) {
+  if (tipos && lotto) {
+    if (tipos.date === lotto.date) {
+      const same = tipos.main.join() === lotto.main.join() && tipos.euro.join() === lotto.euro.join();
+      if (!same) {
+        return { latest: null, source: null, warning: `NEZHODA ${tipos.date}: TIPOS ${tipos.main}+${tipos.euro} vs lotto.de ${lotto.main}+${lotto.euro} – nič nezapisujem` };
+      }
+      const prizes = tipos.prizes?.length ? tipos.prizes : lotto.prizes;
+      return { latest: { ...tipos, prizes, jackpotEUR: tipos.jackpotEUR ?? lotto.jackpotEUR }, source: "tipos.sk+lotto.de", warning: null };
+    }
+    if (lotto.date > tipos.date) {
+      return { latest: lotto, source: "lotto.de", warning: `TIPOS ešte nemá ťah ${lotto.date}, beriem lotto.de` };
+    }
+    return { latest: tipos, source: "tipos.sk", warning: `lotto.de ešte nemá ťah ${tipos.date} (neoverené)` };
+  }
+  if (tipos) return { latest: tipos, source: "tipos.sk", warning: "lotto.de nedostupné (neoverené)" };
+  if (lotto) return { latest: lotto, source: "lotto.de", warning: "TIPOS nedostupný, beriem lotto.de" };
+  return { latest: null, source: null, warning: "žiadny online zdroj" };
+}
+
 // ---------- main ----------
 async function main() {
-  let latest = null;
+  let tipos = null;
   for (const url of TIPOS_URLS) {
     try {
-      latest = parseTipos(await fetchHtml(url));
+      tipos = parseTipos(await fetchHtml(url));
       console.log("TIPOS OK:", url);
       break;
     } catch (e) {
       console.log("TIPOS zlyhal:", url, "-", e.message);
     }
   }
+  let lotto = null;
+  try {
+    const res = await fetch(`${LOTTODE_URL}?nocache=${Date.now()}`, { headers: { ...HEADERS, Accept: "application/json" } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    lotto = parseLottoDe(await res.json());
+    console.log("lotto.de OK:", lotto.date, lotto.main, lotto.euro);
+  } catch (e) {
+    console.log("lotto.de zlyhal:", e.message);
+  }
+
+  const { latest, source, warning } = pickLatest(tipos, lotto);
+  if (warning) console.log(`::warning::${warning}`);
   if (!latest) {
-    console.log("Žiadne čísla online -> použije sa CSV fallback.");
+    console.log("Žiadne overené čísla online -> použije sa CSV fallback.");
     return;
   }
 
   const out = {
     meta: {
-      since: "2022-01-07",
+      since: "2012-03-23",
       updatedAt: new Date().toISOString(),
       nextJackpotEUR: latest.jackpotEUR,
       nextDrawDate: nextDrawDateFrom(latest.date),
@@ -202,7 +272,7 @@ async function main() {
         ...(latest.prizes?.length ? { prizes: latest.prizes } : {}),
       },
     ],
-    source: "tipos.sk",
+    source,
   };
 
   fs.mkdirSync(path.dirname(OUT), { recursive: true });

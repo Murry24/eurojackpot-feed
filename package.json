@@ -9,7 +9,7 @@
     "fetch:online": "node scripts/fetchLatestOnline.mjs",
     "build": "npm run build:latest && npm run build:history && npm run merge:history",
     "append:csv": "node scripts/appendToCsv.mjs",
-    "test": "node --test test/prizes.test.mjs test/data.test.mjs",
+    "test": "node --test test/prizes.test.mjs test/data.test.mjs test/lottode.test.mjs",
     "check:data": "node scripts/checkData.mjs"
   },
   "dependencies": {
