@@ -1,0 +1,7594 @@
+{
+ "2018-01-05": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 452853.8,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 79915.3,
+   "winners": [
+    {
+     "count": 8,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6659.6,
+   "winners": [
+    {
+     "count": 32,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 289.7,
+   "winners": [
+    {
+     "count": 662,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 125.7,
+   "winners": [
+    {
+     "count": 1186,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 81,
+   "winners": [
+    {
+     "count": 1578,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 27.6,
+   "winners": [
+    {
+     "count": 23850,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 21,
+   "winners": [
+    {
+     "count": 30358,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.9,
+   "winners": [
+    {
+     "count": 54020,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.9,
+   "winners": [
+    {
+     "count": 128698,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.6,
+   "winners": [
+    {
+     "count": 472493,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-01-12": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 2082967.2,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 105023.5,
+   "winners": [
+    {
+     "count": 7,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5569.4,
+   "winners": [
+    {
+     "count": 44,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 263.1,
+   "winners": [
+    {
+     "count": 838,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 94.7,
+   "winners": [
+    {
+     "count": 1811,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 61,
+   "winners": [
+    {
+     "count": 2410,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 19.9,
+   "winners": [
+    {
+     "count": 38213,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19.9,
+   "winners": [
+    {
+     "count": 36706,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.8,
+   "winners": [
+    {
+     "count": 70808,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.2,
+   "winners": [
+    {
+     "count": 205938,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 557705,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-01-19": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 476872.5,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 280513.2,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3790.7,
+   "winners": [
+    {
+     "count": 74,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 231.6,
+   "winners": [
+    {
+     "count": 1090,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 102.3,
+   "winners": [
+    {
+     "count": 1919,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 54,
+   "winners": [
+    {
+     "count": 3113,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 20.1,
+   "winners": [
+    {
+     "count": 43059,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.2,
+   "winners": [
+    {
+     "count": 48899,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.8,
+   "winners": [
+    {
+     "count": 86782,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.9,
+   "winners": [
+    {
+     "count": 219136,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.7,
+   "winners": [
+    {
+     "count": 687775,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-01-26": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1515220.9,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 178261.2,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 2875.1,
+   "winners": [
+    {
+     "count": 124,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 210.8,
+   "winners": [
+    {
+     "count": 1522,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 110.3,
+   "winners": [
+    {
+     "count": 2261,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 45.4,
+   "winners": [
+    {
+     "count": 4706,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 16.5,
+   "winners": [
+    {
+     "count": 66728,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 16,
+   "winners": [
+    {
+     "count": 66577,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.2,
+   "winners": [
+    {
+     "count": 100814,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.2,
+   "winners": [
+    {
+     "count": 338459,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.3,
+   "winners": [
+    {
+     "count": 931749,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-02-02": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 2921419.3,
+   "winners": [
+    {
+     "count": 7,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 236690.9,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4640.9,
+   "winners": [
+    {
+     "count": 102,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 236.8,
+   "winners": [
+    {
+     "count": 1799,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 113.5,
+   "winners": [
+    {
+     "count": 2917,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 68.1,
+   "winners": [
+    {
+     "count": 4165,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 23.5,
+   "winners": [
+    {
+     "count": 62245,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.1,
+   "winners": [
+    {
+     "count": 82832,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.7,
+   "winners": [
+    {
+     "count": 129148,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.1,
+   "winners": [
+    {
+     "count": 330727,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.6,
+   "winners": [
+    {
+     "count": 1186544,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-02-09": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 90000000,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 3520586.1,
+   "winners": [
+    {
+     "count": 8,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 167953.8,
+   "winners": [
+    {
+     "count": 9,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3359,
+   "winners": [
+    {
+     "count": 150,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 270.2,
+   "winners": [
+    {
+     "count": 1678,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 128.3,
+   "winners": [
+    {
+     "count": 2747,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 48.4,
+   "winners": [
+    {
+     "count": 6234,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 16.7,
+   "winners": [
+    {
+     "count": 98760,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 16.7,
+   "winners": [
+    {
+     "count": 85007,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.6,
+   "winners": [
+    {
+     "count": 138572,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 7.9,
+   "winners": [
+    {
+     "count": 496340,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.5,
+   "winners": [
+    {
+     "count": 1272441,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-02-16": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1614745.6,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 81415.7,
+   "winners": [
+    {
+     "count": 7,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4523,
+   "winners": [
+    {
+     "count": 42,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 216.1,
+   "winners": [
+    {
+     "count": 791,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 76,
+   "winners": [
+    {
+     "count": 1807,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 76,
+   "winners": [
+    {
+     "count": 1440,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 30,
+   "winners": [
+    {
+     "count": 19578,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18.2,
+   "winners": [
+    {
+     "count": 31177,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.9,
+   "winners": [
+    {
+     "count": 73274,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.9,
+   "winners": [
+    {
+     "count": 104249,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.6,
+   "winners": [
+    {
+     "count": 417353,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-02-23": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 546393.5,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 144633.5,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6026.3,
+   "winners": [
+    {
+     "count": 32,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 213.7,
+   "winners": [
+    {
+     "count": 812,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 85.4,
+   "winners": [
+    {
+     "count": 1579,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 78.2,
+   "winners": [
+    {
+     "count": 1478,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 28.3,
+   "winners": [
+    {
+     "count": 21106,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19.3,
+   "winners": [
+    {
+     "count": 29958,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.8,
+   "winners": [
+    {
+     "count": 59733,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 13.5,
+   "winners": [
+    {
+     "count": 111170,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.9,
+   "winners": [
+    {
+     "count": 410517,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-03-02": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 440725.6,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 155550.2,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3400,
+   "winners": [
+    {
+     "count": 61,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 264,
+   "winners": [
+    {
+     "count": 707,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 130.4,
+   "winners": [
+    {
+     "count": 1113,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 45.8,
+   "winners": [
+    {
+     "count": 2712,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 17.6,
+   "winners": [
+    {
+     "count": 36448,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.3,
+   "winners": [
+    {
+     "count": 35950,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.5,
+   "winners": [
+    {
+     "count": 57170,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 194201,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.5,
+   "winners": [
+    {
+     "count": 526600,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-03-09": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 42670719.3,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 317860.6,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 112186.1,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 1495.8,
+   "winners": [
+    {
+     "count": 150,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 154,
+   "winners": [
+    {
+     "count": 1311,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 82.7,
+   "winners": [
+    {
+     "count": 1898,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 32.8,
+   "winners": [
+    {
+     "count": 4101,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 14.3,
+   "winners": [
+    {
+     "count": 51537,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 14.3,
+   "winners": [
+    {
+     "count": 44044,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.7,
+   "winners": [
+    {
+     "count": 69914,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 7.2,
+   "winners": [
+    {
+     "count": 252600,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.2,
+   "winners": [
+    {
+     "count": 580152,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-03-16": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 514131.6,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5909.5,
+   "winners": [
+    {
+     "count": 29,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 294.3,
+   "winners": [
+    {
+     "count": 524,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 131.8,
+   "winners": [
+    {
+     "count": 910,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 65.8,
+   "winners": [
+    {
+     "count": 1562,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 23.1,
+   "winners": [
+    {
+     "count": 22988,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18.1,
+   "winners": [
+    {
+     "count": 28338,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.6,
+   "winners": [
+    {
+     "count": 44275,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.6,
+   "winners": [
+    {
+     "count": 125062,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.4,
+   "winners": [
+    {
+     "count": 436602,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-03-23": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 17461478.8,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 425220.6,
+   "winners": [
+    {
+     "count": 7,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 67051.6,
+   "winners": [
+    {
+     "count": 8,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3250.9,
+   "winners": [
+    {
+     "count": 55,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 231.5,
+   "winners": [
+    {
+     "count": 695,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 67.5,
+   "winners": [
+    {
+     "count": 1860,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 67.5,
+   "winners": [
+    {
+     "count": 1581,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 25.5,
+   "winners": [
+    {
+     "count": 21688,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 20.8,
+   "winners": [
+    {
+     "count": 25671,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.3,
+   "winners": [
+    {
+     "count": 63409,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.3,
+   "winners": [
+    {
+     "count": 112488,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.5,
+   "winners": [
+    {
+     "count": 357287,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-03-30": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 343149.1,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 121111.4,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 2523.1,
+   "winners": [
+    {
+     "count": 64,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 178.1,
+   "winners": [
+    {
+     "count": 816,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 91.2,
+   "winners": [
+    {
+     "count": 1239,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 36.2,
+   "winners": [
+    {
+     "count": 2673,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 14.4,
+   "winners": [
+    {
+     "count": 34670,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 14.4,
+   "winners": [
+    {
+     "count": 33582,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.9,
+   "winners": [
+    {
+     "count": 49652,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 7.7,
+   "winners": [
+    {
+     "count": 161496,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.8,
+   "winners": [
+    {
+     "count": 450096,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-04-06": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1406265.3,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 248164.4,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4865.9,
+   "winners": [
+    {
+     "count": 34,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 212.7,
+   "winners": [
+    {
+     "count": 700,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 110.1,
+   "winners": [
+    {
+     "count": 1051,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 39.4,
+   "winners": [
+    {
+     "count": 2514,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 15.8,
+   "winners": [
+    {
+     "count": 33557,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 15.8,
+   "winners": [
+    {
+     "count": 30261,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.7,
+   "winners": [
+    {
+     "count": 48290,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 7.5,
+   "winners": [
+    {
+     "count": 171334,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.5,
+   "winners": [
+    {
+     "count": 417622,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-04-13": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 321585,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 189167.7,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5254.6,
+   "winners": [
+    {
+     "count": 36,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 231.9,
+   "winners": [
+    {
+     "count": 734,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 98.9,
+   "winners": [
+    {
+     "count": 1338,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 72.6,
+   "winners": [
+    {
+     "count": 1562,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 26.4,
+   "winners": [
+    {
+     "count": 22144,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.7,
+   "winners": [
+    {
+     "count": 31956,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.5,
+   "winners": [
+    {
+     "count": 59936,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 13.1,
+   "winners": [
+    {
+     "count": 112236,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8,
+   "winners": [
+    {
+     "count": 451540,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-04-20": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 526678.1,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 79665.6,
+   "winners": [
+    {
+     "count": 7,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3872.6,
+   "winners": [
+    {
+     "count": 48,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 229.4,
+   "winners": [
+    {
+     "count": 729,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 111.4,
+   "winners": [
+    {
+     "count": 1168,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 56.7,
+   "winners": [
+    {
+     "count": 1967,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 20.1,
+   "winners": [
+    {
+     "count": 28582,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.7,
+   "winners": [
+    {
+     "count": 31401,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.9,
+   "winners": [
+    {
+     "count": 50184,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.6,
+   "winners": [
+    {
+     "count": 150904,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.6,
+   "winners": [
+    {
+     "count": 462026,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-04-27": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 440544.4,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 103657.5,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4936,
+   "winners": [
+    {
+     "count": 42,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 342.3,
+   "winners": [
+    {
+     "count": 545,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 113.3,
+   "winners": [
+    {
+     "count": 1280,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 82.8,
+   "winners": [
+    {
+     "count": 1501,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 30,
+   "winners": [
+    {
+     "count": 21369,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 22.5,
+   "winners": [
+    {
+     "count": 27546,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.1,
+   "winners": [
+    {
+     "count": 58772,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 14,
+   "winners": [
+    {
+     "count": 114910,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.3,
+   "winners": [
+    {
+     "count": 421801,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-05-04": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 392271.4,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 138448.7,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4273.1,
+   "winners": [
+    {
+     "count": 54,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 256.3,
+   "winners": [
+    {
+     "count": 810,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 126.1,
+   "winners": [
+    {
+     "count": 1280,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 47.5,
+   "winners": [
+    {
+     "count": 2911,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 17.5,
+   "winners": [
+    {
+     "count": 43438,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.5,
+   "winners": [
+    {
+     "count": 36852,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.4,
+   "winners": [
+    {
+     "count": 60495,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 7.9,
+   "winners": [
+    {
+     "count": 231220,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.9,
+   "winners": [
+    {
+     "count": 548251,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-05-11": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 702147.4,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 53103.5,
+   "winners": [
+    {
+     "count": 14,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4347.6,
+   "winners": [
+    {
+     "count": 57,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 210.4,
+   "winners": [
+    {
+     "count": 1060,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 77.6,
+   "winners": [
+    {
+     "count": 2235,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 63.9,
+   "winners": [
+    {
+     "count": 2326,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 24.7,
+   "winners": [
+    {
+     "count": 31008,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.5,
+   "winners": [
+    {
+     "count": 42287,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12,
+   "winners": [
+    {
+     "count": 88705,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.9,
+   "winners": [
+    {
+     "count": 161111,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.2,
+   "winners": [
+    {
+     "count": 576865,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-05-18": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 632321.7,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 127527,
+   "winners": [
+    {
+     "count": 7,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4959.3,
+   "winners": [
+    {
+     "count": 60,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 245.4,
+   "winners": [
+    {
+     "count": 1091,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 113.7,
+   "winners": [
+    {
+     "count": 1831,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 48,
+   "winners": [
+    {
+     "count": 3715,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 17.5,
+   "winners": [
+    {
+     "count": 53615,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.5,
+   "winners": [
+    {
+     "count": 49864,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.3,
+   "winners": [
+    {
+     "count": 83385,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.2,
+   "winners": [
+    {
+     "count": 282921,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8,
+   "winners": [
+    {
+     "count": 705949,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-05-25": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 2327357.8,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 97570.3,
+   "winners": [
+    {
+     "count": 11,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4310.3,
+   "winners": [
+    {
+     "count": 83,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 300.6,
+   "winners": [
+    {
+     "count": 1071,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 136.5,
+   "winners": [
+    {
+     "count": 1834,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 58.7,
+   "winners": [
+    {
+     "count": 3654,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 19.8,
+   "winners": [
+    {
+     "count": 58490,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19.8,
+   "winners": [
+    {
+     "count": 51579,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 17.6,
+   "winners": [
+    {
+     "count": 86930,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.6,
+   "winners": [
+    {
+     "count": 335422,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.6,
+   "winners": [
+    {
+     "count": 782101,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-06-01": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 7318844.8,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 91471.7,
+   "winners": [
+    {
+     "count": 13,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3330.9,
+   "winners": [
+    {
+     "count": 119,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 257,
+   "winners": [
+    {
+     "count": 1388,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 114.8,
+   "winners": [
+    {
+     "count": 2416,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 42.1,
+   "winners": [
+    {
+     "count": 5644,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 15.9,
+   "winners": [
+    {
+     "count": 85289,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 15.9,
+   "winners": [
+    {
+     "count": 66097,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.7,
+   "winners": [
+    {
+     "count": 107953,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 7.5,
+   "winners": [
+    {
+     "count": 444634,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.5,
+   "winners": [
+    {
+     "count": 971800,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-06-08": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 4673083.2,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 96190.8,
+   "winners": [
+    {
+     "count": 13,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4683.4,
+   "winners": [
+    {
+     "count": 89,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 212.6,
+   "winners": [
+    {
+     "count": 1764,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 78.7,
+   "winners": [
+    {
+     "count": 3703,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 74.6,
+   "winners": [
+    {
+     "count": 3349,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 27.4,
+   "winners": [
+    {
+     "count": 47103,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18.1,
+   "winners": [
+    {
+     "count": 68760,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.6,
+   "winners": [
+    {
+     "count": 146021,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.6,
+   "winners": [
+    {
+     "count": 252881,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.4,
+   "winners": [
+    {
+     "count": 941723,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-06-15": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 853136.9,
+   "winners": [
+    {
+     "count": 28,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 30927.9,
+   "winners": [
+    {
+     "count": 41,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3019.1,
+   "winners": [
+    {
+     "count": 140,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 112.4,
+   "winners": [
+    {
+     "count": 3383,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 49.5,
+   "winners": [
+    {
+     "count": 6656,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 49.5,
+   "winners": [
+    {
+     "count": 4438,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 24.1,
+   "winners": [
+    {
+     "count": 54351,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 14.5,
+   "winners": [
+    {
+     "count": 87027,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 11.5,
+   "winners": [
+    {
+     "count": 168026,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.5,
+   "winners": [
+    {
+     "count": 273714,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.6,
+   "winners": [
+    {
+     "count": 1055581,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-06-22": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 2173407.1,
+   "winners": [
+    {
+     "count": 11,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 63178.4,
+   "winners": [
+    {
+     "count": 20,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4528.9,
+   "winners": [
+    {
+     "count": 93,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 197.7,
+   "winners": [
+    {
+     "count": 1917,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 104.6,
+   "winners": [
+    {
+     "count": 2817,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 60.7,
+   "winners": [
+    {
+     "count": 4160,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 23.3,
+   "winners": [
+    {
+     "count": 55962,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 16.3,
+   "winners": [
+    {
+     "count": 77501,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.9,
+   "winners": [
+    {
+     "count": 121233,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.2,
+   "winners": [
+    {
+     "count": 291643,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.4,
+   "winners": [
+    {
+     "count": 1083078,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-06-29": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 5966268.7,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 158045.3,
+   "winners": [
+    {
+     "count": 8,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5139.6,
+   "winners": [
+    {
+     "count": 82,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 283.2,
+   "winners": [
+    {
+     "count": 1339,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 125.7,
+   "winners": [
+    {
+     "count": 2346,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 60.9,
+   "winners": [
+    {
+     "count": 4152,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 20.7,
+   "winners": [
+    {
+     "count": 63113,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 20.4,
+   "winners": [
+    {
+     "count": 61831,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.7,
+   "winners": [
+    {
+     "count": 108032,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.4,
+   "winners": [
+    {
+     "count": 349323,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.5,
+   "winners": [
+    {
+     "count": 945584,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-07-06": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 45000000,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 999914.6,
+   "winners": [
+    {
+     "count": 24,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 43966.7,
+   "winners": [
+    {
+     "count": 29,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 2225.1,
+   "winners": [
+    {
+     "count": 191,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 170.8,
+   "winners": [
+    {
+     "count": 2239,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 69.7,
+   "winners": [
+    {
+     "count": 4264,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 38.9,
+   "winners": [
+    {
+     "count": 6554,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 16.5,
+   "winners": [
+    {
+     "count": 79772,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 15,
+   "winners": [
+    {
+     "count": 84568,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.2,
+   "winners": [
+    {
+     "count": 137427,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8,
+   "winners": [
+    {
+     "count": 414050,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.5,
+   "winners": [
+    {
+     "count": 1078148,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-07-13": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 896645.6,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 210975.4,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4136.7,
+   "winners": [
+    {
+     "count": 51,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 226.3,
+   "winners": [
+    {
+     "count": 839,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 105.4,
+   "winners": [
+    {
+     "count": 1400,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 50,
+   "winners": [
+    {
+     "count": 2528,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 18.5,
+   "winners": [
+    {
+     "count": 35264,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17,
+   "winners": [
+    {
+     "count": 37217,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.4,
+   "winners": [
+    {
+     "count": 62888,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9,
+   "winners": [
+    {
+     "count": 182796,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.6,
+   "winners": [
+    {
+     "count": 523897,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-07-20": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 22736889.8,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 582528.3,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 308397.3,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 7342.7,
+   "winners": [
+    {
+     "count": 28,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 275.3,
+   "winners": [
+    {
+     "count": 672,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 130.9,
+   "winners": [
+    {
+     "count": 1099,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 62.5,
+   "winners": [
+    {
+     "count": 1972,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 23.3,
+   "winners": [
+    {
+     "count": 27242,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.4,
+   "winners": [
+    {
+     "count": 35361,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.2,
+   "winners": [
+    {
+     "count": 58022,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11,
+   "winners": [
+    {
+     "count": 144974,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.9,
+   "winners": [
+    {
+     "count": 495097,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-07-27": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1555928.4,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 91525.2,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5084.7,
+   "winners": [
+    {
+     "count": 36,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 315,
+   "winners": [
+    {
+     "count": 523,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 155.8,
+   "winners": [
+    {
+     "count": 822,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 61.2,
+   "winners": [
+    {
+     "count": 1793,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 20.2,
+   "winners": [
+    {
+     "count": 29839,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 20.2,
+   "winners": [
+    {
+     "count": 25294,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 18.7,
+   "winners": [
+    {
+     "count": 42025,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.5,
+   "winners": [
+    {
+     "count": 181840,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.5,
+   "winners": [
+    {
+     "count": 393133,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-08-03": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 332426.4,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 41902.4,
+   "winners": [
+    {
+     "count": 14,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 2642.4,
+   "winners": [
+    {
+     "count": 74,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 122.7,
+   "winners": [
+    {
+     "count": 1434,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 65.2,
+   "winners": [
+    {
+     "count": 2098,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 53.5,
+   "winners": [
+    {
+     "count": 2192,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 21.4,
+   "winners": [
+    {
+     "count": 28299,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 12.7,
+   "winners": [
+    {
+     "count": 45967,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 11.7,
+   "winners": [
+    {
+     "count": 71422,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.9,
+   "winners": [
+    {
+     "count": 139206,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.6,
+   "winners": [
+    {
+     "count": 559530,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-08-10": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 578753.6,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 68088.6,
+   "winners": [
+    {
+     "count": 9,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4255.5,
+   "winners": [
+    {
+     "count": 48,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 193.1,
+   "winners": [
+    {
+     "count": 952,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 94.8,
+   "winners": [
+    {
+     "count": 1507,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 60.5,
+   "winners": [
+    {
+     "count": 2025,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 22.5,
+   "winners": [
+    {
+     "count": 28066,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 14.7,
+   "winners": [
+    {
+     "count": 41635,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.3,
+   "winners": [
+    {
+     "count": 65820,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.2,
+   "winners": [
+    {
+     "count": 142116,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.9,
+   "winners": [
+    {
+     "count": 565204,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-08-17": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 369648.5,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 130464.1,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4832,
+   "winners": [
+    {
+     "count": 45,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 222.8,
+   "winners": [
+    {
+     "count": 878,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 111.8,
+   "winners": [
+    {
+     "count": 1361,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 58,
+   "winners": [
+    {
+     "count": 2246,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 22.2,
+   "winners": [
+    {
+     "count": 30329,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 16.4,
+   "winners": [
+    {
+     "count": 39737,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.6,
+   "winners": [
+    {
+     "count": 59752,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.5,
+   "winners": [
+    {
+     "count": 160574,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.4,
+   "winners": [
+    {
+     "count": 557957,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-08-24": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1002723.6,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 101114.9,
+   "winners": [
+    {
+     "count": 7,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5486.8,
+   "winners": [
+    {
+     "count": 43,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 254.9,
+   "winners": [
+    {
+     "count": 833,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 100.4,
+   "winners": [
+    {
+     "count": 1644,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 61.1,
+   "winners": [
+    {
+     "count": 2316,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 22.7,
+   "winners": [
+    {
+     "count": 32153,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.9,
+   "winners": [
+    {
+     "count": 39462,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.7,
+   "winners": [
+    {
+     "count": 73697,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.1,
+   "winners": [
+    {
+     "count": 165737,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.2,
+   "winners": [
+    {
+     "count": 545474,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-08-31": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 30920808.3,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 96645.8,
+   "winners": [
+    {
+     "count": 23,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 24516.7,
+   "winners": [
+    {
+     "count": 32,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 1520.4,
+   "winners": [
+    {
+     "count": 172,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 113.8,
+   "winners": [
+    {
+     "count": 2068,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 47.4,
+   "winners": [
+    {
+     "count": 3855,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 32.2,
+   "winners": [
+    {
+     "count": 4858,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 14.4,
+   "winners": [
+    {
+     "count": 55961,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 12.4,
+   "winners": [
+    {
+     "count": 63099,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 10.6,
+   "winners": [
+    {
+     "count": 105519,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 7.8,
+   "winners": [
+    {
+     "count": 258765,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.7,
+   "winners": [
+    {
+     "count": 740989,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-09-07": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 522991.8,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 55375.6,
+   "winners": [
+    {
+     "count": 10,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4394.8,
+   "winners": [
+    {
+     "count": 42,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 222.9,
+   "winners": [
+    {
+     "count": 745,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 83.6,
+   "winners": [
+    {
+     "count": 1545,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 61.2,
+   "winners": [
+    {
+     "count": 1809,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 22.8,
+   "winners": [
+    {
+     "count": 25008,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18.2,
+   "winners": [
+    {
+     "count": 30269,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.6,
+   "winners": [
+    {
+     "count": 62653,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.8,
+   "winners": [
+    {
+     "count": 133214,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 424482,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-09-14": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1634210,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 96130,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6008.1,
+   "winners": [
+    {
+     "count": 32,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 239.6,
+   "winners": [
+    {
+     "count": 722,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 106.3,
+   "winners": [
+    {
+     "count": 1265,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 58.4,
+   "winners": [
+    {
+     "count": 1972,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 22.2,
+   "winners": [
+    {
+     "count": 26757,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18.5,
+   "winners": [
+    {
+     "count": 31016,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.1,
+   "winners": [
+    {
+     "count": 54728,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.2,
+   "winners": [
+    {
+     "count": 146612,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 439972,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-09-21": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 580434.1,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 122915.4,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6207.8,
+   "winners": [
+    {
+     "count": 33,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 304.2,
+   "winners": [
+    {
+     "count": 606,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 123.6,
+   "winners": [
+    {
+     "count": 1160,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 73.4,
+   "winners": [
+    {
+     "count": 1674,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 26,
+   "winners": [
+    {
+     "count": 24356,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 21.1,
+   "winners": [
+    {
+     "count": 29093,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15,
+   "winners": [
+    {
+     "count": 58651,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.3,
+   "winners": [
+    {
+     "count": 129638,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.8,
+   "winners": [
+    {
+     "count": 443541,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-09-28": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 454542.6,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 106951.2,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5217.1,
+   "winners": [
+    {
+     "count": 41,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 224.3,
+   "winners": [
+    {
+     "count": 858,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 72.3,
+   "winners": [
+    {
+     "count": 2115,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 72.3,
+   "winners": [
+    {
+     "count": 1729,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 27.9,
+   "winners": [
+    {
+     "count": 23764,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19.4,
+   "winners": [
+    {
+     "count": 32992,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13,
+   "winners": [
+    {
+     "count": 73835,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 13,
+   "winners": [
+    {
+     "count": 124212,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.4,
+   "winners": [
+    {
+     "count": 483396,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-10-05": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 493312.5,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 87055.1,
+   "winners": [
+    {
+     "count": 8,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 2638,
+   "winners": [
+    {
+     "count": 88,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 233.9,
+   "winners": [
+    {
+     "count": 893,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 108.8,
+   "winners": [
+    {
+     "count": 1493,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 49,
+   "winners": [
+    {
+     "count": 2838,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 17.6,
+   "winners": [
+    {
+     "count": 40871,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.1,
+   "winners": [
+    {
+     "count": 40660,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.4,
+   "winners": [
+    {
+     "count": 64815,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 216385,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.7,
+   "winners": [
+    {
+     "count": 570657,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-10-12": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 2226367.1,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 130962.7,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5037,
+   "winners": [
+    {
+     "count": 52,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 317.6,
+   "winners": [
+    {
+     "count": 742,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 137.6,
+   "winners": [
+    {
+     "count": 1332,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 69.8,
+   "winners": [
+    {
+     "count": 2251,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 22.2,
+   "winners": [
+    {
+     "count": 37028,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 22.2,
+   "winners": [
+    {
+     "count": 34888,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 17.8,
+   "winners": [
+    {
+     "count": 63032,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.7,
+   "winners": [
+    {
+     "count": 210576,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.2,
+   "winners": [
+    {
+     "count": 541693,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-10-19": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 172489.9,
+   "winners": [
+    {
+     "count": 15,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 48062.2,
+   "winners": [
+    {
+     "count": 19,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5636.9,
+   "winners": [
+    {
+     "count": 54,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 176.1,
+   "winners": [
+    {
+     "count": 1555,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 95.8,
+   "winners": [
+    {
+     "count": 2222,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 61.7,
+   "winners": [
+    {
+     "count": 2957,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 22.5,
+   "winners": [
+    {
+     "count": 41880,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 14.3,
+   "winners": [
+    {
+     "count": 63467,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.3,
+   "winners": [
+    {
+     "count": 91322,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.9,
+   "winners": [
+    {
+     "count": 216577,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.8,
+   "winners": [
+    {
+     "count": 845533,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-10-26": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1234568.5,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 121221.4,
+   "winners": [
+    {
+     "count": 9,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6380,
+   "winners": [
+    {
+     "count": 57,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 250.6,
+   "winners": [
+    {
+     "count": 1306,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 100.3,
+   "winners": [
+    {
+     "count": 2538,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 69,
+   "winners": [
+    {
+     "count": 3159,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 24.4,
+   "winners": [
+    {
+     "count": 46058,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.5,
+   "winners": [
+    {
+     "count": 62243,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.2,
+   "winners": [
+    {
+     "count": 127997,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.1,
+   "winners": [
+    {
+     "count": 234078,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8,
+   "winners": [
+    {
+     "count": 863017,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-11-02": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 3100089.5,
+   "winners": [
+    {
+     "count": 7,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 77675.6,
+   "winners": [
+    {
+     "count": 15,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6164.7,
+   "winners": [
+    {
+     "count": 63,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 220.1,
+   "winners": [
+    {
+     "count": 1588,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 79,
+   "winners": [
+    {
+     "count": 3438,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 74.7,
+   "winners": [
+    {
+     "count": 3116,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 27.1,
+   "winners": [
+    {
+     "count": 44363,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.8,
+   "winners": [
+    {
+     "count": 65209,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.5,
+   "winners": [
+    {
+     "count": 139928,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.5,
+   "winners": [
+    {
+     "count": 235787,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 891051,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-11-09": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 7529076.4,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 120638.7,
+   "winners": [
+    {
+     "count": 10,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3323.3,
+   "winners": [
+    {
+     "count": 121,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 245.3,
+   "winners": [
+    {
+     "count": 1475,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 122.6,
+   "winners": [
+    {
+     "count": 2295,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 55,
+   "winners": [
+    {
+     "count": 4383,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 19.4,
+   "winners": [
+    {
+     "count": 64070,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18.4,
+   "winners": [
+    {
+     "count": 65527,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.4,
+   "winners": [
+    {
+     "count": 105230,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.7,
+   "winners": [
+    {
+     "count": 356979,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8,
+   "winners": [
+    {
+     "count": 959892,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-11-16": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 18000000,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 3848561.5,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 122866.7,
+   "winners": [
+    {
+     "count": 10,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4934.4,
+   "winners": [
+    {
+     "count": 83,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 243.3,
+   "winners": [
+    {
+     "count": 1515,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 118.3,
+   "winners": [
+    {
+     "count": 2423,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 61.8,
+   "winners": [
+    {
+     "count": 3971,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 21.2,
+   "winners": [
+    {
+     "count": 59734,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.9,
+   "winners": [
+    {
+     "count": 68336,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.3,
+   "winners": [
+    {
+     "count": 114718,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.2,
+   "winners": [
+    {
+     "count": 311906,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.7,
+   "winners": [
+    {
+     "count": 1003858,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-11-23": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 291386.5,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 123410.7,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5713.4,
+   "winners": [
+    {
+     "count": 36,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 274.2,
+   "winners": [
+    {
+     "count": 675,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 112.7,
+   "winners": [
+    {
+     "count": 1277,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 76.7,
+   "winners": [
+    {
+     "count": 1608,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 26,
+   "winners": [
+    {
+     "count": 24432,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 20.8,
+   "winners": [
+    {
+     "count": 29560,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.8,
+   "winners": [
+    {
+     "count": 59410,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.1,
+   "winners": [
+    {
+     "count": 131861,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.9,
+   "winners": [
+    {
+     "count": 438716,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-11-30": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 609436.5,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 609436.5,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4710.6,
+   "winners": [
+    {
+     "count": 45,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 254.7,
+   "winners": [
+    {
+     "count": 749,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 121.8,
+   "winners": [
+    {
+     "count": 1218,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 66.5,
+   "winners": [
+    {
+     "count": 1912,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 23,
+   "winners": [
+    {
+     "count": 28461,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.4,
+   "winners": [
+    {
+     "count": 36370,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.7,
+   "winners": [
+    {
+     "count": 54385,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.7,
+   "winners": [
+    {
+     "count": 153245,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.7,
+   "winners": [
+    {
+     "count": 525796,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-12-07": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 33208146.8,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 951428.5,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 83949.5,
+   "winners": [
+    {
+     "count": 8,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4223.8,
+   "winners": [
+    {
+     "count": 53,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 256.6,
+   "winners": [
+    {
+     "count": 785,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 109.8,
+   "winners": [
+    {
+     "count": 1427,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 56,
+   "winners": [
+    {
+     "count": 2397,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 19.6,
+   "winners": [
+    {
+     "count": 35345,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19.6,
+   "winners": [
+    {
+     "count": 34070,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.5,
+   "winners": [
+    {
+     "count": 58182,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.2,
+   "winners": [
+    {
+     "count": 189063,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.4,
+   "winners": [
+    {
+     "count": 504884,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-12-14": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 10000000,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 547867.3,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 52735.8,
+   "winners": [
+    {
+     "count": 11,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5371.2,
+   "winners": [
+    {
+     "count": 36,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 292.4,
+   "winners": [
+    {
+     "count": 595,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 91.5,
+   "winners": [
+    {
+     "count": 1478,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 74.5,
+   "winners": [
+    {
+     "count": 1556,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 29.1,
+   "winners": [
+    {
+     "count": 20580,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 20.2,
+   "winners": [
+    {
+     "count": 28647,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.2,
+   "winners": [
+    {
+     "count": 65254,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 13.2,
+   "winners": [
+    {
+     "count": 110665,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.2,
+   "winners": [
+    {
+     "count": 399159,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-12-21": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 426736.1,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 86064.4,
+   "winners": [
+    {
+     "count": 7,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 7172,
+   "winners": [
+    {
+     "count": 28,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 253.4,
+   "winners": [
+    {
+     "count": 713,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 107.2,
+   "winners": [
+    {
+     "count": 1311,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 74.6,
+   "winners": [
+    {
+     "count": 1614,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 26.9,
+   "winners": [
+    {
+     "count": 23115,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 20.8,
+   "winners": [
+    {
+     "count": 28963,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.9,
+   "winners": [
+    {
+     "count": 57685,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.6,
+   "winners": [
+    {
+     "count": 123673,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.1,
+   "winners": [
+    {
+     "count": 420852,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2018-12-28": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 9606434.2,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 590011.2,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 156179.4,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4338.3,
+   "winners": [
+    {
+     "count": 48,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 277.2,
+   "winners": [
+    {
+     "count": 676,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 112.3,
+   "winners": [
+    {
+     "count": 1297,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 78.2,
+   "winners": [
+    {
+     "count": 1597,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 27.7,
+   "winners": [
+    {
+     "count": 23251,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 20.1,
+   "winners": [
+    {
+     "count": 30932,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.6,
+   "winners": [
+    {
+     "count": 57266,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 13.2,
+   "winners": [
+    {
+     "count": 122952,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.5,
+   "winners": [
+    {
+     "count": 463100,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ]
+}

@@ -1,0 +1,7740 @@
+{
+ "2016-01-01": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 49685851.5,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 423474.3,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 298923,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4529.1,
+   "winners": [
+    {
+     "count": 44,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 290.2,
+   "winners": [
+    {
+     "count": 618,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 137.8,
+   "winners": [
+    {
+     "count": 1012,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 61.4,
+   "winners": [
+    {
+     "count": 1946,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 21.3,
+   "winners": [
+    {
+     "count": 28874,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19.7,
+   "winners": [
+    {
+     "count": 30216,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 17,
+   "winners": [
+    {
+     "count": 50290,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10,
+   "winners": [
+    {
+     "count": 154105,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8,
+   "winners": [
+    {
+     "count": 470848,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-01-08": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 514927.7,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 181739.2,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4487.3,
+   "winners": [
+    {
+     "count": 27,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 260.2,
+   "winners": [
+    {
+     "count": 419,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 119.7,
+   "winners": [
+    {
+     "count": 708,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 45.1,
+   "winners": [
+    {
+     "count": 1611,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 16.5,
+   "winners": [
+    {
+     "count": 23778,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 16.5,
+   "winners": [
+    {
+     "count": 20842,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.6,
+   "winners": [
+    {
+     "count": 35518,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 7.5,
+   "winners": [
+    {
+     "count": 130001,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.5,
+   "winners": [
+    {
+     "count": 303153,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-01-15": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1080486.7,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 47668.5,
+   "winners": [
+    {
+     "count": 8,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5526.7,
+   "winners": [
+    {
+     "count": 23,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 242.3,
+   "winners": [
+    {
+     "count": 472,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 81,
+   "winners": [
+    {
+     "count": 1098,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 75.5,
+   "winners": [
+    {
+     "count": 1010,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 27.2,
+   "winners": [
+    {
+     "count": 14479,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19.3,
+   "winners": [
+    {
+     "count": 19730,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.9,
+   "winners": [
+    {
+     "count": 42561,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.9,
+   "winners": [
+    {
+     "count": 76597,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.8,
+   "winners": [
+    {
+     "count": 275643,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-01-22": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 19379323.3,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1134075.7,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 400262,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5336.8,
+   "winners": [
+    {
+     "count": 25,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 265.6,
+   "winners": [
+    {
+     "count": 452,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 108.2,
+   "winners": [
+    {
+     "count": 863,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 59.8,
+   "winners": [
+    {
+     "count": 1338,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 21.6,
+   "winners": [
+    {
+     "count": 19075,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.5,
+   "winners": [
+    {
+     "count": 22853,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.7,
+   "winners": [
+    {
+     "count": 41616,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.7,
+   "winners": [
+    {
+     "count": 97255,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.8,
+   "winners": [
+    {
+     "count": 326478,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-01-29": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 122354.2,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6117.7,
+   "winners": [
+    {
+     "count": 20,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 292,
+   "winners": [
+    {
+     "count": 377,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 134.2,
+   "winners": [
+    {
+     "count": 638,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 80.5,
+   "winners": [
+    {
+     "count": 911,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 25.3,
+   "winners": [
+    {
+     "count": 14934,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 22.9,
+   "winners": [
+    {
+     "count": 15997,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 17.8,
+   "winners": [
+    {
+     "count": 29393,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.1,
+   "winners": [
+    {
+     "count": 85240,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.4,
+   "winners": [
+    {
+     "count": 246895,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-02-05": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 2111427.2,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 378146.9,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5252,
+   "winners": [
+    {
+     "count": 24,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 239.3,
+   "winners": [
+    {
+     "count": 474,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 124.2,
+   "winners": [
+    {
+     "count": 710,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 45.8,
+   "winners": [
+    {
+     "count": 1650,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 16.9,
+   "winners": [
+    {
+     "count": 24409,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 16.9,
+   "winners": [
+    {
+     "count": 20843,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16,
+   "winners": [
+    {
+     "count": 33769,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8,
+   "winners": [
+    {
+     "count": 122582,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.7,
+   "winners": [
+    {
+     "count": 310198,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-02-12": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 556439.9,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 49097.6,
+   "winners": [
+    {
+     "count": 8,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4675.9,
+   "winners": [
+    {
+     "count": 28,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 208.9,
+   "winners": [
+    {
+     "count": 564,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 93.2,
+   "winners": [
+    {
+     "count": 983,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 73,
+   "winners": [
+    {
+     "count": 1075,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 25.2,
+   "winners": [
+    {
+     "count": 16090,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.1,
+   "winners": [
+    {
+     "count": 22896,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.9,
+   "winners": [
+    {
+     "count": 40360,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.1,
+   "winners": [
+    {
+     "count": 83823,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.9,
+   "winners": [
+    {
+     "count": 315189,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-02-19": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1189732.5,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 209952.8,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3332.5,
+   "winners": [
+    {
+     "count": 42,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 205.1,
+   "winners": [
+    {
+     "count": 614,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 107.1,
+   "winners": [
+    {
+     "count": 914,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 54.9,
+   "winners": [
+    {
+     "count": 1529,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 20,
+   "winners": [
+    {
+     "count": 21597,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 15.2,
+   "winners": [
+    {
+     "count": 27603,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.8,
+   "winners": [
+    {
+     "count": 40538,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.9,
+   "winners": [
+    {
+     "count": 109864,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.8,
+   "winners": [
+    {
+     "count": 391897,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-02-26": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 270193.8,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 47681.2,
+   "winners": [
+    {
+     "count": 10,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4966.7,
+   "winners": [
+    {
+     "count": 32,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 260.5,
+   "winners": [
+    {
+     "count": 549,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 99.7,
+   "winners": [
+    {
+     "count": 1115,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 78.3,
+   "winners": [
+    {
+     "count": 1217,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 28.1,
+   "winners": [
+    {
+     "count": 17520,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18.1,
+   "winners": [
+    {
+     "count": 26329,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.4,
+   "winners": [
+    {
+     "count": 50889,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 13.3,
+   "winners": [
+    {
+     "count": 92525,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.1,
+   "winners": [
+    {
+     "count": 371275,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-03-04": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 198145.8,
+   "winners": [
+    {
+     "count": 8,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 46622.5,
+   "winners": [
+    {
+     "count": 12,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3967.8,
+   "winners": [
+    {
+     "count": 47,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 151.2,
+   "winners": [
+    {
+     "count": 1110,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 65.6,
+   "winners": [
+    {
+     "count": 1987,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 61.6,
+   "winners": [
+    {
+     "count": 1814,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 24.4,
+   "winners": [
+    {
+     "count": 23608,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 14.4,
+   "winners": [
+    {
+     "count": 38695,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.1,
+   "winners": [
+    {
+     "count": 71466,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.1,
+   "winners": [
+    {
+     "count": 113663,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.3,
+   "winners": [
+    {
+     "count": 487156,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-03-11": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 931858.5,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 219260.8,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6090.5,
+   "winners": [
+    {
+     "count": 36,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 289.7,
+   "winners": [
+    {
+     "count": 681,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 130.1,
+   "winners": [
+    {
+     "count": 1179,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 59.3,
+   "winners": [
+    {
+     "count": 2216,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 20.2,
+   "winners": [
+    {
+     "count": 34394,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 20.2,
+   "winners": [
+    {
+     "count": 31594,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 17.1,
+   "winners": [
+    {
+     "count": 55072,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.7,
+   "winners": [
+    {
+     "count": 195165,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.6,
+   "winners": [
+    {
+     "count": 482692,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-03-18": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 726652.3,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 192349.1,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3885.8,
+   "winners": [
+    {
+     "count": 66,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 299.3,
+   "winners": [
+    {
+     "count": 771,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 132.1,
+   "winners": [
+    {
+     "count": 1359,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 54.3,
+   "winners": [
+    {
+     "count": 2833,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 18.9,
+   "winners": [
+    {
+     "count": 44917,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18.9,
+   "winners": [
+    {
+     "count": 37514,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.5,
+   "winners": [
+    {
+     "count": 66523,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.4,
+   "winners": [
+    {
+     "count": 262079,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.4,
+   "winners": [
+    {
+     "count": 552347,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-03-25": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 76766891.4,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 421735.3,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 99231.8,
+   "winners": [
+    {
+     "count": 9,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3344.8,
+   "winners": [
+    {
+     "count": 89,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 187.7,
+   "winners": [
+    {
+     "count": 1427,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 99.2,
+   "winners": [
+    {
+     "count": 2099,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 50.7,
+   "winners": [
+    {
+     "count": 3523,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 20.3,
+   "winners": [
+    {
+     "count": 45268,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 14.8,
+   "winners": [
+    {
+     "count": 61181,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.8,
+   "winners": [
+    {
+     "count": 85173,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.1,
+   "winners": [
+    {
+     "count": 228859,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7,
+   "winners": [
+    {
+     "count": 810355,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-04-01": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1147821.3,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 202556.7,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 7943.4,
+   "winners": [
+    {
+     "count": 17,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 294.2,
+   "winners": [
+    {
+     "count": 413,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 111.2,
+   "winners": [
+    {
+     "count": 850,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 96.8,
+   "winners": [
+    {
+     "count": 837,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 32.5,
+   "winners": [
+    {
+     "count": 12865,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 21.9,
+   "winners": [
+    {
+     "count": 18461,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.7,
+   "winners": [
+    {
+     "count": 36863,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 15.2,
+   "winners": [
+    {
+     "count": 69149,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.2,
+   "winners": [
+    {
+     "count": 280055,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-04-08": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 578888.2,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 204313.5,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5448.3,
+   "winners": [
+    {
+     "count": 25,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 268.8,
+   "winners": [
+    {
+     "count": 456,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 141.2,
+   "winners": [
+    {
+     "count": 675,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 61,
+   "winners": [
+    {
+     "count": 1338,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 21.9,
+   "winners": [
+    {
+     "count": 19211,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19.3,
+   "winners": [
+    {
+     "count": 21145,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 17.5,
+   "winners": [
+    {
+     "count": 33441,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.2,
+   "winners": [
+    {
+     "count": 103988,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.5,
+   "winners": [
+    {
+     "count": 303055,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-04-15": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 615935.8,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 144926,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6038.5,
+   "winners": [
+    {
+     "count": 24,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 233.7,
+   "winners": [
+    {
+     "count": 558,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 115.9,
+   "winners": [
+    {
+     "count": 875,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 67.1,
+   "winners": [
+    {
+     "count": 1294,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 23.7,
+   "winners": [
+    {
+     "count": 18926,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.7,
+   "winners": [
+    {
+     "count": 24509,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.7,
+   "winners": [
+    {
+     "count": 39534,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.4,
+   "winners": [
+    {
+     "count": 98401,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.6,
+   "winners": [
+    {
+     "count": 362393,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-04-22": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 29071164.3,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 426725.4,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 225913.4,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5020.2,
+   "winners": [
+    {
+     "count": 30,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 303.2,
+   "winners": [
+    {
+     "count": 447,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 117.2,
+   "winners": [
+    {
+     "count": 899,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 75.1,
+   "winners": [
+    {
+     "count": 1203,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 26.7,
+   "winners": [
+    {
+     "count": 17473,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19.7,
+   "winners": [
+    {
+     "count": 22920,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.7,
+   "winners": [
+    {
+     "count": 41216,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12,
+   "winners": [
+    {
+     "count": 97355,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 344213,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-04-29": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 544175,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 192061.7,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6402,
+   "winners": [
+    {
+     "count": 20,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 240,
+   "winners": [
+    {
+     "count": 480,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 101.8,
+   "winners": [
+    {
+     "count": 880,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 75.3,
+   "winners": [
+    {
+     "count": 1020,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 28.4,
+   "winners": [
+    {
+     "count": 13972,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18,
+   "winners": [
+    {
+     "count": 21331,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.6,
+   "winners": [
+    {
+     "count": 41046,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 13.6,
+   "winners": [
+    {
+     "count": 72551,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.1,
+   "winners": [
+    {
+     "count": 267450,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-05-06": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 14476862.8,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 352345.6,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 53295.9,
+   "winners": [
+    {
+     "count": 7,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5406.8,
+   "winners": [
+    {
+     "count": 23,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 218.1,
+   "winners": [
+    {
+     "count": 513,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 83.1,
+   "winners": [
+    {
+     "count": 1106,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 83.1,
+   "winners": [
+    {
+     "count": 839,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 32.8,
+   "winners": [
+    {
+     "count": 11751,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19.1,
+   "winners": [
+    {
+     "count": 19486,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.5,
+   "winners": [
+    {
+     "count": 41105,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 14.5,
+   "winners": [
+    {
+     "count": 62555,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.3,
+   "winners": [
+    {
+     "count": 253226,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-05-13": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 10000000,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1053778.2,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 123973.9,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4958.9,
+   "winners": [
+    {
+     "count": 25,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 378.2,
+   "winners": [
+    {
+     "count": 295,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 128.9,
+   "winners": [
+    {
+     "count": 673,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 83.1,
+   "winners": [
+    {
+     "count": 895,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 28.9,
+   "winners": [
+    {
+     "count": 13268,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 25.7,
+   "winners": [
+    {
+     "count": 14449,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16,
+   "winners": [
+    {
+     "count": 33192,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 13,
+   "winners": [
+    {
+     "count": 74234,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 10.4,
+   "winners": [
+    {
+     "count": 226163,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-05-20": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 331489.9,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 175494.6,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3162,
+   "winners": [
+    {
+     "count": 37,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 222.1,
+   "winners": [
+    {
+     "count": 474,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 118.3,
+   "winners": [
+    {
+     "count": 692,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 37.9,
+   "winners": [
+    {
+     "count": 1850,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 14.5,
+   "winners": [
+    {
+     "count": 27718,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 14.5,
+   "winners": [
+    {
+     "count": 21392,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.3,
+   "winners": [
+    {
+     "count": 35046,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 6.9,
+   "winners": [
+    {
+     "count": 139774,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.9,
+   "winners": [
+    {
+     "count": 312923,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-05-27": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 251130.9,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 35453.7,
+   "winners": [
+    {
+     "count": 10,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 2626.2,
+   "winners": [
+    {
+     "count": 45,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 210.6,
+   "winners": [
+    {
+     "count": 505,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 85.9,
+   "winners": [
+    {
+     "count": 963,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 54.5,
+   "winners": [
+    {
+     "count": 1300,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 20.1,
+   "winners": [
+    {
+     "count": 18220,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18,
+   "winners": [
+    {
+     "count": 19620,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.7,
+   "winners": [
+    {
+     "count": 36909,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.8,
+   "winners": [
+    {
+     "count": 93736,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8,
+   "winners": [
+    {
+     "count": 279136,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-06-03": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 538743.4,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 380289.5,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6338.1,
+   "winners": [
+    {
+     "count": 20,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 273.5,
+   "winners": [
+    {
+     "count": 417,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 110.3,
+   "winners": [
+    {
+     "count": 804,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 74.7,
+   "winners": [
+    {
+     "count": 1017,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 26.2,
+   "winners": [
+    {
+     "count": 14944,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19.3,
+   "winners": [
+    {
+     "count": 19695,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.7,
+   "winners": [
+    {
+     "count": 36977,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.4,
+   "winners": [
+    {
+     "count": 79550,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.7,
+   "winners": [
+    {
+     "count": 276567,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-06-10": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 67265.9,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5174.3,
+   "winners": [
+    {
+     "count": 26,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 266.6,
+   "winners": [
+    {
+     "count": 454,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 91.8,
+   "winners": [
+    {
+     "count": 1025,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 76.5,
+   "winners": [
+    {
+     "count": 1054,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 28.9,
+   "winners": [
+    {
+     "count": 14410,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18.8,
+   "winners": [
+    {
+     "count": 21426,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.6,
+   "winners": [
+    {
+     "count": 45743,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 13.6,
+   "winners": [
+    {
+     "count": 73760,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.1,
+   "winners": [
+    {
+     "count": 316099,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-06-17": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 472273.8,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 107457.1,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4775.8,
+   "winners": [
+    {
+     "count": 30,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 246.5,
+   "winners": [
+    {
+     "count": 523,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 109.1,
+   "winners": [
+    {
+     "count": 919,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 65.3,
+   "winners": [
+    {
+     "count": 1316,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 21.4,
+   "winners": [
+    {
+     "count": 20736,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.3,
+   "winners": [
+    {
+     "count": 24791,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.9,
+   "winners": [
+    {
+     "count": 41250,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.3,
+   "winners": [
+    {
+     "count": 107570,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.3,
+   "winners": [
+    {
+     "count": 372853,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-06-24": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1316493.6,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 154881.6,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6733.9,
+   "winners": [
+    {
+     "count": 23,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 296.5,
+   "winners": [
+    {
+     "count": 470,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 126.9,
+   "winners": [
+    {
+     "count": 854,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 77.2,
+   "winners": [
+    {
+     "count": 1203,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 24.4,
+   "winners": [
+    {
+     "count": 19676,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 22.1,
+   "winners": [
+    {
+     "count": 21001,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.5,
+   "winners": [
+    {
+     "count": 40143,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.1,
+   "winners": [
+    {
+     "count": 108703,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.9,
+   "winners": [
+    {
+     "count": 329420,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-07-01": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 497203.3,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 263225.3,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 7019.3,
+   "winners": [
+    {
+     "count": 25,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 300.8,
+   "winners": [
+    {
+     "count": 525,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 147.6,
+   "winners": [
+    {
+     "count": 832,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 67.7,
+   "winners": [
+    {
+     "count": 1554,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 22.9,
+   "winners": [
+    {
+     "count": 23733,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 20.7,
+   "winners": [
+    {
+     "count": 25413,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 17.9,
+   "winners": [
+    {
+     "count": 42036,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.1,
+   "winners": [
+    {
+     "count": 135141,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.5,
+   "winners": [
+    {
+     "count": 393767,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-07-08": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 532106,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 56340.6,
+   "winners": [
+    {
+     "count": 10,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6955.6,
+   "winners": [
+    {
+     "count": 27,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 295.4,
+   "winners": [
+    {
+     "count": 572,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 97.9,
+   "winners": [
+    {
+     "count": 1342,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 73.7,
+   "winners": [
+    {
+     "count": 1528,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 27.2,
+   "winners": [
+    {
+     "count": 21375,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 20.8,
+   "winners": [
+    {
+     "count": 27038,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.6,
+   "winners": [
+    {
+     "count": 55294,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.6,
+   "winners": [
+    {
+     "count": 116032,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9,
+   "winners": [
+    {
+     "count": 397967,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-07-15": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1844221.6,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 130180.3,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4821.4,
+   "winners": [
+    {
+     "count": 45,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 273.4,
+   "winners": [
+    {
+     "count": 714,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 120.9,
+   "winners": [
+    {
+     "count": 1256,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 54.9,
+   "winners": [
+    {
+     "count": 2370,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 19.9,
+   "winners": [
+    {
+     "count": 33645,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19.7,
+   "winners": [
+    {
+     "count": 32986,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.7,
+   "winners": [
+    {
+     "count": 59303,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.5,
+   "winners": [
+    {
+     "count": 177398,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 494344,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-07-22": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 417118.9,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 184023,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4158.7,
+   "winners": [
+    {
+     "count": 59,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 231.4,
+   "winners": [
+    {
+     "count": 954,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 104.3,
+   "winners": [
+    {
+     "count": 1646,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 59.3,
+   "winners": [
+    {
+     "count": 2480,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 21.3,
+   "winners": [
+    {
+     "count": 35548,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.5,
+   "winners": [
+    {
+     "count": 41884,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.2,
+   "winners": [
+    {
+     "count": 69017,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10,
+   "winners": [
+    {
+     "count": 190027,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8,
+   "winners": [
+    {
+     "count": 585311,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-07-29": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 84777435.8,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 241736.4,
+   "winners": [
+    {
+     "count": 11,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 52139.2,
+   "winners": [
+    {
+     "count": 18,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4669.1,
+   "winners": [
+    {
+     "count": 67,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 210.7,
+   "winners": [
+    {
+     "count": 1336,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 71,
+   "winners": [
+    {
+     "count": 3082,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 64.6,
+   "winners": [
+    {
+     "count": 2903,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 24.4,
+   "winners": [
+    {
+     "count": 39695,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18,
+   "winners": [
+    {
+     "count": 51956,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.2,
+   "winners": [
+    {
+     "count": 109702,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.9,
+   "winners": [
+    {
+     "count": 203828,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.5,
+   "winners": [
+    {
+     "count": 701076,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-08-05": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 406861.5,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 2511.4,
+   "winners": [
+    {
+     "count": 54,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 217.5,
+   "winners": [
+    {
+     "count": 561,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 109.4,
+   "winners": [
+    {
+     "count": 867,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 44.9,
+   "winners": [
+    {
+     "count": 1811,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 16.6,
+   "winners": [
+    {
+     "count": 25294,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 15.7,
+   "winners": [
+    {
+     "count": 25760,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.6,
+   "winners": [
+    {
+     "count": 39920,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.4,
+   "winners": [
+    {
+     "count": 124954,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.2,
+   "winners": [
+    {
+     "count": 356437,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-08-12": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1155687.7,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 102229.5,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4868,
+   "winners": [
+    {
+     "count": 28,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 223,
+   "winners": [
+    {
+     "count": 550,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 97.3,
+   "winners": [
+    {
+     "count": 980,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 66.7,
+   "winners": [
+    {
+     "count": 1226,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 23.8,
+   "winners": [
+    {
+     "count": 17730,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.7,
+   "winners": [
+    {
+     "count": 23069,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.9,
+   "winners": [
+    {
+     "count": 41929,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.6,
+   "winners": [
+    {
+     "count": 91273,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.9,
+   "winners": [
+    {
+     "count": 325973,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-08-19": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1186893.4,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 139634.5,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 8727.1,
+   "winners": [
+    {
+     "count": 16,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 358,
+   "winners": [
+    {
+     "count": 351,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 122.3,
+   "winners": [
+    {
+     "count": 799,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 92.7,
+   "winners": [
+    {
+     "count": 903,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 31.3,
+   "winners": [
+    {
+     "count": 13808,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 23.1,
+   "winners": [
+    {
+     "count": 18125,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.7,
+   "winners": [
+    {
+     "count": 38044,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 14.8,
+   "winners": [
+    {
+     "count": 73261,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.7,
+   "winners": [
+    {
+     "count": 274127,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-08-26": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 614363.8,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 108417.1,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6883.6,
+   "winners": [
+    {
+     "count": 21,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 262.8,
+   "winners": [
+    {
+     "count": 495,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 122.3,
+   "winners": [
+    {
+     "count": 827,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 61.6,
+   "winners": [
+    {
+     "count": 1407,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 20.6,
+   "winners": [
+    {
+     "count": 21654,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18.4,
+   "winners": [
+    {
+     "count": 23537,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.6,
+   "winners": [
+    {
+     "count": 42445,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.1,
+   "winners": [
+    {
+     "count": 111512,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.6,
+   "winners": [
+    {
+     "count": 359566,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-09-02": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 684982.7,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6198.9,
+   "winners": [
+    {
+     "count": 26,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 302.8,
+   "winners": [
+    {
+     "count": 479,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 129.8,
+   "winners": [
+    {
+     "count": 869,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 70.6,
+   "winners": [
+    {
+     "count": 1369,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 23.3,
+   "winners": [
+    {
+     "count": 21378,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 21,
+   "winners": [
+    {
+     "count": 22982,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.7,
+   "winners": [
+    {
+     "count": 41271,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.7,
+   "winners": [
+    {
+     "count": 116695,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.9,
+   "winners": [
+    {
+     "count": 343470,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-09-09": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 757473.2,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 254551,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5749.3,
+   "winners": [
+    {
+     "count": 31,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 324,
+   "winners": [
+    {
+     "count": 495,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 103.1,
+   "winners": [
+    {
+     "count": 1210,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 83.9,
+   "winners": [
+    {
+     "count": 1274,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 29.5,
+   "winners": [
+    {
+     "count": 18680,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 20.2,
+   "winners": [
+    {
+     "count": 26366,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.6,
+   "winners": [
+    {
+     "count": 58153,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 13.6,
+   "winners": [
+    {
+     "count": 99523,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.9,
+   "winners": [
+    {
+     "count": 378813,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-09-16": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 346062.4,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 87242.6,
+   "winners": [
+    {
+     "count": 7,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3991.4,
+   "winners": [
+    {
+     "count": 51,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 238.8,
+   "winners": [
+    {
+     "count": 767,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 111.5,
+   "winners": [
+    {
+     "count": 1277,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 52.8,
+   "winners": [
+    {
+     "count": 2310,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 19.1,
+   "winners": [
+    {
+     "count": 33034,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 17.8,
+   "winners": [
+    {
+     "count": 34207,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.2,
+   "winners": [
+    {
+     "count": 57404,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.9,
+   "winners": [
+    {
+     "count": 177591,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.9,
+   "winners": [
+    {
+     "count": 487546,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-09-23": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 498907.5,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 58695,
+   "winners": [
+    {
+     "count": 12,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3010,
+   "winners": [
+    {
+     "count": 78,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 215.8,
+   "winners": [
+    {
+     "count": 979,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 82.7,
+   "winners": [
+    {
+     "count": 1986,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 50.4,
+   "winners": [
+    {
+     "count": 2793,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 17.5,
+   "winners": [
+    {
+     "count": 41546,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 16.1,
+   "winners": [
+    {
+     "count": 43576,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.1,
+   "winners": [
+    {
+     "count": 77042,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.5,
+   "winners": [
+    {
+     "count": 215428,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.4,
+   "winners": [
+    {
+     "count": 598461,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-09-30": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 2404162.6,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 106065.9,
+   "winners": [
+    {
+     "count": 8,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6285.3,
+   "winners": [
+    {
+     "count": 45,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 319.7,
+   "winners": [
+    {
+     "count": 796,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 122.3,
+   "winners": [
+    {
+     "count": 1618,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 82.1,
+   "winners": [
+    {
+     "count": 2066,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 28.2,
+   "winners": [
+    {
+     "count": 30993,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 20.6,
+   "winners": [
+    {
+     "count": 41151,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.3,
+   "winners": [
+    {
+     "count": 79181,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 13.2,
+   "winners": [
+    {
+     "count": 166576,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.6,
+   "winners": [
+    {
+     "count": 625320,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-10-07": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 4079856.9,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 110581.9,
+   "winners": [
+    {
+     "count": 10,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6042.7,
+   "winners": [
+    {
+     "count": 61,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 298.3,
+   "winners": [
+    {
+     "count": 1112,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 130.1,
+   "winners": [
+    {
+     "count": 1982,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 74.5,
+   "winners": [
+    {
+     "count": 2965,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 25.6,
+   "winners": [
+    {
+     "count": 44607,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 21.7,
+   "winners": [
+    {
+     "count": 50915,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.7,
+   "winners": [
+    {
+     "count": 94395,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.5,
+   "winners": [
+    {
+     "count": 249942,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9,
+   "winners": [
+    {
+     "count": 779951,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-10-14": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 90000000,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 2780570.9,
+   "winners": [
+    {
+     "count": 8,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 109022.7,
+   "winners": [
+    {
+     "count": 11,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3276.6,
+   "winners": [
+    {
+     "count": 122,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 211.1,
+   "winners": [
+    {
+     "count": 1704,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 93.8,
+   "winners": [
+    {
+     "count": 2981,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 46.1,
+   "winners": [
+    {
+     "count": 5200,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 17.3,
+   "winners": [
+    {
+     "count": 71230,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 16.9,
+   "winners": [
+    {
+     "count": 70957,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.2,
+   "winners": [
+    {
+     "count": 120478,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 371916,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.5,
+   "winners": [
+    {
+     "count": 1006022,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-10-21": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 10549199.7,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 220977.1,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 58493.9,
+   "winners": [
+    {
+     "count": 8,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4332.8,
+   "winners": [
+    {
+     "count": 36,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 217.6,
+   "winners": [
+    {
+     "count": 645,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 99.8,
+   "winners": [
+    {
+     "count": 1093,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 47.3,
+   "winners": [
+    {
+     "count": 1975,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 18,
+   "winners": [
+    {
+     "count": 26759,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 16.1,
+   "winners": [
+    {
+     "count": 28961,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.5,
+   "winners": [
+    {
+     "count": 49635,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.6,
+   "winners": [
+    {
+     "count": 140755,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.9,
+   "winners": [
+    {
+     "count": 373772,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-10-28": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 106182.2,
+   "winners": [
+    {
+     "count": 12,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 106182.2,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 1538.8,
+   "winners": [
+    {
+     "count": 96,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 138.9,
+   "winners": [
+    {
+     "count": 957,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 69.8,
+   "winners": [
+    {
+     "count": 1480,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 34.3,
+   "winners": [
+    {
+     "count": 2581,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 18.4,
+   "winners": [
+    {
+     "count": 24757,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 14.3,
+   "winners": [
+    {
+     "count": 30897,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.4,
+   "winners": [
+    {
+     "count": 51122,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.6,
+   "winners": [
+    {
+     "count": 107741,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.3,
+   "winners": [
+    {
+     "count": 384484,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-11-04": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 432594.1,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 114510.2,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5872.3,
+   "winners": [
+    {
+     "count": 26,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 342.6,
+   "winners": [
+    {
+     "count": 401,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 131.1,
+   "winners": [
+    {
+     "count": 815,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 82.9,
+   "winners": [
+    {
+     "count": 1104,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 27.4,
+   "winners": [
+    {
+     "count": 17216,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 22.5,
+   "winners": [
+    {
+     "count": 20283,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.7,
+   "winners": [
+    {
+     "count": 39241,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 13,
+   "winners": [
+    {
+     "count": 90991,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9,
+   "winners": [
+    {
+     "count": 322492,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-11-11": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 666056.2,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 235078.6,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4897.4,
+   "winners": [
+    {
+     "count": 32,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 381.2,
+   "winners": [
+    {
+     "count": 370,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 161,
+   "winners": [
+    {
+     "count": 681,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 73,
+   "winners": [
+    {
+     "count": 1288,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 23.6,
+   "winners": [
+    {
+     "count": 20571,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 22.3,
+   "winners": [
+    {
+     "count": 20992,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 18.8,
+   "winners": [
+    {
+     "count": 35712,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.7,
+   "winners": [
+    {
+     "count": 113285,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.6,
+   "winners": [
+    {
+     "count": 344316,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-11-18": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 280478.3,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 164987.2,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5499.5,
+   "winners": [
+    {
+     "count": 30,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 285.5,
+   "winners": [
+    {
+     "count": 520,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 107.3,
+   "winners": [
+    {
+     "count": 1076,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 60.2,
+   "winners": [
+    {
+     "count": 1643,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 21.9,
+   "winners": [
+    {
+     "count": 23322,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19.3,
+   "winners": [
+    {
+     "count": 25514,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14,
+   "winners": [
+    {
+     "count": 50515,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.7,
+   "winners": [
+    {
+     "count": 119935,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.4,
+   "winners": [
+    {
+     "count": 372973,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-11-25": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 376417.4,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 132853.2,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4920.4,
+   "winners": [
+    {
+     "count": 36,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 301.9,
+   "winners": [
+    {
+     "count": 528,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 119.1,
+   "winners": [
+    {
+     "count": 1041,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 71.5,
+   "winners": [
+    {
+     "count": 1486,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 23.3,
+   "winners": [
+    {
+     "count": 23472,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 21,
+   "winners": [
+    {
+     "count": 25228,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.8,
+   "winners": [
+    {
+     "count": 51234,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.9,
+   "winners": [
+    {
+     "count": 126298,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.9,
+   "winners": [
+    {
+     "count": 379289,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-12-02": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 568696.6,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 301074.7,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4363.4,
+   "winners": [
+    {
+     "count": 46,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 307.7,
+   "winners": [
+    {
+     "count": 587,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 143.2,
+   "winners": [
+    {
+     "count": 981,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 53.4,
+   "winners": [
+    {
+     "count": 2255,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 18.8,
+   "winners": [
+    {
+     "count": 36747,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18.8,
+   "winners": [
+    {
+     "count": 28375,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 18.3,
+   "winners": [
+    {
+     "count": 46931,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.1,
+   "winners": [
+    {
+     "count": 231246,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.1,
+   "winners": [
+    {
+     "count": 430797,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-12-09": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 607948.6,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 128742,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4470.2,
+   "winners": [
+    {
+     "count": 48,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 252.7,
+   "winners": [
+    {
+     "count": 764,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 104.8,
+   "winners": [
+    {
+     "count": 1432,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 69.7,
+   "winners": [
+    {
+     "count": 1847,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 25.9,
+   "winners": [
+    {
+     "count": 25677,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 19,
+   "winners": [
+    {
+     "count": 33792,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14,
+   "winners": [
+    {
+     "count": 65690,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.6,
+   "winners": [
+    {
+     "count": 132455,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.5,
+   "winners": [
+    {
+     "count": 480835,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-12-16": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 696069.7,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 105287.8,
+   "winners": [
+    {
+     "count": 7,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5459.3,
+   "winners": [
+    {
+     "count": 45,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 268.6,
+   "winners": [
+    {
+     "count": 823,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 110.8,
+   "winners": [
+    {
+     "count": 1552,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 64.1,
+   "winners": [
+    {
+     "count": 2299,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 21.6,
+   "winners": [
+    {
+     "count": 35241,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 18.8,
+   "winners": [
+    {
+     "count": 39064,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.5,
+   "winners": [
+    {
+     "count": 72685,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.1,
+   "winners": [
+    {
+     "count": 188939,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.5,
+   "winners": [
+    {
+     "count": 619252,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-12-23": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 662337.8,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 155844.2,
+   "winners": [
+    {
+     "count": 6,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4329,
+   "winners": [
+    {
+     "count": 72,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 201.8,
+   "winners": [
+    {
+     "count": 1390,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 108.9,
+   "winners": [
+    {
+     "count": 2002,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 60.1,
+   "winners": [
+    {
+     "count": 3109,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 21.8,
+   "winners": [
+    {
+     "count": 44188,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 15.9,
+   "winners": [
+    {
+     "count": 58727,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.7,
+   "winners": [
+    {
+     "count": 85122,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.2,
+   "winners": [
+    {
+     "count": 237236,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.2,
+   "winners": [
+    {
+     "count": 817074,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2016-12-30": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 2656767,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 215163.3,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5433.4,
+   "winners": [
+    {
+     "count": 66,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 308.2,
+   "winners": [
+    {
+     "count": 1047,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 129.5,
+   "winners": [
+    {
+     "count": 1938,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 79.7,
+   "winners": [
+    {
+     "count": 2699,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 26.9,
+   "winners": [
+    {
+     "count": 41219,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 22.7,
+   "winners": [
+    {
+     "count": 47333,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 17.3,
+   "winners": [
+    {
+     "count": 89106,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.2,
+   "winners": [
+    {
+     "count": 227893,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.4,
+   "winners": [
+    {
+     "count": 725005,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ]
+}

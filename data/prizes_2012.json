@@ -1,0 +1,5988 @@
+{
+ "2012-03-23": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 42755,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6577.7,
+   "winners": [
+    {
+     "count": 12,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 255,
+   "winners": [
+    {
+     "count": 245,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 130.6,
+   "winners": [
+    {
+     "count": 302,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 73.2,
+   "winners": [
+    {
+     "count": 763,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 22.7,
+   "winners": [
+    {
+     "count": 11848,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 19.4,
+   "winners": [
+    {
+     "count": 11675,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.4,
+   "winners": [
+    {
+     "count": 15319,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.2,
+   "winners": [
+    {
+     "count": 64513,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.4,
+   "winners": [
+    {
+     "count": 178977,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-03-30": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 69118.2,
+   "winners": [
+    {
+     "count": 9,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 25408.8,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 1529.6,
+   "winners": [
+    {
+     "count": 46,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 83.5,
+   "winners": [
+    {
+     "count": 667,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 38.9,
+   "winners": [
+    {
+     "count": 903,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 32.9,
+   "winners": [
+    {
+     "count": 1514,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 12.5,
+   "winners": [
+    {
+     "count": 19123,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 11.9,
+   "winners": [
+    {
+     "count": 16957,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 9.1,
+   "winners": [
+    {
+     "count": 26050,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.1,
+   "winners": [
+    {
+     "count": 74366,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.7,
+   "winners": [
+    {
+     "count": 198640,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-04-06": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 312639.2,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 81286.2,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6252.7,
+   "winners": [
+    {
+     "count": 12,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 321,
+   "winners": [
+    {
+     "count": 185,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 151.2,
+   "winners": [
+    {
+     "count": 248,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 62.3,
+   "winners": [
+    {
+     "count": 852,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 23.7,
+   "winners": [
+    {
+     "count": 10782,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 15.8,
+   "winners": [
+    {
+     "count": 14301,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.8,
+   "winners": [
+    {
+     "count": 13437,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.7,
+   "winners": [
+    {
+     "count": 77156,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.8,
+   "winners": [
+    {
+     "count": 181709,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-04-13": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 2791.5,
+   "winners": [
+    {
+     "count": 28,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 159.8,
+   "winners": [
+    {
+     "count": 387,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 78.6,
+   "winners": [
+    {
+     "count": 497,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 47.3,
+   "winners": [
+    {
+     "count": 1169,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 15.3,
+   "winners": [
+    {
+     "count": 17373,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 14.2,
+   "winners": [
+    {
+     "count": 15794,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 10.8,
+   "winners": [
+    {
+     "count": 21700,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.5,
+   "winners": [
+    {
+     "count": 73909,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.4,
+   "winners": [
+    {
+     "count": 230152,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-04-20": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 640891.6,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 166631.8,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3289.1,
+   "winners": [
+    {
+     "count": 23,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 270.9,
+   "winners": [
+    {
+     "count": 221,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 139,
+   "winners": [
+    {
+     "count": 272,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 57.3,
+   "winners": [
+    {
+     "count": 935,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 25.4,
+   "winners": [
+    {
+     "count": 10163,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 16.7,
+   "winners": [
+    {
+     "count": 14154,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.7,
+   "winners": [
+    {
+     "count": 12395,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.5,
+   "winners": [
+    {
+     "count": 79453,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.3,
+   "winners": [
+    {
+     "count": 155150,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-04-27": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 303201.9,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6615.3,
+   "winners": [
+    {
+     "count": 11,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 207.9,
+   "winners": [
+    {
+     "count": 277,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 116.6,
+   "winners": [
+    {
+     "count": 312,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 50.4,
+   "winners": [
+    {
+     "count": 1022,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 21.7,
+   "winners": [
+    {
+     "count": 11445,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 14.4,
+   "winners": [
+    {
+     "count": 16412,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.4,
+   "winners": [
+    {
+     "count": 13276,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8,
+   "winners": [
+    {
+     "count": 90274,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.8,
+   "winners": [
+    {
+     "count": 178350,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-05-04": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 157233.4,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6030.8,
+   "winners": [
+    {
+     "count": 12,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 406.3,
+   "winners": [
+    {
+     "count": 141,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 202.1,
+   "winners": [
+    {
+     "count": 179,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 66,
+   "winners": [
+    {
+     "count": 776,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 29.1,
+   "winners": [
+    {
+     "count": 8492,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 17.8,
+   "winners": [
+    {
+     "count": 13307,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 17.8,
+   "winners": [
+    {
+     "count": 10478,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.4,
+   "winners": [
+    {
+     "count": 83258,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.4,
+   "winners": [
+    {
+     "count": 139493,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-05-11": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 19536863.8,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 617557.1,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 82163.9,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3297.5,
+   "winners": [
+    {
+     "count": 23,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 265.6,
+   "winners": [
+    {
+     "count": 226,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 124.7,
+   "winners": [
+    {
+     "count": 304,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 64.8,
+   "winners": [
+    {
+     "count": 829,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 26,
+   "winners": [
+    {
+     "count": 9939,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 17.2,
+   "winners": [
+    {
+     "count": 12640,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.3,
+   "winners": [
+    {
+     "count": 13951,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.5,
+   "winners": [
+    {
+     "count": 72228,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.5,
+   "winners": [
+    {
+     "count": 152140,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-05-18": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 278529.7,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 72417.7,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4177.9,
+   "winners": [
+    {
+     "count": 16,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 290.7,
+   "winners": [
+    {
+     "count": 182,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 138.6,
+   "winners": [
+    {
+     "count": 241,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 64.9,
+   "winners": [
+    {
+     "count": 729,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 23.9,
+   "winners": [
+    {
+     "count": 9556,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 16.1,
+   "winners": [
+    {
+     "count": 12424,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.1,
+   "winners": [
+    {
+     "count": 11857,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.6,
+   "winners": [
+    {
+     "count": 68999,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.2,
+   "winners": [
+    {
+     "count": 154735,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-05-25": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 133522.1,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3770,
+   "winners": [
+    {
+     "count": 17,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 237,
+   "winners": [
+    {
+     "count": 214,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 116.5,
+   "winners": [
+    {
+     "count": 275,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 58,
+   "winners": [
+    {
+     "count": 782,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 21.3,
+   "winners": [
+    {
+     "count": 10260,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 15.5,
+   "winners": [
+    {
+     "count": 11965,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.5,
+   "winners": [
+    {
+     "count": 12257,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.6,
+   "winners": [
+    {
+     "count": 66096,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.8,
+   "winners": [
+    {
+     "count": 155436,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-06-01": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 140263.6,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3441.2,
+   "winners": [
+    {
+     "count": 19,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 268.1,
+   "winners": [
+    {
+     "count": 193,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 143.3,
+   "winners": [
+    {
+     "count": 228,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 38.3,
+   "winners": [
+    {
+     "count": 1207,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 21.2,
+   "winners": [
+    {
+     "count": 10525,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 12,
+   "winners": [
+    {
+     "count": 19582,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12,
+   "winners": [
+    {
+     "count": 12174,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 7.1,
+   "winners": [
+    {
+     "count": 108691,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.1,
+   "winners": [
+    {
+     "count": 158809,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-06-08": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 549644.1,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5544.2,
+   "winners": [
+    {
+     "count": 12,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 252,
+   "winners": [
+    {
+     "count": 209,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 139.7,
+   "winners": [
+    {
+     "count": 238,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 68.9,
+   "winners": [
+    {
+     "count": 683,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 21.5,
+   "winners": [
+    {
+     "count": 10533,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 20.4,
+   "winners": [
+    {
+     "count": 9364,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.7,
+   "winners": [
+    {
+     "count": 12650,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.8,
+   "winners": [
+    {
+     "count": 51805,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8,
+   "winners": [
+    {
+     "count": 157297,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-06-15": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 278306,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6072.1,
+   "winners": [
+    {
+     "count": 11,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 235,
+   "winners": [
+    {
+     "count": 225,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 131.4,
+   "winners": [
+    {
+     "count": 254,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 59.2,
+   "winners": [
+    {
+     "count": 798,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 20.7,
+   "winners": [
+    {
+     "count": 11006,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 16.6,
+   "winners": [
+    {
+     "count": 11515,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.2,
+   "winners": [
+    {
+     "count": 14109,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.8,
+   "winners": [
+    {
+     "count": 61505,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.7,
+   "winners": [
+    {
+     "count": 165695,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-06-22": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 279528.5,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4192.9,
+   "winners": [
+    {
+     "count": 16,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 308.7,
+   "winners": [
+    {
+     "count": 172,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 171.1,
+   "winners": [
+    {
+     "count": 196,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 66.4,
+   "winners": [
+    {
+     "count": 715,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 26.2,
+   "winners": [
+    {
+     "count": 8738,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 17.1,
+   "winners": [
+    {
+     "count": 11904,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 17.1,
+   "winners": [
+    {
+     "count": 11013,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.2,
+   "winners": [
+    {
+     "count": 65554,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.4,
+   "winners": [
+    {
+     "count": 151173,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-06-29": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 192570.4,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 192570.4,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4040.3,
+   "winners": [
+    {
+     "count": 17,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 167.3,
+   "winners": [
+    {
+     "count": 325,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 85.8,
+   "winners": [
+    {
+     "count": 400,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 56.7,
+   "winners": [
+    {
+     "count": 858,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 16,
+   "winners": [
+    {
+     "count": 15663,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 16,
+   "winners": [
+    {
+     "count": 11194,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.3,
+   "winners": [
+    {
+     "count": 16633,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.1,
+   "winners": [
+    {
+     "count": 56672,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.3,
+   "winners": [
+    {
+     "count": 208310,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-07-06": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 300211.9,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3792.1,
+   "winners": [
+    {
+     "count": 19,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 194,
+   "winners": [
+    {
+     "count": 294,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 106.2,
+   "winners": [
+    {
+     "count": 339,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 39.1,
+   "winners": [
+    {
+     "count": 1304,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 19.3,
+   "winners": [
+    {
+     "count": 12744,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 12.1,
+   "winners": [
+    {
+     "count": 17906,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.1,
+   "winners": [
+    {
+     "count": 16977,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.1,
+   "winners": [
+    {
+     "count": 88571,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.6,
+   "winners": [
+    {
+     "count": 179688,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-07-13": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 125697.4,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 125697.4,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3677.3,
+   "winners": [
+    {
+     "count": 22,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 226.3,
+   "winners": [
+    {
+     "count": 283,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 105.6,
+   "winners": [
+    {
+     "count": 383,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 39.1,
+   "winners": [
+    {
+     "count": 1465,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 19.9,
+   "winners": [
+    {
+     "count": 13855,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 12,
+   "winners": [
+    {
+     "count": 21995,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12,
+   "winners": [
+    {
+     "count": 17523,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 7.4,
+   "winners": [
+    {
+     "count": 110281,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.4,
+   "winners": [
+    {
+     "count": 204268,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-07-20": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 107874.5,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 42071,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 2427.1,
+   "winners": [
+    {
+     "count": 32,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 198.3,
+   "winners": [
+    {
+     "count": 310,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 81.2,
+   "winners": [
+    {
+     "count": 478,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 43.7,
+   "winners": [
+    {
+     "count": 1257,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 19.3,
+   "winners": [
+    {
+     "count": 13694,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 13,
+   "winners": [
+    {
+     "count": 17149,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 11.1,
+   "winners": [
+    {
+     "count": 20932,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.1,
+   "winners": [
+    {
+     "count": 84580,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.8,
+   "winners": [
+    {
+     "count": 188722,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-07-27": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 164000.6,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 42640.1,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3148.8,
+   "winners": [
+    {
+     "count": 25,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 200.3,
+   "winners": [
+    {
+     "count": 311,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 106,
+   "winners": [
+    {
+     "count": 371,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 61.3,
+   "winners": [
+    {
+     "count": 909,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 19.2,
+   "winners": [
+    {
+     "count": 14007,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 16.2,
+   "winners": [
+    {
+     "count": 13929,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.4,
+   "winners": [
+    {
+     "count": 17622,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.7,
+   "winners": [
+    {
+     "count": 73509,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.3,
+   "winners": [
+    {
+     "count": 204343,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-08-03": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 121185.1,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 31508.1,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 1983,
+   "winners": [
+    {
+     "count": 44,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 149.1,
+   "winners": [
+    {
+     "count": 463,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 83.7,
+   "winners": [
+    {
+     "count": 521,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 40,
+   "winners": [
+    {
+     "count": 1544,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 16.2,
+   "winners": [
+    {
+     "count": 18375,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 11.9,
+   "winners": [
+    {
+     "count": 21163,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 11.9,
+   "winners": [
+    {
+     "count": 21851,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.7,
+   "winners": [
+    {
+     "count": 99633,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.9,
+   "winners": [
+    {
+     "count": 241237,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-08-10": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 27545857.5,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 142893.8,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4121.9,
+   "winners": [
+    {
+     "count": 32,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 322.2,
+   "winners": [
+    {
+     "count": 324,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 158.1,
+   "winners": [
+    {
+     "count": 417,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 51.7,
+   "winners": [
+    {
+     "count": 1804,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 26.6,
+   "winners": [
+    {
+     "count": 16917,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 15.3,
+   "winners": [
+    {
+     "count": 29266,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.3,
+   "winners": [
+    {
+     "count": 21101,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.7,
+   "winners": [
+    {
+     "count": 168765,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.7,
+   "winners": [
+    {
+     "count": 270833,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-08-17": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 299487.6,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 77866.7,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 2567,
+   "winners": [
+    {
+     "count": 28,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 278.9,
+   "winners": [
+    {
+     "count": 204,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 150.3,
+   "winners": [
+    {
+     "count": 239,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 49.1,
+   "winners": [
+    {
+     "count": 1035,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 23.1,
+   "winners": [
+    {
+     "count": 10605,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 14.8,
+   "winners": [
+    {
+     "count": 15691,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.8,
+   "winners": [
+    {
+     "count": 12730,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 88643,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 161747,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-08-24": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 11265231.4,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 95850.8,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 37381.8,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 1917,
+   "winners": [
+    {
+     "count": 36,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 181.5,
+   "winners": [
+    {
+     "count": 301,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 99.1,
+   "winners": [
+    {
+     "count": 348,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 49.9,
+   "winners": [
+    {
+     "count": 978,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 19.7,
+   "winners": [
+    {
+     "count": 11962,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 14.7,
+   "winners": [
+    {
+     "count": 14131,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.7,
+   "winners": [
+    {
+     "count": 13289,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.3,
+   "winners": [
+    {
+     "count": 74170,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.7,
+   "winners": [
+    {
+     "count": 169988,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-08-31": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 289213.7,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 75195.5,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3017.8,
+   "winners": [
+    {
+     "count": 23,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 177.2,
+   "winners": [
+    {
+     "count": 310,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 96.6,
+   "winners": [
+    {
+     "count": 359,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 44.2,
+   "winners": [
+    {
+     "count": 1112,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 20.6,
+   "winners": [
+    {
+     "count": 11511,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 13.5,
+   "winners": [
+    {
+     "count": 15486,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.5,
+   "winners": [
+    {
+     "count": 14609,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9,
+   "winners": [
+    {
+     "count": 76299,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.4,
+   "winners": [
+    {
+     "count": 157967,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-09-07": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 37839.3,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5373.6,
+   "winners": [
+    {
+     "count": 13,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 246.8,
+   "winners": [
+    {
+     "count": 224,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 158.7,
+   "winners": [
+    {
+     "count": 220,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 65.6,
+   "winners": [
+    {
+     "count": 754,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 23.5,
+   "winners": [
+    {
+     "count": 10124,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 16.2,
+   "winners": [
+    {
+     "count": 12582,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.2,
+   "winners": [
+    {
+     "count": 12707,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.3,
+   "winners": [
+    {
+     "count": 67352,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 159340,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-09-14": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 38049,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4390.2,
+   "winners": [
+    {
+     "count": 16,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 298.9,
+   "winners": [
+    {
+     "count": 186,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 134,
+   "winners": [
+    {
+     "count": 262,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 57.9,
+   "winners": [
+    {
+     "count": 858,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 23.3,
+   "winners": [
+    {
+     "count": 10266,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 14.9,
+   "winners": [
+    {
+     "count": 13956,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.9,
+   "winners": [
+    {
+     "count": 13723,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.2,
+   "winners": [
+    {
+     "count": 75536,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.4,
+   "winners": [
+    {
+     "count": 158272,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-09-21": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 885960,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3817.2,
+   "winners": [
+    {
+     "count": 19,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 291.4,
+   "winners": [
+    {
+     "count": 197,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 138.9,
+   "winners": [
+    {
+     "count": 261,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 63.4,
+   "winners": [
+    {
+     "count": 810,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 24.7,
+   "winners": [
+    {
+     "count": 10014,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 16.5,
+   "winners": [
+    {
+     "count": 12625,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.4,
+   "winners": [
+    {
+     "count": 13236,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.1,
+   "winners": [
+    {
+     "count": 71735,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.2,
+   "winners": [
+    {
+     "count": 149762,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-09-28": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 316943.2,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 5851.2,
+   "winners": [
+    {
+     "count": 13,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 250.9,
+   "winners": [
+    {
+     "count": 240,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 124.6,
+   "winners": [
+    {
+     "count": 305,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 68.5,
+   "winners": [
+    {
+     "count": 786,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 23.1,
+   "winners": [
+    {
+     "count": 11227,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 18.1,
+   "winners": [
+    {
+     "count": 12017,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14,
+   "winners": [
+    {
+     "count": 16277,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.7,
+   "winners": [
+    {
+     "count": 64857,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.7,
+   "winners": [
+    {
+     "count": 165932,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-10-05": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 2975.4,
+   "winners": [
+    {
+     "count": 26,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 280.9,
+   "winners": [
+    {
+     "count": 218,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 161.1,
+   "winners": [
+    {
+     "count": 240,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 51.5,
+   "winners": [
+    {
+     "count": 1063,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 26.1,
+   "winners": [
+    {
+     "count": 10117,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 14.9,
+   "winners": [
+    {
+     "count": 17832,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.9,
+   "winners": [
+    {
+     "count": 12510,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 103880,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 166075,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-10-12": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 331821,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 331821,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4799.2,
+   "winners": [
+    {
+     "count": 17,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 272.5,
+   "winners": [
+    {
+     "count": 237,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 114.9,
+   "winners": [
+    {
+     "count": 355,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 55.1,
+   "winners": [
+    {
+     "count": 1048,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 23.1,
+   "winners": [
+    {
+     "count": 12053,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 14.2,
+   "winners": [
+    {
+     "count": 16503,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.1,
+   "winners": [
+    {
+     "count": 17306,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9,
+   "winners": [
+    {
+     "count": 89990,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 186759,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-10-19": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3636.2,
+   "winners": [
+    {
+     "count": 23,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 244.3,
+   "winners": [
+    {
+     "count": 271,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 126.3,
+   "winners": [
+    {
+     "count": 331,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 53.1,
+   "winners": [
+    {
+     "count": 1115,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 20.8,
+   "winners": [
+    {
+     "count": 13694,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 14.6,
+   "winners": [
+    {
+     "count": 16891,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.6,
+   "winners": [
+    {
+     "count": 16664,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.4,
+   "winners": [
+    {
+     "count": 88813,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.6,
+   "winners": [
+    {
+     "count": 209995,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-10-26": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 21320215,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 45992.8,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 2329.3,
+   "winners": [
+    {
+     "count": 37,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 181.9,
+   "winners": [
+    {
+     "count": 375,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 90.7,
+   "winners": [
+    {
+     "count": 475,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 42.5,
+   "winners": [
+    {
+     "count": 1435,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 17.3,
+   "winners": [
+    {
+     "count": 16993,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 12.5,
+   "winners": [
+    {
+     "count": 19783,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 11.9,
+   "winners": [
+    {
+     "count": 21684,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.7,
+   "winners": [
+    {
+     "count": 98609,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.9,
+   "winners": [
+    {
+     "count": 238176,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-11-02": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 252612.1,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 26248.3,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 875.7,
+   "winners": [
+    {
+     "count": 83,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 100.2,
+   "winners": [
+    {
+     "count": 574,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 58.6,
+   "winners": [
+    {
+     "count": 620,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 21.7,
+   "winners": [
+    {
+     "count": 2365,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 12.5,
+   "winners": [
+    {
+     "count": 19793,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 10.5,
+   "winners": [
+    {
+     "count": 20298,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 10.5,
+   "winners": [
+    {
+     "count": 20114,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.9,
+   "winners": [
+    {
+     "count": 81565,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.2,
+   "winners": [
+    {
+     "count": 222390,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-11-09": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 296291.1,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 38517.8,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3742.6,
+   "winners": [
+    {
+     "count": 19,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 282.8,
+   "winners": [
+    {
+     "count": 199,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 131.1,
+   "winners": [
+    {
+     "count": 271,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 57,
+   "winners": [
+    {
+     "count": 883,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 22.9,
+   "winners": [
+    {
+     "count": 10576,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 15.9,
+   "winners": [
+    {
+     "count": 13374,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 15.9,
+   "winners": [
+    {
+     "count": 12793,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.7,
+   "winners": [
+    {
+     "count": 72945,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.5,
+   "winners": [
+    {
+     "count": 159636,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-11-16": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 78678.7,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 1274.1,
+   "winners": [
+    {
+     "count": 57,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 178.5,
+   "winners": [
+    {
+     "count": 322,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 92.4,
+   "winners": [
+    {
+     "count": 393,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 28.1,
+   "winners": [
+    {
+     "count": 1826,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 17.5,
+   "winners": [
+    {
+     "count": 14107,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 11.8,
+   "winners": [
+    {
+     "count": 19533,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 11.8,
+   "winners": [
+    {
+     "count": 16449,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.3,
+   "winners": [
+    {
+     "count": 86602,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.3,
+   "winners": [
+    {
+     "count": 188874,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-11-23": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4832.6,
+   "winners": [
+    {
+     "count": 15,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 303.6,
+   "winners": [
+    {
+     "count": 189,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 140.4,
+   "winners": [
+    {
+     "count": 258,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 64.2,
+   "winners": [
+    {
+     "count": 799,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 25,
+   "winners": [
+    {
+     "count": 9889,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 16.7,
+   "winners": [
+    {
+     "count": 13429,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 16.7,
+   "winners": [
+    {
+     "count": 11978,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9,
+   "winners": [
+    {
+     "count": 82320,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9,
+   "winners": [
+    {
+     "count": 151919,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-11-30": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 921689.9,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 53653.5,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4227.2,
+   "winners": [
+    {
+     "count": 18,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 169.6,
+   "winners": [
+    {
+     "count": 355,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 80.2,
+   "winners": [
+    {
+     "count": 474,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 58.6,
+   "winners": [
+    {
+     "count": 919,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 16.3,
+   "winners": [
+    {
+     "count": 17245,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 16.3,
+   "winners": [
+    {
+     "count": 12012,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.4,
+   "winners": [
+    {
+     "count": 18794,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 12.4,
+   "winners": [
+    {
+     "count": 60891,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 6.9,
+   "winners": [
+    {
+     "count": 208200,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-12-07": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 159562.2,
+   "winners": [
+    {
+     "count": 2,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 82972.3,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 2735.3,
+   "winners": [
+    {
+     "count": 28,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 209.8,
+   "winners": [
+    {
+     "count": 289,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 107.2,
+   "winners": [
+    {
+     "count": 357,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 37.9,
+   "winners": [
+    {
+     "count": 1430,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 18.5,
+   "winners": [
+    {
+     "count": 14120,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 12.4,
+   "winners": [
+    {
+     "count": 19604,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 12.4,
+   "winners": [
+    {
+     "count": 16456,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 7.5,
+   "winners": [
+    {
+     "count": 101225,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.3,
+   "winners": [
+    {
+     "count": 197966,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-12-14": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 67214.2,
+   "winners": [
+    {
+     "count": 5,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4480.9,
+   "winners": [
+    {
+     "count": 18,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 199.5,
+   "winners": [
+    {
+     "count": 320,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 92,
+   "winners": [
+    {
+     "count": 438,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 52.1,
+   "winners": [
+    {
+     "count": 1096,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 19.9,
+   "winners": [
+    {
+     "count": 13840,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 15.8,
+   "winners": [
+    {
+     "count": 14587,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 13.3,
+   "winners": [
+    {
+     "count": 18072,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.6,
+   "winners": [
+    {
+     "count": 76070,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.2,
+   "winners": [
+    {
+     "count": 186184,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-12-21": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 183111.3,
+   "winners": [
+    {
+     "count": 1,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 4016.7,
+   "winners": [
+    {
+     "count": 22,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 300.2,
+   "winners": [
+    {
+     "count": 233,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 131.8,
+   "winners": [
+    {
+     "count": 335,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 52.2,
+   "winners": [
+    {
+     "count": 1199,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 23,
+   "winners": [
+    {
+     "count": 13089,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 14.8,
+   "winners": [
+    {
+     "count": 17722,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14.8,
+   "winners": [
+    {
+     "count": 17323,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 8.9,
+   "winners": [
+    {
+     "count": 98486,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 8.4,
+   "winners": [
+    {
+     "count": 201039,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ],
+ "2012-12-28": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 0,
+   "winners": [
+    {
+     "count": 0,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 246863.8,
+   "winners": [
+    {
+     "count": 3,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 24205.2,
+   "winners": [
+    {
+     "count": 4,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6874.8,
+   "winners": [
+    {
+     "count": 13,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 190.1,
+   "winners": [
+    {
+     "count": 372,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 6,
+   "hits": "4+0",
+   "amountEUR": 96.9,
+   "winners": [
+    {
+     "count": 461,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 7,
+   "hits": "3+2",
+   "amountEUR": 69.7,
+   "winners": [
+    {
+     "count": 908,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 8,
+   "hits": "3+1",
+   "amountEUR": 18.1,
+   "winners": [
+    {
+     "count": 16805,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 9,
+   "hits": "2+2",
+   "amountEUR": 17.9,
+   "winners": [
+    {
+     "count": 14332,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 14,
+   "winners": [
+    {
+     "count": 19093,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 11.9,
+   "winners": [
+    {
+     "count": 74754,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 7.2,
+   "winners": [
+    {
+     "count": 236948,
+     "country": "EU"
+    }
+   ],
+   "winnersSK": 0
+  }
+ ]
+}

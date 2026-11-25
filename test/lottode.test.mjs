@@ -14,6 +14,7 @@ test("lotto.de: čísla, dátum a 12 poradí", () => {
   assert.equal(r.prizes[0].hits, "5+2");
   assert.equal(r.prizes[0].amountEUR, 10000000);
   assert.equal(r.prizes[11].hits, "2+1");
+  assert.equal(r.jackpotEUR, 10000000); // jackpot najbližšieho ťahu
 });
 
 test("pickLatest: zhoda, nezhoda, výpadky", () => {

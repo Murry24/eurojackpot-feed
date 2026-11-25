@@ -177,16 +177,22 @@ function isoInEurope(ms) {
   return new Date(ms + 3 * 3600 * 1000).toISOString().slice(0, 10);
 }
 
-/** JSON z lotto.de -> { date, main, euro, prizes, jackpotEUR } (alebo vyhodí chybu). */
-export function parseLottoDe(j) {
+/**
+ * JSON z lotto.de -> { date, main, euro, prizes, jackpotEUR }.
+ * Pozor: pole „jackpot“ pri 5+2 je jackpot NASLEDUJÚCEHO ťahu (overené
+ * s lotteryextreme: po výhre 90 mil. 15. 5. 2015 tam už je 10 mil.).
+ * Preto jackpotEUR = jackpot najbližšieho ťahu (rovnako ako z TIPOS).
+ */
+export function parseLottoDe(j, { requireTueFri = true } = {}) {
   if (!j || !Array.isArray(j.drawNumbersCollection)) throw new Error("lotto.de: chýbajú čísla");
   const date = isoInEurope(j.drawDate);
-  if (!isTueOrFri(date)) throw new Error(`lotto.de: dátum ${date} nie je utorok/piatok`);
+  if (requireTueFri && !isTueOrFri(date)) throw new Error(`lotto.de: dátum ${date} nie je utorok/piatok`);
   const main = j.drawNumbersCollection.filter((x) => x.drawNumberType === 0).map((x) => x.drawNumber).sort((a, b) => a - b);
   const euro = j.drawNumbersCollection.filter((x) => x.drawNumberType === 1).map((x) => x.drawNumber).sort((a, b) => a - b);
   if (main.length !== 5 || euro.length !== 2) throw new Error(`lotto.de: main=[${main}] euro=[${euro}]`);
   if (main.some((n) => n < 1 || n > 50) || euro.some((n) => n < 1 || n > 12)) throw new Error("lotto.de: čísla mimo rozsahu");
-  let prizes = (j.oddsCollection ?? [])
+  const odds = (j.oddsCollection ?? []).slice().sort((a, b) => a.winningClass - b.winningClass);
+  let prizes = odds
     .map((o) => ({
       tier: o.winningClass,
       hits: String(o.winningClassDescription?.winningClassShortName ?? "").replace(/\s+/g, ""),
@@ -194,12 +200,11 @@ export function parseLottoDe(j) {
       winners: [{ count: o.numberOfWinners ?? 0, country: "EU" }],
       winnersSK: 0,
     }))
-    .filter((p) => p.tier >= 1 && p.tier <= 12 && /^\d\+\d$/.test(p.hits))
-    .sort((a, b) => a.tier - b.tier);
+    .filter((p) => p.tier >= 1 && p.tier <= 12 && /^\d\+\d$/.test(p.hits));
   if (prizes.length !== 12) prizes = [];
-  // jackpotNew = ďalší jackpot v miliónoch (10–120 mil.)
-  const jn = Number(j.jackpotNew);
-  const jackpotEUR = jn >= 10 && jn <= 120 ? jn * 1_000_000 : null;
+  const t1 = odds.find((o) => o.winningClass === 1);
+  const jn = Number(t1?.jackpot) || Number(j.jackpotNew) * 1_000_000;
+  const jackpotEUR = jn >= 10_000_000 && jn <= 120_000_000 ? jn : null;
   return { date, main, euro, joker: null, prizes, jackpotEUR };
 }
 
@@ -215,7 +220,7 @@ export function pickLatest(tipos, lotto) {
         return { latest: null, source: null, warning: `NEZHODA ${tipos.date}: TIPOS ${tipos.main}+${tipos.euro} vs lotto.de ${lotto.main}+${lotto.euro} – nič nezapisujem` };
       }
       const prizes = tipos.prizes?.length ? tipos.prizes : lotto.prizes;
-      return { latest: { ...tipos, prizes, jackpotEUR: tipos.jackpotEUR ?? lotto.jackpotEUR }, source: "tipos.sk+lotto.de", warning: null };
+      return { latest: { ...tipos, prizes, jackpotEUR: lotto.jackpotEUR ?? tipos.jackpotEUR }, source: "tipos.sk+lotto.de", warning: null };
     }
     if (lotto.date > tipos.date) {
       return { latest: lotto, source: "lotto.de", warning: `TIPOS ešte nemá ťah ${lotto.date}, beriem lotto.de` };
