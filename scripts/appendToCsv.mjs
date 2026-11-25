@@ -4,6 +4,7 @@
 // (aj s hlavičkou), takže prechod 2026 -> 2027 nepotrebuje ručný zásah.
 import fs from "node:fs";
 import path from "node:path";
+import { pathToFileURL } from "node:url";
 
 const FEED = path.resolve("public/feed.json");
 const DATA_DIR = path.resolve("data");
@@ -11,6 +12,52 @@ const HEADER = "date;main1;main2;main3;main4;main5;euro1;euro2;joker";
 
 function readFeed() {
   try { return JSON.parse(fs.readFileSync(FEED, "utf8")); } catch { return null; }
+}
+
+/** Najbližší utorok/piatok PO danom dátume (YYYY-MM-DD). */
+export function nextDrawDate(iso) {
+  const d = new Date(iso + "T12:00:00Z");
+  for (let i = 1; i <= 7; i++) {
+    const n = new Date(d.getTime() + i * 86400000);
+    const wd = n.getUTCDay(); // 2 = utorok, 5 = piatok
+    if (wd === 2 || wd === 5) return n.toISOString().slice(0, 10);
+  }
+  return null;
+}
+
+/**
+ * Jackpot pre najbližší ťah -> data/jackpots.csv (date;jackpotEUR).
+ * Ak už riadok pre ten dátum je, prepíše sumu (TIPOS ju môže spresniť).
+ */
+function upsertJackpot(feed, drawDate) {
+  const eur = Number(feed?.meta?.nextJackpotEUR);
+  const next = nextDrawDate(drawDate);
+  if (!next || !Number.isFinite(eur) || eur <= 0) return;
+  const file = path.join(DATA_DIR, "jackpots.csv");
+  let rows = [];
+  if (fs.existsSync(file)) {
+    rows = fs.readFileSync(file, "utf8").split(/\r?\n/).filter((l) => /^\d{4}-\d{2}-\d{2};/.test(l));
+  }
+  const map = new Map(rows.map((l) => [l.slice(0, 10), l]));
+  const row = `${next};${Math.round(eur)}`;
+  if (map.get(next) === row) return;
+  map.set(next, row);
+  const out = ["date;jackpotEUR", ...[...map.keys()].sort().map((k) => map.get(k))];
+  fs.writeFileSync(file, out.join("\n") + "\n", "utf8");
+  console.log(`appendToCsv: jackpot ${row} -> jackpots.csv`);
+}
+
+/** Výherné poradia ťahu -> data/prizes_<ROK>.json ({ "YYYY-MM-DD": [...] }). */
+function upsertPrizes(d) {
+  if (!Array.isArray(d.prizes) || d.prizes.length !== 12) return;
+  const file = path.join(DATA_DIR, `prizes_${d.date.slice(0, 4)}.json`);
+  let all = {};
+  try { all = JSON.parse(fs.readFileSync(file, "utf8")); } catch { all = {}; }
+  if (JSON.stringify(all[d.date]) === JSON.stringify(d.prizes)) return;
+  all[d.date] = d.prizes;
+  const sorted = Object.fromEntries(Object.keys(all).sort().map((k) => [k, all[k]]));
+  fs.writeFileSync(file, JSON.stringify(sorted, null, 1) + "\n", "utf8");
+  console.log(`appendToCsv: výherné poradia ${d.date} -> ${path.basename(file)}`);
 }
 
 function main() {
@@ -25,6 +72,10 @@ function main() {
     console.log("appendToCsv: neplatný ťah vo feede, preskakujem.", d);
     return;
   }
+
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  upsertJackpot(feed, d.date);
+  upsertPrizes(d);
 
   const year = d.date.slice(0, 4);
   const file = path.join(DATA_DIR, `history_${year}.csv`);
@@ -52,4 +103,5 @@ function main() {
   console.log(`appendToCsv: pridaný ${row} -> ${path.basename(file)}`);
 }
 
-main();
+// spusti len pri priamom volaní (nie pri importe z testu)
+if (import.meta.url === pathToFileURL(process.argv[1]).href) main();
