@@ -1,6 +1,7 @@
 // scripts/checkData.mjs
 // Kontrola histórie v data/history_*.csv:
-//  - každý riadok má 5 rôznych hlavných čísel (1–50) a 2 rôzne Euro čísla (1–12)
+//  - každý riadok má 5 rôznych hlavných čísel (1–50) a 2 rôzne Euro čísla
+//    (1–8 do 21. 3. 2014, 1–10 do 24. 3. 2022, potom 1–12)
 //  - žiadny dátum nie je dvakrát
 //  - nechýba žiadny ťah (piatky; od 29. 3. 2022 aj utorky)
 // Bez parametra len vypíše varovania (GitHub ich ukáže pri behu).
@@ -22,10 +23,11 @@ export function checkData(dir = DATA_DIR, today = new Date()) {
       const date = p[0];
       const main = p.slice(1, 6).map((x) => parseInt(x, 10));
       const euro = p.slice(6, 8).map((x) => parseInt(x, 10));
+      const euroMax = date < "2014-03-22" ? 8 : date < "2022-03-25" ? 10 : 12;
       const ok =
         /^\d{4}-\d{2}-\d{2}$/.test(date) &&
         main.every((n) => n >= 1 && n <= 50) && new Set(main).size === 5 &&
-        euro.every((n) => n >= 1 && n <= 12) && new Set(euro).size === 2;
+        euro.every((n) => n >= 1 && n <= euroMax) && new Set(euro).size === 2;
       if (!ok) problems.push(`${f}: chybný riadok „${line}“`);
       if (dates.has(date)) problems.push(`${f}: ${date} je zapísaný dvakrát`);
       dates.add(date);
