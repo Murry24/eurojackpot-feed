@@ -1,0 +1,147 @@
+{
+ "2026-11-24": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 10000000,
+   "winners": [
+    {
+     "count": 1,
+     "country": "Nemecko"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 1228842.9,
+   "winners": [
+    {
+     "count": 1,
+     "country": "Nemecko"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 231003.4,
+   "winners": [
+    {
+     "count": 2,
+     "country": "Nemecko"
+    },
+    {
+     "count": 1,
+     "country": "Holandsko"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 6350.6,
+   "winners": [],
+   "winnersSK": 0
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 430.3,
+   "winners": [
+    {
+     "count": 6,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 6
+  },
+  {
+   "tier": 6,
+   "hits": "3+2",
+   "amountEUR": 169.1,
+   "winners": [
+    {
+     "count": 17,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 17
+  },
+  {
+   "tier": 7,
+   "hits": "4+0",
+   "amountEUR": 143.2,
+   "winners": [
+    {
+     "count": 14,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 14
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 23.4,
+   "winners": [
+    {
+     "count": 271,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 271
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 23.4,
+   "winners": [
+    {
+     "count": 333,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 333
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 21.1,
+   "winners": [
+    {
+     "count": 658,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 658
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 10.7,
+   "winners": [
+    {
+     "count": 1860,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 1860
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 10.7,
+   "winners": [
+    {
+     "count": 5445,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 5445
+  }
+ ]
+}
