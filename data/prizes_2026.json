@@ -13721,5 +13721,175 @@
    ],
    "winnersSK": 5445
   }
+ ],
+ "2026-11-27": [
+  {
+   "tier": 1,
+   "hits": "5+2",
+   "amountEUR": 10000000,
+   "winners": [
+    {
+     "count": 1,
+     "country": "Španielsko"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 2,
+   "hits": "5+1",
+   "amountEUR": 280258.5,
+   "winners": [
+    {
+     "count": 4,
+     "country": "Nemecko"
+    },
+    {
+     "count": 1,
+     "country": "Fínsko"
+    },
+    {
+     "count": 1,
+     "country": "Island"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 3,
+   "hits": "5+0",
+   "amountEUR": 86210.6,
+   "winners": [
+    {
+     "count": 5,
+     "country": "Nemecko"
+    },
+    {
+     "count": 3,
+     "country": "Poľsko"
+    },
+    {
+     "count": 1,
+     "country": "Fínsko"
+    },
+    {
+     "count": 1,
+     "country": "Lotyšsko"
+    },
+    {
+     "count": 1,
+     "country": "Švédsko"
+    }
+   ],
+   "winnersSK": 0
+  },
+  {
+   "tier": 4,
+   "hits": "4+2",
+   "amountEUR": 3724.3,
+   "winners": [
+    {
+     "count": 1,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 1
+  },
+  {
+   "tier": 5,
+   "hits": "4+1",
+   "amountEUR": 283.7,
+   "winners": [
+    {
+     "count": 2,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 2
+  },
+  {
+   "tier": 6,
+   "hits": "3+2",
+   "amountEUR": 135.5,
+   "winners": [
+    {
+     "count": 25,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 25
+  },
+  {
+   "tier": 7,
+   "hits": "4+0",
+   "amountEUR": 116.1,
+   "winners": [
+    {
+     "count": 21,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 21
+  },
+  {
+   "tier": 8,
+   "hits": "2+2",
+   "amountEUR": 20,
+   "winners": [
+    {
+     "count": 428,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 428
+  },
+  {
+   "tier": 9,
+   "hits": "3+1",
+   "amountEUR": 20,
+   "winners": [
+    {
+     "count": 437,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 437
+  },
+  {
+   "tier": 10,
+   "hits": "3+0",
+   "amountEUR": 18.2,
+   "winners": [
+    {
+     "count": 952,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 952
+  },
+  {
+   "tier": 11,
+   "hits": "1+2",
+   "amountEUR": 9.1,
+   "winners": [
+    {
+     "count": 2452,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 2452
+  },
+  {
+   "tier": 12,
+   "hits": "2+1",
+   "amountEUR": 9.1,
+   "winners": [
+    {
+     "count": 7383,
+     "country": "Slovensko"
+    }
+   ],
+   "winnersSK": 7383
+  }
  ]
 }
